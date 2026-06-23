@@ -35,7 +35,7 @@ export const ROOM_CENTERS: Record<RoomId, Vector3> = {
   modern: new Vector3(0, 0, 130),
   heritage: new Vector3(0, 0, 160),
   studio: new Vector3(16, 0, 176),
-  cinema: new Vector3(0, 0, 190),
+  cinema: new Vector3(0, 0, 193),
 };
 
 export const ROOM_DOORWAYS: Record<RoomId, string[]> = {

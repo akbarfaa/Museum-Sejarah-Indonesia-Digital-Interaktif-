@@ -20,7 +20,7 @@ export function buildCinemaHall(
   lang: "en" | "id"
 ) {
   // Grand Cinema Dimensions (Lebih Besar & Megah)
-  const cz = 190;
+  const cz = 193;
   const cx = 0;
   const W = 28; // Diperlebar dari 20
   const D = 28; // Diperdalam dari 22
