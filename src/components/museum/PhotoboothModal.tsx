@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { HiXMark, HiCamera, HiArrowDownTray, HiSparkles, HiArrowPath, HiUser } from "react-icons/hi2";
+import { useProgress } from "@/contexts/ProgressContext";
 
 interface PhotoboothModalProps {
   open: boolean;
@@ -10,6 +11,26 @@ interface PhotoboothModalProps {
   playerAvatar: string;
   onSaveProfile: (name: string, avatar: string) => void;
 }
+
+interface BadgeDef {
+  id: string;
+  nameEn: string;
+  nameId: string;
+  symbol: string;
+  color: string;
+}
+
+const BADGE_LIST: BadgeDef[] = [
+  { id: "ancient", nameEn: "Ancient Era", nameId: "Era Kuno", symbol: "I", color: "#a87a3d" },
+  { id: "kingdom", nameEn: "Kingdom Era", nameId: "Era Kerajaan", symbol: "II", color: "#c9a14a" },
+  { id: "colonial", nameEn: "Colonial Era", nameId: "Era Kolonial", symbol: "III", color: "#7a8a9c" },
+  { id: "national", nameEn: "National Era", nameId: "Era Nasional", symbol: "IV", color: "#d4a017" },
+  { id: "modern", nameEn: "Modern Era", nameId: "Era Modern", symbol: "V", color: "#4aa3c9" },
+  { id: "heritage", nameEn: "Heritage", nameId: "Warisan", symbol: "VI", color: "#2ecc71" },
+  { id: "cinema", nameEn: "Cinema", nameId: "Bioskop", symbol: "🎬", color: "#e94560" },
+  { id: "quiz", nameEn: "Quiz Master", nameId: "Ahli Kuis", symbol: "🏆", color: "#9b5de5" },
+  { id: "master", nameEn: "Grand Master", nameId: "Sejarawan Agung", symbol: "👑", color: "#f1c40f" },
+];
 
 type AvatarType = "batik" | "kebaya" | "pangsi" | "casual";
 type BackgroundType = "ancient" | "kingdom" | "colonial" | "national" | "modern" | "heritage" | "studio";
@@ -53,11 +74,15 @@ export function PhotoboothModal({
   playerAvatar,
   onSaveProfile,
 }: PhotoboothModalProps) {
+  const { achievements, visitedRooms, inspectedArtifacts } = useProgress();
   const [name, setName] = useState(playerName || "");
   const [selectedAvatar, setSelectedAvatar] = useState<AvatarType>((playerAvatar as AvatarType) || "batik");
   const [selectedBg, setSelectedBg] = useState<BackgroundType>("studio");
   const [step, setStep] = useState<"setup" | "flash" | "preview">("setup");
   const [polaroidUrl, setPolaroidUrl] = useState<string | null>(null);
+  const [includeBadges, setIncludeBadges] = useState(true);
+  const [includeProgress, setIncludeProgress] = useState(true);
+  const [isZoomed, setIsZoomed] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   // Sync with context props when opened
@@ -532,6 +557,54 @@ export function PhotoboothModal({
     // 4. Draw Avatar Character in the center of the photo
     drawAvatarOnCanvas(ctx, selectedAvatar, px + pw / 2, py + ph * 0.62, 330);
 
+    // Draw achievement badges if checked
+    if (includeBadges) {
+      const bCount = BADGE_LIST.length;
+      const bSpacing = 42;
+      const totalWidth = bSpacing * (bCount - 1);
+      const startX = px + pw / 2 - totalWidth / 2;
+      const badgeY = py + 25; // 25px from the top edge of the photo
+
+      BADGE_LIST.forEach((b, index) => {
+        const bx = startX + index * bSpacing;
+        const isUnlocked = achievements.includes(b.id);
+
+        ctx.save();
+        
+        // Circular background
+        ctx.beginPath();
+        ctx.arc(bx, badgeY, 15, 0, Math.PI * 2);
+        if (isUnlocked) {
+          ctx.fillStyle = b.color;
+          ctx.fill();
+          ctx.strokeStyle = "#ffffff";
+          ctx.lineWidth = 2;
+          ctx.stroke();
+
+          // Symbol
+          ctx.fillStyle = "#ffffff";
+          ctx.font = "bold 12px sans-serif";
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          ctx.fillText(b.symbol, bx, badgeY + 1);
+        } else {
+          ctx.fillStyle = "rgba(40, 44, 52, 0.8)";
+          ctx.fill();
+          ctx.strokeStyle = "rgba(255, 255, 255, 0.15)";
+          ctx.lineWidth = 1.5;
+          ctx.stroke();
+
+          ctx.fillStyle = "rgba(255, 255, 255, 0.25)";
+          ctx.font = "bold 11px sans-serif";
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          ctx.fillText(b.symbol, bx, badgeY + 1);
+        }
+
+        ctx.restore();
+      });
+    }
+
     // 5. Draw Polaroid Vignette shading
     const vig = ctx.createRadialGradient(
       px + pw / 2,
@@ -560,10 +633,22 @@ export function PhotoboothModal({
     ctx.textAlign = "center";
     ctx.fillText(name, 300, 618);
 
-    // Separator tiny dot/star
-    ctx.fillStyle = "#c9a14a";
-    ctx.font = "16px Arial";
-    ctx.fillText("✦", 300, 650);
+    // Separator tiny dot/star OR progress details
+    if (includeProgress) {
+      ctx.fillStyle = "#6b645b";
+      ctx.font = "italic bold 13px Georgia, serif";
+      ctx.textAlign = "center";
+      
+      const pText = lang === "id"
+        ? `✦  ${inspectedArtifacts.length}/27 ARTEFAK  ·  ${visitedRooms.length}/8 ZONA  ✦`
+        : `✦  ${inspectedArtifacts.length}/27 EXHIBITS  ·  ${visitedRooms.length}/8 ZONES  ✦`;
+      ctx.fillText(pText, 300, 650);
+    } else {
+      ctx.fillStyle = "#c9a14a";
+      ctx.font = "16px Arial";
+      ctx.textAlign = "center";
+      ctx.fillText("✦", 300, 650);
+    }
 
     // Date & Location Info
     const today = new Date();
@@ -705,6 +790,67 @@ export function PhotoboothModal({
                         ))}
                       </div>
                     </div>
+
+                    {/* Badge Checklist Display */}
+                    <div className="flex flex-col gap-2 border-t border-border/10 pt-4">
+                      <div className="flex items-center justify-between">
+                        <label className="text-[11px] font-bold text-foreground/80 tracking-wide uppercase">
+                          {lang === "id" ? "Lencana Anda" : "Your Badges"}
+                        </label>
+                        <span className="text-[10px] text-primary font-mono font-semibold bg-primary/5 px-2 py-0.5 rounded-full border border-primary/20">
+                          {achievements.filter(a => BADGE_LIST.map(b => b.id).includes(a)).length}/9 {lang === "id" ? "Terbuka" : "Unlocked"}
+                        </span>
+                      </div>
+                      <div className="flex flex-wrap gap-1.5 p-2 bg-muted/5 border border-border/15 rounded-xl max-h-[110px] overflow-y-auto scrollbar-thin">
+                        {BADGE_LIST.map((b) => {
+                          const isUnlocked = achievements.includes(b.id);
+                          return (
+                            <div
+                              key={b.id}
+                              className={`px-2.5 py-1 rounded-lg border text-[10px] font-semibold flex items-center gap-1.5 transition-all ${
+                                isUnlocked
+                                  ? "bg-primary/10 border-primary/30 text-foreground"
+                                  : "bg-muted/5 border-transparent text-muted-foreground/30"
+                              }`}
+                            >
+                              <span>{isUnlocked ? b.symbol : "🔒"}</span>
+                              <span>{lang === "id" ? b.nameId : b.nameEn}</span>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+
+                    {/* Badge & Progress Options */}
+                    <div className="flex flex-col gap-2 border-t border-border/10 pt-4">
+                      <label className="text-[11px] font-bold text-foreground/80 tracking-wide uppercase">
+                        {lang === "id" ? "Pengaturan Polaroid" : "Polaroid Settings"}
+                      </label>
+                      <div className="grid grid-cols-2 gap-3 bg-muted/10 p-3 rounded-xl border border-border/10">
+                        <label className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground cursor-pointer select-none">
+                          <input
+                            type="checkbox"
+                            checked={includeBadges}
+                            onChange={(e) => setIncludeBadges(e.target.checked)}
+                            className="rounded border-border/40 text-primary focus:ring-primary w-4 h-4 bg-muted/20 accent-primary"
+                          />
+                          <span>
+                            {lang === "id" ? "Tampilkan Lencana" : "Show Badges"}
+                          </span>
+                        </label>
+                        <label className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground cursor-pointer select-none">
+                          <input
+                            type="checkbox"
+                            checked={includeProgress}
+                            onChange={(e) => setIncludeProgress(e.target.checked)}
+                            className="rounded border-border/40 text-primary focus:ring-primary w-4 h-4 bg-muted/20 accent-primary"
+                          />
+                          <span>
+                            {lang === "id" ? "Tampilkan Progress" : "Show Progress"}
+                          </span>
+                        </label>
+                      </div>
+                    </div>
                   </div>
 
                   <button
@@ -732,6 +878,28 @@ export function PhotoboothModal({
                             } 100%)`,
                         }}
                       >
+                        {/* Live CSS badges render overlay */}
+                        {includeBadges && (
+                          <div className="absolute top-2 left-0 right-0 flex justify-center gap-0.5 px-1 z-20 scale-[0.7] origin-top">
+                            {BADGE_LIST.map((b) => {
+                              const isUnlocked = achievements.includes(b.id);
+                              return (
+                                <div
+                                  key={b.id}
+                                  className="w-[18px] h-[18px] rounded-full border border-white flex items-center justify-center text-[7px] shadow-sm select-none font-bold"
+                                  style={{
+                                    backgroundColor: isUnlocked ? b.color : "rgba(35, 39, 47, 0.8)",
+                                    borderColor: isUnlocked ? "#ffffff" : "rgba(255, 255, 255, 0.15)",
+                                    color: isUnlocked ? "#ffffff" : "rgba(255, 255, 255, 0.25)",
+                                  }}
+                                >
+                                  {b.symbol}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        )}
+
                         {/* Live CSS character render (mini scale) */}
                         <div className="w-full h-full flex items-end justify-center relative transform translate-y-3 scale-95">
                           {/* Skin Circle */}
@@ -787,7 +955,16 @@ export function PhotoboothModal({
                         <div className="font-display text-[13px] font-bold text-gray-900 truncate px-1">
                           {name || (lang === "id" ? "Nama Pengunjung" : "Visitor Name")}
                         </div>
-                        <div className="text-[6px] tracking-wider font-mono text-gray-400 uppercase mt-0.5">
+                        {includeProgress ? (
+                          <div className="text-[6px] tracking-wide font-mono text-gray-500 uppercase mt-0.5 truncate whitespace-nowrap px-1">
+                            ✦ {inspectedArtifacts.length}/27 {lang === "id" ? "ARTEFAK" : "EXHIBITS"} · {visitedRooms.length}/8 {lang === "id" ? "ZONA" : "ZONES"} ✦
+                          </div>
+                        ) : (
+                          <div className="text-[8px] tracking-wider font-mono text-gray-400 uppercase mt-0.5">
+                            ✦
+                          </div>
+                        )}
+                        <div className="text-[5px] tracking-wider font-mono text-gray-400 uppercase">
                           HISTORY OF INDONESIA
                         </div>
                       </div>
@@ -823,23 +1000,29 @@ export function PhotoboothModal({
               <div className="w-full flex flex-col md:flex-row overflow-y-auto">
 
                 {/* Polaroid result */}
-                <div className="flex-1 p-6 md:p-8 flex items-center justify-center bg-black/45 min-h-[400px]">
+                <div className="flex-1 p-6 md:p-8 flex flex-col items-center justify-center bg-black/45 min-h-[400px]">
                   {polaroidUrl && (
-                    <motion.div
-                      initial={{ scale: 0.9, rotate: -2, y: 10 }}
-                      animate={{ scale: 1, rotate: 1, y: 0 }}
-                      className="relative max-w-[320px] shadow-2xl transition-all hover:rotate-0"
-                    >
-                      <img
-                        src={polaroidUrl}
-                        alt="Polaroid Souvenir"
-                        className="w-full border-4 border-white/90 rounded bg-[#fcfbfa]"
-                      />
-                      {/* Interactive sparkles on complete */}
-                      <div className="absolute top-0 right-0 w-8 h-8 text-yellow-400 animate-pulse pointer-events-none">
-                        <HiSparkles className="w-full h-full" />
-                      </div>
-                    </motion.div>
+                    <div className="flex flex-col items-center gap-3">
+                      <motion.div
+                        initial={{ scale: 0.9, rotate: -2, y: 10 }}
+                        animate={{ scale: 1, rotate: 1, y: 0 }}
+                        className="relative max-w-[300px] shadow-2xl transition-all hover:rotate-0 cursor-zoom-in hover:scale-[1.03] group animate-fade-in"
+                        onClick={() => setIsZoomed(true)}
+                      >
+                        <img
+                          src={polaroidUrl}
+                          alt="Polaroid Souvenir"
+                          className="w-full border-4 border-white/90 rounded bg-[#fcfbfa]"
+                        />
+                        {/* Interactive sparkles on complete */}
+                        <div className="absolute top-0 right-0 w-8 h-8 text-yellow-400 animate-pulse pointer-events-none">
+                          <HiSparkles className="w-full h-full" />
+                        </div>
+                      </motion.div>
+                      <span className="text-[10px] text-muted-foreground/80 font-mono tracking-wider animate-pulse mt-2">
+                        {lang === "id" ? "🔍 Klik foto untuk memperbesar" : "🔍 Click photo to zoom in"}
+                      </span>
+                    </div>
                   )}
                 </div>
 
@@ -891,6 +1074,39 @@ export function PhotoboothModal({
           </motion.div>
         </div>
       )}
+
+      {/* Lightbox / Zoom Overlay */}
+      <AnimatePresence>
+        {isZoomed && polaroidUrl && (
+          <div 
+            className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-black/90 backdrop-blur-md p-4 cursor-zoom-out"
+            onClick={() => setIsZoomed(false)}
+          >
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.95 }}
+              className="relative max-w-[420px] w-full shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Close button in zoomed mode */}
+              <button
+                onClick={() => setIsZoomed(false)}
+                className="absolute -top-12 right-0 flex items-center gap-1.5 text-xs text-white/80 hover:text-white cursor-pointer transition-colors px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20"
+              >
+                <HiXMark className="text-sm" />
+                <span>{lang === "id" ? "Tutup" : "Close"}</span>
+              </button>
+
+              <img
+                src={polaroidUrl}
+                alt="Polaroid Souvenir Enlarged"
+                className="w-full border-8 border-white rounded shadow-2xl cursor-default bg-[#fcfbfa]"
+              />
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
     </AnimatePresence>
   );
 }
