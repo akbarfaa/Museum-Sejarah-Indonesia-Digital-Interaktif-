@@ -14,13 +14,13 @@ export const Route = createFileRoute("/cinema")({
   },
   head: () => ({
     meta: [
-      { title: "Museum Cinema — MuseumVerse Indonesia" },
+      { title: "Museum Cinema — History Of Indonesia Virtual Museum" },
       {
         name: "description",
         content:
           "Sit in the museum theater and stream curated documentaries for every era of Indonesian history, with bilingual narration.",
       },
-      { property: "og:title", content: "Museum Cinema — MuseumVerse Indonesia" },
+      { property: "og:title", content: "Museum Cinema — History Of Indonesia Virtual Museum" },
       {
         property: "og:description",
         content: "Curated documentaries for every era of Indonesian history.",

@@ -9,13 +9,13 @@ import { useLanguage } from "@/contexts/LanguageContext";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "MuseumVerse Indonesia — Walk Through History" },
+      { title: "History Of Indonesia Virtual Museum — Walk Through History" },
       {
         name: "description",
         content:
-          "An immersive 3D virtual museum of Indonesian history, culture and heritage. Explore five eras in your browser.",
+          "An immersive 3D virtual museum of Indonesian history, culture and heritage. Explore eight historical zones in your browser.",
       },
-      { property: "og:title", content: "MuseumVerse Indonesia" },
+      { property: "og:title", content: "History Of Indonesia Virtual Museum" },
       { property: "og:description", content: "Walk through history. Experience the heritage." },
     ],
   }),
@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
 });
 
 function Landing() {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const heroTitleRef = useRef<HTMLHeadingElement>(null);
   const particlesRef = useRef<HTMLDivElement>(null);
   const [mounted, setMounted] = useState(false);
@@ -146,6 +146,134 @@ function Landing() {
               </div>
             ))}
           </motion.div>
+        </div>
+      </section>
+
+      {/* ZONE SHOWCASE */}
+      <section className="relative py-24 px-6 border-y border-border/40 bg-card/5">
+        {/* Subtle decorative background blur orbs */}
+        <div className="absolute top-1/4 left-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none animate-pulse" />
+        <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-amber-400/5 rounded-full blur-3xl pointer-events-none animate-pulse" />
+
+        <div className="max-w-6xl mx-auto relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="text-center max-w-2xl mx-auto mb-16"
+          >
+            <h2 className="font-display text-4xl md:text-5xl text-gradient-gold">
+              {lang === "id" ? "Jelajahi Zona Sejarah" : "Explore the Historical Zones"}
+            </h2>
+            <p className="mt-4 text-sm md:text-base text-muted-foreground leading-relaxed">
+              {lang === "id"
+                ? "Masuki setiap lorong waktu untuk menjelajahi artefak interaktif, mempelajari kearifan lokal, dan mendengarkan kisah sejarah peradaban Nusantara."
+                : "Step into each corridor of time to discover interactive artifacts, study local wisdom, and listen to the rich history of the Indonesian archipelago."}
+            </p>
+          </motion.div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                id: "ancient",
+                titleEn: "Ancient Indonesia",
+                titleId: "Indonesia Purbakala",
+                descEn: "Prehistoric human origins, early stone tool cultures, and megalithic standing monuments.",
+                descId: "Asal-usul prasejarah manusia purba, peralatan batu Neolitik, dan monumen batu Megalitik.",
+                color: "from-emerald-950/40 to-slate-950/40 border-emerald-500/20 hover:border-emerald-500/50",
+                textColor: "text-emerald-400",
+                badgeEn: "Era 1",
+                badgeId: "Era 1",
+              },
+              {
+                id: "kingdom",
+                titleEn: "Golden Kingdoms",
+                titleId: "Kejayaan Kerajaan",
+                descEn: "The glorious peak of Hindu-Buddhist maritime empires (Majapahit, Srivijaya) and Islamic sultanates.",
+                descId: "Masa keemasan kerajaan Hindu-Buddha (Majapahit, Sriwijaya) dan perkembangan Kesultanan Islam.",
+                color: "from-amber-950/40 to-slate-950/40 border-amber-500/20 hover:border-amber-500/50",
+                textColor: "text-amber-400",
+                badgeEn: "Era 2",
+                badgeId: "Era 2",
+              },
+              {
+                id: "colonial",
+                titleEn: "Colonial Struggle",
+                titleId: "Masa Penjajahan",
+                descEn: "The global spice trade monopolies, European exploration, and rise of localized national resistances.",
+                descId: "Monopoli perdagangan rempah dunia, pendudukan VOC Belanda, dan bangkitnya perang perlawanan daerah.",
+                color: "from-blue-950/40 to-slate-950/40 border-blue-500/20 hover:border-blue-500/50",
+                textColor: "text-blue-400",
+                badgeEn: "Era 3",
+                badgeId: "Era 3",
+              },
+              {
+                id: "national",
+                titleEn: "National Awakening",
+                titleId: "Kebangkitan Nasional",
+                descEn: "The heroic revolutionary struggle, the sacred Youth Pledge, and the Proclamation of Sovereignty.",
+                descId: "Perjuangan revolusi kemerdekaan yang heroik, Sumpah Pemuda, dan proklamasi kedaulatan bangsa.",
+                color: "from-red-950/40 to-slate-950/40 border-red-500/20 hover:border-red-500/50",
+                textColor: "text-red-400",
+                badgeEn: "Era 4",
+                badgeId: "Era 4",
+              },
+              {
+                id: "modern",
+                titleEn: "Modern Integration",
+                titleId: "Indonesia Modern",
+                descEn: "UNESCO Intangible Batik heritage, domestic space integration, and iconic contemporary monuments.",
+                descId: "Warisan budaya takbenda Batik UNESCO, peluncuran Satelit Palapa, dan tugu Monumen Nasional.",
+                color: "from-cyan-950/40 to-slate-950/40 border-cyan-500/20 hover:border-cyan-500/50",
+                textColor: "text-cyan-400",
+                badgeEn: "Era 5",
+                badgeId: "Era 5",
+              },
+              {
+                id: "cinema",
+                titleEn: "Cinema Theater",
+                titleId: "Teater Bioskop",
+                descEn: "Bilingual documentary catalog covering key historical events, streamed directly on a theater screen.",
+                descId: "Katalog video dokumenter sejarah dwi-bahasa yang ditayangkan langsung pada layar bioskop virtual.",
+                color: "from-rose-950/40 to-slate-950/40 border-rose-500/20 hover:border-rose-500/50",
+                textColor: "text-rose-400",
+                badgeEn: "Media",
+                badgeId: "Media",
+              },
+            ].map((zone, idx) => (
+              <motion.div
+                key={zone.id}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-40px" }}
+                transition={{ duration: 0.6, delay: idx * 0.05 }}
+                className={`p-6 rounded-2xl border bg-gradient-to-br ${zone.color} backdrop-blur-sm transition-all duration-300 flex flex-col justify-between hover:shadow-lg hover:translate-y-[-2px] group`}
+              >
+                <div>
+                  <div className="flex items-center justify-between mb-4">
+                    <span className={`text-[10px] uppercase font-bold tracking-widest px-2.5 py-1 rounded-full bg-white/5 border border-white/10 ${zone.textColor}`}>
+                      {lang === "id" ? zone.badgeId : zone.badgeEn}
+                    </span>
+                  </div>
+                  <h3 className="font-display text-2xl mb-2 text-foreground group-hover:text-primary transition-colors">
+                    {lang === "id" ? zone.titleId : zone.titleEn}
+                  </h3>
+                  <p className="text-muted-foreground text-xs leading-relaxed">
+                    {lang === "id" ? zone.descId : zone.descEn}
+                  </p>
+                </div>
+                <div className="mt-6 pt-4 border-t border-white/5 flex justify-end">
+                  <Link
+                    to="/museum"
+                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:underline cursor-pointer"
+                  >
+                    {lang === "id" ? "Masuk Zona" : "Enter Zone"} &rarr;
+                  </Link>
+                </div>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
 

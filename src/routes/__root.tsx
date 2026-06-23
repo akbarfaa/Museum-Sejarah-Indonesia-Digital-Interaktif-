@@ -79,13 +79,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "MuseumVerse Indonesia — Walk Through History" },
+      { title: "History Of Indonesia Virtual Museum — Walk Through History" },
       {
         name: "description",
         content: "An immersive 3D virtual museum of Indonesian history, culture and heritage.",
       },
-      { name: "author", content: "MuseumVerse Indonesia" },
-      { property: "og:title", content: "MuseumVerse Indonesia" },
+      { name: "author", content: "History Of Indonesia Virtual Museum" },
+      { property: "og:title", content: "History Of Indonesia Virtual Museum" },
       { property: "og:description", content: "Walk Through History, Experience The Heritage." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

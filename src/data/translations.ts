@@ -2,7 +2,7 @@ export type Lang = "en" | "id";
 
 export const translations = {
   en: {
-    brand: "MuseumVerse Indonesia",
+    brand: "History Of Indonesia Virtual Museum",
     tagline: "Walk Through History, Experience The Heritage",
     nav: {
       home: "Home",
@@ -13,33 +13,33 @@ export const translations = {
       passport: "Passport",
     },
     landing: {
-      welcome: "Welcome to MuseumVerse Indonesia",
+      welcome: "Welcome to the History Of Indonesia Virtual Museum",
       subtitle:
-        "An immersive digital heritage experience. Walk through five eras of Indonesian history, inspect ancient artifacts, and live the story of an archipelago.",
+        "An immersive digital heritage experience. Walk through historically curated eras of Indonesian history, inspect interactive artifacts with Wikipedia integration, and live the story of an archipelago.",
       enter: "Enter Museum",
       explore: "Explore Halls",
       stats: [
-        { value: "6", label: "Exhibition Halls" },
-        { value: "40+", label: "Heritage Artifacts" },
+        { value: "8", label: "Exhibition Zones" },
+        { value: "27+", label: "Curated Artifacts" },
         { value: "2000+", label: "Years of History" },
       ],
       featuresTitle: "A museum reborn for the browser",
       features: [
         {
           title: "3D Walkable Halls",
-          body: "Move freely through five cinematic exhibition halls with realistic lighting and ambience.",
+          body: "Move freely through cinematic exhibition halls with realistic lighting and custom themes.",
         },
         {
           title: "Interactive Artifacts",
-          body: "Click any artifact to focus the camera, read its story, and hear curated narration.",
+          body: "Explore detailed visual artifacts with Wikipedia links, text summaries, and voice narration.",
         },
         {
-          title: "Cinematic Documentaries",
-          body: "Sit in the museum theater and watch curated documentaries on each era.",
+          title: "Traditional Photo Studio",
+          body: "Try on local garments (Kebaya, Beskap) and download your custom Polaroid souvenir.",
         },
         {
-          title: "Digital Passport",
-          body: "Unlock achievements as you visit halls and complete the heritage quiz.",
+          title: "Digital Passport & Quiz",
+          body: "Test your historical knowledge and unlock badges for visiting various museum zones.",
         },
       ],
       footer: "A digital heritage project · Crafted with care for Indonesia",
@@ -88,7 +88,7 @@ export const translations = {
     },
   },
   id: {
-    brand: "MuseumVerse Indonesia",
+    brand: "History Of Indonesia Virtual Museum",
     tagline: "Berjalan Menelusuri Sejarah, Rasakan Warisan Budaya",
     nav: {
       home: "Beranda",
@@ -99,33 +99,33 @@ export const translations = {
       passport: "Paspor",
     },
     landing: {
-      welcome: "Selamat Datang di MuseumVerse Indonesia",
+      welcome: "Selamat Datang di History Of Indonesia Virtual Museum",
       subtitle:
-        "Pengalaman warisan digital yang imersif. Jelajahi lima era sejarah Indonesia, amati artefak kuno, dan hayati kisah Nusantara.",
+        "Pengalaman warisan digital yang imersif. Jelajahi era sejarah Indonesia yang dikurasi secara historis, amati artefak dengan integrasi Wikipedia, dan hayati kisah Nusantara.",
       enter: "Masuk Museum",
       explore: "Jelajahi Ruangan",
       stats: [
-        { value: "6", label: "Ruang Pameran" },
-        { value: "40+", label: "Artefak Pusaka" },
+        { value: "8", label: "Zona Pameran" },
+        { value: "27+", label: "Artefak Kurasi" },
         { value: "2000+", label: "Tahun Sejarah" },
       ],
       featuresTitle: "Museum yang lahir kembali di peramban",
       features: [
         {
           title: "Ruangan 3D yang Dapat Dijelajahi",
-          body: "Bergerak bebas melalui lima ruang pameran sinematik dengan pencahayaan dan suasana realistis.",
+          body: "Bergerak bebas melalui ruang pameran sinematik dengan pencahayaan dan suasana khas era sejarah.",
         },
         {
           title: "Artefak Interaktif",
-          body: "Klik artefak apa pun untuk memfokuskan kamera, baca ceritanya, dan dengarkan narasi kurasi.",
+          body: "Pelajari detail artefak visual lengkap dengan tautan Wikipedia dan narasi suara narator.",
         },
         {
-          title: "Dokumenter Sinematik",
-          body: "Duduklah di teater museum dan tonton dokumenter pilihan setiap era.",
+          title: "Studio Foto Tradisional",
+          body: "Kenakan pakaian adat daerah (Kebaya, Beskap) dan unduh suvenir foto Polaroid buatan Anda.",
         },
         {
-          title: "Paspor Digital",
-          body: "Buka pencapaian saat Anda mengunjungi ruangan dan menyelesaikan kuis warisan.",
+          title: "Paspor Digital & Kuis",
+          body: "Uji wawasan sejarah Anda untuk meraih lencana pencapaian di setiap area museum.",
         },
       ],
       footer: "Proyek warisan digital · Dibuat dengan cinta untuk Indonesia",

@@ -947,8 +947,8 @@ export const rooms: {
     nameId: "Studio Foto Virtual",
     accent: "#9b5de5",
     ambient: "0.06 0.04 0.06",
-    descEn: "Customize your profile and create a personalized Polaroid souvenir photograph of your journey inside MuseumVerse Indonesia.",
-    descId: "Kustomisasi profil Anda dan buatlah foto suvenir Polaroid personal dari perjalanan Anda di MuseumVerse Indonesia.",
+    descEn: "Customize your profile and create a personalized Polaroid souvenir photograph of your journey inside the History Of Indonesia Virtual Museum.",
+    descId: "Kustomisasi profil Anda dan buatlah foto suvenir Polaroid personal dari perjalanan Anda di History Of Indonesia Virtual Museum.",
     objectivesEn: [
       "Input your name and select from 4 traditional attire costumes",
       "Choose from 6 themed virtual background layouts",

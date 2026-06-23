@@ -573,7 +573,7 @@ export function PhotoboothModal({
     ctx.fillStyle = "#6b645b";
     ctx.font = "14px Courier, monospace";
     ctx.letterSpacing = "0.08em";
-    ctx.fillText(`MUSEUMVERSE INDONESIA  |  ${dateStr.toUpperCase()}`, 300, 680);
+    ctx.fillText(`HISTORY OF INDONESIA VIRTUAL MUSEUM  |  ${dateStr.toUpperCase()}`, 300, 680);
 
     // Set preview URL
     setPolaroidUrl(canvas.toDataURL("image/png"));
@@ -582,7 +582,7 @@ export function PhotoboothModal({
   const handleDownload = () => {
     if (!polaroidUrl) return;
     const link = document.createElement("a");
-    link.download = `museumverse_photo_${name.replace(/\s+/g, "_")}.png`;
+    link.download = `history_of_indonesia_photo_${name.replace(/\s+/g, "_")}.png`;
     link.href = polaroidUrl;
     link.click();
   };
@@ -788,7 +788,7 @@ export function PhotoboothModal({
                           {name || (lang === "id" ? "Nama Pengunjung" : "Visitor Name")}
                         </div>
                         <div className="text-[6px] tracking-wider font-mono text-gray-400 uppercase mt-0.5">
-                          MUSEUMVERSE INDONESIA
+                          HISTORY OF INDONESIA
                         </div>
                       </div>
                     </div>
@@ -855,8 +855,8 @@ export function PhotoboothModal({
                       </h3>
                       <p className="text-xs text-muted-foreground leading-relaxed mt-1">
                         {lang === "id"
-                          ? "Unduh foto Polaroid cetakan eksklusif Anda sebagai suvenir virtual dari kunjungan MuseumVerse ini!"
-                          : "Download your custom printed Polaroid photo as a virtual souvenir of your MuseumVerse visit!"}
+                          ? "Unduh foto Polaroid cetakan eksklusif Anda sebagai suvenir virtual dari kunjungan museum virtual ini!"
+                          : "Download your custom printed Polaroid photo as a virtual souvenir of your virtual museum visit!"}
                       </p>
                     </div>
 

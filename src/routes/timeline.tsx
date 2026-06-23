@@ -7,7 +7,7 @@ import { timeline, rooms } from "@/data/artifacts";
 export const Route = createFileRoute("/timeline")({
   head: () => ({
     meta: [
-      { title: "Timeline — MuseumVerse Indonesia" },
+      { title: "Timeline — History Of Indonesia Virtual Museum" },
       {
         name: "description",
         content: "Two millennia of Indonesian history distilled into key moments.",

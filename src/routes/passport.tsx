@@ -9,7 +9,7 @@ import { achievements, rooms } from "@/data/artifacts";
 export const Route = createFileRoute("/passport")({
   head: () => ({
     meta: [
-      { title: "Digital Passport — MuseumVerse Indonesia" },
+      { title: "Digital Passport — History Of Indonesia Virtual Museum" },
       {
         name: "description",
         content: "Your museum achievements and progress across all five exhibition halls.",

@@ -99,11 +99,11 @@ export function buildLobby(
   lctx.fillStyle = "#16110b";
   lctx.fillRect(0, 0, 1024, 384);
   lctx.fillStyle = "#c9a14a";
-  lctx.font = "italic 44px Georgia, serif";
+  lctx.font = "bold 90px Georgia, serif";
   lctx.textAlign = "center";
-  lctx.fillText("Museum Indonesia", 512, 90);
-  lctx.font = "bold 110px Georgia, serif";
-  lctx.fillText("MuseumVerse", 512, 220);
+  lctx.fillText("History Of Indonesia", 512, 130);
+  lctx.font = "italic 52px Georgia, serif";
+  lctx.fillText("Virtual Museum", 512, 220);
   lctx.font = "36px Georgia, serif";
   lctx.fillStyle = "#e8d6a3";
   lctx.fillText(lang === "id" ? "Berjalan Menelusuri Sejarah" : "Walk Through History", 512, 310);

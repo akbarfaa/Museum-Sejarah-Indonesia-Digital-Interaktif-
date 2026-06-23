@@ -39,7 +39,7 @@ export const Route = createFileRoute("/museum")({
   },
   head: () => ({
     meta: [
-      { title: "Virtual Museum — MuseumVerse Indonesia" },
+      { title: "Virtual Museum — History Of Indonesia Virtual Museum" },
       {
         name: "description",
         content:

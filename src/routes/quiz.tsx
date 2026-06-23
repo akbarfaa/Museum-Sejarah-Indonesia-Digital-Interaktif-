@@ -10,7 +10,7 @@ import { quizQuestions } from "@/data/artifacts";
 export const Route = createFileRoute("/quiz")({
   head: () => ({
     meta: [
-      { title: "Heritage Quiz — MuseumVerse Indonesia" },
+      { title: "Heritage Quiz — History Of Indonesia Virtual Museum" },
       {
         name: "description",
         content: "Test what you've learned in the museum with the bilingual Heritage Quiz.",
