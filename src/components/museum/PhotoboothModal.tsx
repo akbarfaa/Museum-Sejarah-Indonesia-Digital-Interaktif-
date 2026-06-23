@@ -22,15 +22,15 @@ interface BadgeDef {
 }
 
 const BADGE_LIST: BadgeDef[] = [
-  { id: "ancient", nameEn: "Ancient Era", nameId: "Era Kuno", symbol: "I", color: "#a87a3d" },
-  { id: "kingdom", nameEn: "Kingdom Era", nameId: "Era Kerajaan", symbol: "II", color: "#c9a14a" },
-  { id: "colonial", nameEn: "Colonial Era", nameId: "Era Kolonial", symbol: "III", color: "#7a8a9c" },
-  { id: "national", nameEn: "National Era", nameId: "Era Nasional", symbol: "IV", color: "#d4a017" },
-  { id: "modern", nameEn: "Modern Era", nameId: "Era Modern", symbol: "V", color: "#4aa3c9" },
-  { id: "heritage", nameEn: "Heritage", nameId: "Warisan", symbol: "VI", color: "#2ecc71" },
+  { id: "ancient", nameEn: "Ancient Era", nameId: "Era Kuno", symbol: "🗿", color: "#a87a3d" },
+  { id: "kingdom", nameEn: "Kingdom Era", nameId: "Era Kerajaan", symbol: "👑", color: "#c9a14a" },
+  { id: "colonial", nameEn: "Colonial Era", nameId: "Era Kolonial", symbol: "⚓", color: "#7a8a9c" },
+  { id: "national", nameEn: "National Era", nameId: "Era Nasional", symbol: "✊", color: "#d4a017" },
+  { id: "modern", nameEn: "Modern Era", nameId: "Era Modern", symbol: "🚀", color: "#4aa3c9" },
+  { id: "heritage", nameEn: "Heritage", nameId: "Warisan", symbol: "🎭", color: "#2ecc71" },
   { id: "cinema", nameEn: "Cinema", nameId: "Bioskop", symbol: "🎬", color: "#e94560" },
   { id: "quiz", nameEn: "Quiz Master", nameId: "Ahli Kuis", symbol: "🏆", color: "#9b5de5" },
-  { id: "master", nameEn: "Grand Master", nameId: "Sejarawan Agung", symbol: "👑", color: "#f1c40f" },
+  { id: "master", nameEn: "Grand Master", nameId: "Sejarawan Agung", symbol: "🎖️", color: "#f1c40f" },
 ];
 
 type AvatarType = "batik" | "kebaya" | "pangsi" | "casual";
@@ -441,16 +441,16 @@ export function PhotoboothModal({
 
     // Clear and Set size
     canvas.width = 600;
-    canvas.height = 750;
+    canvas.height = 860;
 
     // 1. Polaroid White card body
     ctx.fillStyle = "#fcfbfa"; // Soft off-white paper
-    ctx.fillRect(0, 0, 600, 750);
+    ctx.fillRect(0, 0, 600, 860);
 
     // Smooth card shadow
     ctx.strokeStyle = "#e5e3dd";
     ctx.lineWidth = 4;
-    ctx.strokeRect(2, 2, 596, 746);
+    ctx.strokeRect(2, 2, 596, 856);
 
     // 2. Main Photo Rect (520x520 px, centered at x=40, y=40)
     const px = 40;
@@ -559,54 +559,6 @@ export function PhotoboothModal({
     // 4. Draw Avatar Character in the center of the photo
     drawAvatarOnCanvas(ctx, selectedAvatar, px + pw / 2, py + ph * 0.62, 330);
 
-    // Draw achievement badges if checked
-    if (includeBadges) {
-      const bCount = BADGE_LIST.length;
-      const bSpacing = 42;
-      const totalWidth = bSpacing * (bCount - 1);
-      const startX = px + pw / 2 - totalWidth / 2;
-      const badgeY = py + 25; // 25px from the top edge of the photo
-
-      BADGE_LIST.forEach((b, index) => {
-        const bx = startX + index * bSpacing;
-        const isUnlocked = achievements.includes(b.id);
-
-        ctx.save();
-        
-        // Circular background
-        ctx.beginPath();
-        ctx.arc(bx, badgeY, 15, 0, Math.PI * 2);
-        if (isUnlocked) {
-          ctx.fillStyle = b.color;
-          ctx.fill();
-          ctx.strokeStyle = "#ffffff";
-          ctx.lineWidth = 2;
-          ctx.stroke();
-
-          // Symbol
-          ctx.fillStyle = "#ffffff";
-          ctx.font = "bold 12px sans-serif";
-          ctx.textAlign = "center";
-          ctx.textBaseline = "middle";
-          ctx.fillText(b.symbol, bx, badgeY + 1);
-        } else {
-          ctx.fillStyle = "rgba(40, 44, 52, 0.8)";
-          ctx.fill();
-          ctx.strokeStyle = "rgba(255, 255, 255, 0.15)";
-          ctx.lineWidth = 1.5;
-          ctx.stroke();
-
-          ctx.fillStyle = "rgba(255, 255, 255, 0.25)";
-          ctx.font = "bold 11px sans-serif";
-          ctx.textAlign = "center";
-          ctx.textBaseline = "middle";
-          ctx.fillText(b.symbol, bx, badgeY + 1);
-        }
-
-        ctx.restore();
-      });
-    }
-
     // 5. Draw Polaroid Vignette shading
     const vig = ctx.createRadialGradient(
       px + pw / 2,
@@ -628,12 +580,82 @@ export function PhotoboothModal({
     ctx.lineWidth = 3;
     ctx.strokeRect(px, py, pw, ph);
 
+    // Draw achievement badges on the white margin if checked
+    if (includeBadges) {
+      const bCount = BADGE_LIST.length;
+      const bSpacing = 46;
+      const totalWidth = bSpacing * (bCount - 1);
+      const startX = 300 - totalWidth / 2;
+      const badgeY = 715; // Centered in the bottom white margin area
+
+      // Draw shelf line
+      ctx.save();
+      ctx.strokeStyle = "rgba(201, 161, 74, 0.15)";
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(80, 745);
+      ctx.lineTo(520, 745);
+      ctx.stroke();
+      ctx.restore();
+
+      BADGE_LIST.forEach((b, index) => {
+        const bx = startX + index * bSpacing;
+        const isUnlocked = achievements.includes(b.id);
+
+        ctx.save();
+        
+        // Circular background shadow for depth
+        ctx.shadowColor = "rgba(0, 0, 0, 0.08)";
+        ctx.shadowBlur = 4;
+        ctx.shadowOffsetY = 2;
+
+        // Circular background
+        ctx.beginPath();
+        ctx.arc(bx, badgeY, 20, 0, Math.PI * 2);
+        if (isUnlocked) {
+          ctx.fillStyle = b.color;
+          ctx.fill();
+          
+          // Disable shadow for text & border drawing
+          ctx.shadowColor = "transparent";
+          ctx.strokeStyle = "#ffffff";
+          ctx.lineWidth = 2.5;
+          ctx.stroke();
+
+          // Symbol Emoji
+          ctx.font = "20px sans-serif";
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          ctx.fillText(b.symbol, bx, badgeY + 1);
+        } else {
+          ctx.fillStyle = "rgba(0, 0, 0, 0.02)";
+          ctx.fill();
+
+          // Disable shadow for text & border drawing
+          ctx.shadowColor = "transparent";
+          ctx.strokeStyle = "rgba(0, 0, 0, 0.12)";
+          ctx.lineWidth = 1.5;
+          ctx.setLineDash([3, 3]);
+          ctx.stroke();
+
+          // Faded Symbol Emoji
+          ctx.globalAlpha = 0.25;
+          ctx.font = "18px sans-serif";
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          ctx.fillText(b.symbol, bx, badgeY + 1);
+        }
+
+        ctx.restore();
+      });
+    }
+
     // 7. Handwriting-style texts at the bottom
     // Name text
     ctx.fillStyle = "#1e1b18"; // charcoal black ink
     ctx.font = "italic bold 36px Georgia, serif";
     ctx.textAlign = "center";
-    ctx.fillText(name, 300, 618);
+    ctx.fillText(name, 300, 615);
 
     // Separator tiny dot/star OR progress details
     if (includeProgress) {
@@ -644,12 +666,12 @@ export function PhotoboothModal({
       const pText = lang === "id"
         ? `✦  ${inspectedArtifacts.length}/${totalArtifacts} ARTEFAK  ·  ${visitedRooms.length}/8 ZONA  ✦`
         : `✦  ${inspectedArtifacts.length}/${totalArtifacts} EXHIBITS  ·  ${visitedRooms.length}/8 ZONES  ✦`;
-      ctx.fillText(pText, 300, 650);
+      ctx.fillText(pText, 300, 652);
     } else {
       ctx.fillStyle = "#c9a14a";
       ctx.font = "16px Arial";
       ctx.textAlign = "center";
-      ctx.fillText("✦", 300, 650);
+      ctx.fillText("✦", 300, 652);
     }
 
     // Date & Location Info
@@ -658,9 +680,9 @@ export function PhotoboothModal({
     const dateStr = today.toLocaleDateString(lang === "id" ? "id-ID" : "en-US", dateOpts);
 
     ctx.fillStyle = "#6b645b";
-    ctx.font = "14px Courier, monospace";
+    ctx.font = "13px Courier, monospace";
     ctx.letterSpacing = "0.08em";
-    ctx.fillText(`HISTORY OF INDONESIA VIRTUAL MUSEUM  |  ${dateStr.toUpperCase()}`, 300, 680);
+    ctx.fillText(`HISTORY OF INDONESIA VIRTUAL MUSEUM  |  ${dateStr.toUpperCase()}`, 300, 805);
 
     // Set preview URL
     setPolaroidUrl(canvas.toDataURL("image/png"));
@@ -868,7 +890,7 @@ export function PhotoboothModal({
                 <div className="flex-1 p-6 md:p-8 bg-black/20 flex items-center justify-center min-h-[300px]">
                   <div className="flex flex-col items-center gap-3">
                     {/* Live styled card mockup preview */}
-                    <div className="w-[260px] aspect-[6/7.5] bg-[#fcfbfa] p-4 rounded-xl shadow-xl flex flex-col justify-between border border-border/15 relative overflow-hidden text-black select-none pointer-events-none scale-105">
+                    <div className="w-[260px] h-[372px] bg-[#fcfbfa] p-4 rounded-xl shadow-xl flex flex-col justify-between border border-border/15 relative overflow-hidden text-black select-none pointer-events-none scale-105">
 
                       {/* Photo Area */}
                       <div
@@ -880,28 +902,6 @@ export function PhotoboothModal({
                             } 100%)`,
                         }}
                       >
-                        {/* Live CSS badges render overlay */}
-                        {includeBadges && (
-                          <div className="absolute top-2 left-0 right-0 flex justify-center gap-0.5 px-1 z-20 scale-[0.7] origin-top">
-                            {BADGE_LIST.map((b) => {
-                              const isUnlocked = achievements.includes(b.id);
-                              return (
-                                <div
-                                  key={b.id}
-                                  className="w-[18px] h-[18px] rounded-full border border-white flex items-center justify-center text-[7px] shadow-sm select-none font-bold"
-                                  style={{
-                                    backgroundColor: isUnlocked ? b.color : "rgba(35, 39, 47, 0.8)",
-                                    borderColor: isUnlocked ? "#ffffff" : "rgba(255, 255, 255, 0.15)",
-                                    color: isUnlocked ? "#ffffff" : "rgba(255, 255, 255, 0.25)",
-                                  }}
-                                >
-                                  {b.symbol}
-                                </div>
-                              );
-                            })}
-                          </div>
-                        )}
-
                         {/* Live CSS character render (mini scale) */}
                         <div className="w-full h-full flex items-end justify-center relative transform translate-y-3 scale-95">
                           {/* Skin Circle */}
@@ -952,22 +952,52 @@ export function PhotoboothModal({
                         </div>
                       </div>
 
-                      {/* Polaroid text fields */}
-                      <div className="text-center flex flex-col gap-0.5 pt-2">
-                        <div className="font-display text-[13px] font-bold text-gray-900 truncate px-1">
-                          {name || (lang === "id" ? "Nama Pengunjung" : "Visitor Name")}
+                      {/* Polaroid text fields & badges in the bottom margin */}
+                      <div className="text-center flex flex-col items-center justify-between py-1.5 flex-1 bg-[#fcfbfa] w-full">
+                        <div className="flex flex-col gap-0.5 w-full">
+                          <div className="font-display text-sm font-bold text-gray-900 truncate px-1 leading-tight">
+                            {name || (lang === "id" ? "Nama Pengunjung" : "Visitor Name")}
+                          </div>
+                          {includeProgress ? (
+                            <div className="text-[6px] tracking-wide font-mono text-gray-500 uppercase truncate whitespace-nowrap px-1 leading-none">
+                              ✦ {inspectedArtifacts.length}/{totalArtifacts} {lang === "id" ? "ARTEFAK" : "EXHIBITS"} · {visitedRooms.length}/8 {lang === "id" ? "ZONA" : "ZONES"} ✦
+                            </div>
+                          ) : (
+                            <div className="text-[8px] tracking-wider font-mono text-gray-400 uppercase leading-none">
+                              ✦
+                            </div>
+                          )}
                         </div>
-                        {includeProgress ? (
-                          <div className="text-[6px] tracking-wide font-mono text-gray-500 uppercase mt-0.5 truncate whitespace-nowrap px-1">
-                            ✦ {inspectedArtifacts.length}/{totalArtifacts} {lang === "id" ? "ARTEFAK" : "EXHIBITS"} · {visitedRooms.length}/8 {lang === "id" ? "ZONA" : "ZONES"} ✦
+
+                        {includeBadges ? (
+                          <div className="w-full flex flex-col items-center gap-1 my-1">
+                            <div className="flex justify-center gap-0.5 w-full">
+                              {BADGE_LIST.map((b) => {
+                                const isUnlocked = achievements.includes(b.id);
+                                return (
+                                  <div
+                                    key={b.id}
+                                    className="w-[18px] h-[18px] rounded-full flex items-center justify-center text-[9px] shadow-sm select-none border"
+                                    style={{
+                                      backgroundColor: isUnlocked ? b.color : "rgba(0,0,0,0.02)",
+                                      borderColor: isUnlocked ? "#ffffff" : "rgba(0,0,0,0.1)",
+                                      borderStyle: isUnlocked ? "solid" : "dashed",
+                                      opacity: isUnlocked ? 1 : 0.25,
+                                    }}
+                                  >
+                                    {b.symbol}
+                                  </div>
+                                );
+                              })}
+                            </div>
+                            <div className="w-[80%] h-[1px] bg-amber-400/10" />
                           </div>
                         ) : (
-                          <div className="text-[8px] tracking-wider font-mono text-gray-400 uppercase mt-0.5">
-                            ✦
-                          </div>
+                          <div className="h-6" />
                         )}
-                        <div className="text-[5px] tracking-wider font-mono text-gray-400 uppercase">
-                          HISTORY OF INDONESIA
+
+                        <div className="text-[5px] tracking-widest font-mono text-gray-400 uppercase leading-none">
+                          HISTORY OF INDONESIA VIRTUAL MUSEUM
                         </div>
                       </div>
                     </div>
