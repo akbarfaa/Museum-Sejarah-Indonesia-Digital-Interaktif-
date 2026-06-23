@@ -351,7 +351,12 @@ function createDecoratedWall(
   return parent;
 }
 
-// Ornate 3D Gapura (Archway) at the entrance doorway
+// ============================================================
+// Majestic Ornate 3D Gapura (Traditional Indonesian Archway)
+// Covers the entire entrance gate with stepped pillars,
+// decorative wing walls, layered crowns, relief panels,
+// curved arch segments, torch lights, and a golden finial.
+// ============================================================
 function createGapuraEntrance(
   scene: Scene,
   roomId: RoomId,
@@ -365,120 +370,320 @@ function createGapuraEntrance(
 ) {
   const zPos = center.z - ROOM_DEPTH / 2; // South wall plane
 
-  // Parent node for the gapura
-  const gapuraParent = new Mesh(`gapura-${roomId}`, scene);
-  gapuraParent.position = new Vector3(center.x, 0, zPos);
+  // -- Accent material for hall-specific colour touches --
+  const accentMat = new StandardMaterial(`accentMat-${roomId}`, scene);
+  accentMat.diffuseColor = Color3.FromHexString(accentColor);
+  accentMat.specularColor = new Color3(0.3, 0.25, 0.15);
+  accentMat.emissiveColor = Color3.FromHexString(accentColor).scale(0.15);
 
-  // Left Pillar
-  const lpBase = MeshBuilder.CreateBox(`lpBase-${roomId}`, { width: 0.9, height: 1.0, depth: 0.9 }, scene);
-  lpBase.position = new Vector3(-(doorW / 2 + 0.45), 0.5, 0);
-  lpBase.material = woodMat;
-  lpBase.parent = gapuraParent;
-  lpBase.checkCollisions = true;
+  // -- Stone material for the base and pillar steps --
+  const stoneMat = new StandardMaterial(`stoneMat-${roomId}`, scene);
+  stoneMat.diffuseColor = new Color3(0.35, 0.3, 0.25);
+  stoneMat.specularColor = new Color3(0.08, 0.08, 0.06);
 
-  const lpCol = MeshBuilder.CreateBox(`lpCol-${roomId}`, { width: 0.65, height: 3.6, depth: 0.65 }, scene);
-  lpCol.position = new Vector3(-(doorW / 2 + 0.45), 2.8, 0);
-  lpCol.material = woodMat;
-  lpCol.parent = gapuraParent;
-  lpCol.checkCollisions = true;
+  // Parent node
+  const g = new Mesh(`gapura-${roomId}`, scene);
+  g.position = new Vector3(center.x, 0, zPos);
 
-  const lpCap = MeshBuilder.CreateBox(`lpCap-${roomId}`, { width: 0.85, height: 0.3, depth: 0.85 }, scene);
-  lpCap.position = new Vector3(-(doorW / 2 + 0.45), 4.75, 0);
-  lpCap.material = goldMat;
-  lpCap.parent = gapuraParent;
+  // pillar x-center offset from doorway center
+  const px = doorW / 2 + 1.0; // pillars sit beside the doorway opening
 
-  // Left Pillar Gold Rings/Trims
-  const lpTrim1 = MeshBuilder.CreateBox(`lpTrim1-${roomId}`, { width: 0.72, height: 0.1, depth: 0.72 }, scene);
-  lpTrim1.position = new Vector3(-(doorW / 2 + 0.45), 1.25, 0);
-  lpTrim1.material = goldMat;
-  lpTrim1.parent = gapuraParent;
+  // =====================================================
+  // HELPER: Build one massive stepped pillar (mirrored)
+  // =====================================================
+  const buildPillar = (side: "L" | "R") => {
+    const sign = side === "L" ? -1 : 1;
+    const xc = sign * px;
 
-  const lpTrim2 = MeshBuilder.CreateBox(`lpTrim2-${roomId}`, { width: 0.72, height: 0.1, depth: 0.72 }, scene);
-  lpTrim2.position = new Vector3(-(doorW / 2 + 0.45), 4.35, 0);
-  lpTrim2.material = goldMat;
-  lpTrim2.parent = gapuraParent;
+    // Step 1 — Grand Plinth / Pedestal (wide base)
+    const plinth = MeshBuilder.CreateBox(`plinth${side}-${roomId}`, { width: 2.4, height: 0.6, depth: 2.0 }, scene);
+    plinth.position = new Vector3(xc, 0.3, 0);
+    plinth.material = stoneMat;
+    plinth.parent = g;
+    plinth.checkCollisions = true;
 
-  // Right Pillar
-  const rpBase = MeshBuilder.CreateBox(`rpBase-${roomId}`, { width: 0.9, height: 1.0, depth: 0.9 }, scene);
-  rpBase.position = new Vector3((doorW / 2 + 0.45), 0.5, 0);
-  rpBase.material = woodMat;
-  rpBase.parent = gapuraParent;
-  rpBase.checkCollisions = true;
+    // Step 2 — Second tier step
+    const step2 = MeshBuilder.CreateBox(`step2${side}-${roomId}`, { width: 2.0, height: 0.5, depth: 1.7 }, scene);
+    step2.position = new Vector3(xc, 0.85, 0);
+    step2.material = woodMat;
+    step2.parent = g;
+    step2.checkCollisions = true;
 
-  const rpCol = MeshBuilder.CreateBox(`rpCol-${roomId}`, { width: 0.65, height: 3.6, depth: 0.65 }, scene);
-  rpCol.position = new Vector3((doorW / 2 + 0.45), 2.8, 0);
-  rpCol.material = woodMat;
-  rpCol.parent = gapuraParent;
-  rpCol.checkCollisions = true;
+    // Gold trim ring between step 2 and main shaft
+    const trimLow = MeshBuilder.CreateBox(`trimLow${side}-${roomId}`, { width: 1.85, height: 0.12, depth: 1.55 }, scene);
+    trimLow.position = new Vector3(xc, 1.16, 0);
+    trimLow.material = goldMat;
+    trimLow.parent = g;
 
-  const rpCap = MeshBuilder.CreateBox(`rpCap-${roomId}`, { width: 0.85, height: 0.3, depth: 0.85 }, scene);
-  rpCap.position = new Vector3((doorW / 2 + 0.45), 4.75, 0);
-  rpCap.material = goldMat;
-  rpCap.parent = gapuraParent;
+    // Step 3 — Main pillar shaft (tall)
+    const shaft = MeshBuilder.CreateBox(`shaft${side}-${roomId}`, { width: 1.5, height: 3.2, depth: 1.3 }, scene);
+    shaft.position = new Vector3(xc, 2.82, 0);
+    shaft.material = woodMat;
+    shaft.parent = g;
+    shaft.checkCollisions = true;
 
-  // Right Pillar Gold Rings
-  const rpTrim1 = MeshBuilder.CreateBox(`rpTrim1-${roomId}`, { width: 0.72, height: 0.1, depth: 0.72 }, scene);
-  rpTrim1.position = new Vector3((doorW / 2 + 0.45), 1.25, 0);
-  rpTrim1.material = goldMat;
-  rpTrim1.parent = gapuraParent;
+    // Decorative carved relief panel on front face of shaft
+    const reliefTex = new DynamicTexture(`reliefTex${side}-${roomId}`, { width: 256, height: 512 }, scene, false);
+    const rctx = reliefTex.getContext() as CanvasRenderingContext2D;
+    rctx.fillStyle = "#1a120a";
+    rctx.fillRect(0, 0, 256, 512);
+    // Gold border
+    rctx.strokeStyle = "#c9a14a";
+    rctx.lineWidth = 8;
+    rctx.strokeRect(20, 20, 216, 472);
+    // Inner border
+    rctx.strokeStyle = "#8b6914";
+    rctx.lineWidth = 3;
+    rctx.strokeRect(35, 35, 186, 442);
+    // Ornamental lotus / floral motif (stylised)
+    rctx.fillStyle = "#c9a14a";
+    rctx.font = "bold 72px Georgia, serif";
+    rctx.textAlign = "center";
+    rctx.textBaseline = "middle";
+    rctx.fillText("✦", 128, 128);
+    rctx.font = "60px Georgia, serif";
+    rctx.fillText("❖", 128, 256);
+    rctx.font = "bold 72px Georgia, serif";
+    rctx.fillText("✦", 128, 384);
+    reliefTex.update();
 
-  const rpTrim2 = MeshBuilder.CreateBox(`rpTrim2-${roomId}`, { width: 0.72, height: 0.1, depth: 0.72 }, scene);
-  rpTrim2.position = new Vector3((doorW / 2 + 0.45), 4.35, 0);
-  rpTrim2.material = goldMat;
-  rpTrim2.parent = gapuraParent;
+    const reliefMat = new StandardMaterial(`reliefMat${side}-${roomId}`, scene);
+    reliefMat.diffuseTexture = reliefTex;
+    reliefMat.emissiveTexture = reliefTex;
+    reliefMat.emissiveColor = new Color3(0.35, 0.28, 0.15);
+    reliefMat.specularColor = new Color3(0, 0, 0);
 
-  // Top Arch / Lintel (Spans over the doorway)
-  const lintelMain = MeshBuilder.CreateBox(`lintelMain-${roomId}`, { width: doorW + 0.9, height: 0.4, depth: 0.7 }, scene);
-  lintelMain.position = new Vector3(0, 5.0, 0);
-  lintelMain.material = woodMat;
-  lintelMain.parent = gapuraParent;
+    const reliefPanel = MeshBuilder.CreatePlane(`reliefPanel${side}-${roomId}`, { width: 1.1, height: 2.6 }, scene);
+    reliefPanel.position = new Vector3(xc, 2.82, -0.66);
+    reliefPanel.material = reliefMat;
+    reliefPanel.parent = g;
 
-  // Decorative Stepped Lintel Top
-  const lintelStep = MeshBuilder.CreateBox(`lintelStep-${roomId}`, { width: doorW - 0.4, height: 0.3, depth: 0.5 }, scene);
-  lintelStep.position = new Vector3(0, 5.35, 0);
-  lintelStep.material = woodMat;
-  lintelStep.parent = gapuraParent;
+    // Gold trim ring mid-shaft
+    const trimMid = MeshBuilder.CreateBox(`trimMid${side}-${roomId}`, { width: 1.65, height: 0.1, depth: 1.45 }, scene);
+    trimMid.position = new Vector3(xc, 2.8, 0);
+    trimMid.material = goldMat;
+    trimMid.parent = g;
 
-  // Top Crown Ornament
-  const lintelCrown = MeshBuilder.CreateBox(`lintelCrown-${roomId}`, { width: 1.8, height: 0.35, depth: 0.4 }, scene);
-  lintelCrown.position = new Vector3(0, 5.675, 0);
-  lintelCrown.material = goldMat;
-  lintelCrown.parent = gapuraParent;
+    // Gold trim ring top of shaft
+    const trimTop = MeshBuilder.CreateBox(`trimTop${side}-${roomId}`, { width: 1.65, height: 0.12, depth: 1.45 }, scene);
+    trimTop.position = new Vector3(xc, 4.48, 0);
+    trimTop.material = goldMat;
+    trimTop.parent = g;
 
-  // Signboard backing (mahogany box)
-  const signBacking = MeshBuilder.CreateBox(`signBacking-${roomId}`, { width: 4.2, height: 1.0, depth: 0.15 }, scene);
-  signBacking.position = new Vector3(0, 4.3, 0);
+    // Pillar Capital — wider shelf at top of shaft
+    const capital = MeshBuilder.CreateBox(`capital${side}-${roomId}`, { width: 2.0, height: 0.35, depth: 1.7 }, scene);
+    capital.position = new Vector3(xc, 4.77, 0);
+    capital.material = woodMat;
+    capital.parent = g;
+
+    // Gold crown molding on capital
+    const capGold = MeshBuilder.CreateBox(`capGold${side}-${roomId}`, { width: 2.1, height: 0.1, depth: 1.8 }, scene);
+    capGold.position = new Vector3(xc, 4.99, 0);
+    capGold.material = goldMat;
+    capGold.parent = g;
+
+    // ---- Torch / Lamp on Pillar (illuminated) ----
+    // Torch bracket
+    const bracket = MeshBuilder.CreateBox(`bracket${side}-${roomId}`, { width: 0.12, height: 0.08, depth: 0.6 }, scene);
+    bracket.position = new Vector3(xc, 3.8, -0.85);
+    bracket.material = goldMat;
+    bracket.parent = g;
+
+    // Torch flame bowl
+    const bowl = MeshBuilder.CreateCylinder(`bowl${side}-${roomId}`, { height: 0.3, diameterTop: 0.35, diameterBottom: 0.15, tessellation: 8 }, scene);
+    bowl.position = new Vector3(xc, 3.95, -1.1);
+    bowl.material = goldMat;
+    bowl.parent = g;
+
+    // Flame glow (emissive sphere)
+    const flame = MeshBuilder.CreateSphere(`flame${side}-${roomId}`, { diameter: 0.28 }, scene);
+    flame.position = new Vector3(xc, 4.15, -1.1);
+    const flameMat = new StandardMaterial(`flameMat${side}-${roomId}`, scene);
+    flameMat.diffuseColor = new Color3(1, 0.7, 0.2);
+    flameMat.emissiveColor = new Color3(1, 0.65, 0.15);
+    flameMat.specularColor = new Color3(0, 0, 0);
+    flame.material = flameMat;
+    flame.parent = g;
+
+    // Torch point light
+    const torchLight = new PointLight(`torchLight${side}-${roomId}`, new Vector3(center.x + xc, 4.2, zPos - 1.1), scene);
+    torchLight.diffuse = new Color3(1, 0.8, 0.45);
+    torchLight.intensity = 0.65;
+    torchLight.range = 8;
+
+    // ---- Wing Wall (connects pillar outward to main hall wall) ----
+    const sideW = (ROOM_WIDTH - doorW) / 2;
+    const wingW = sideW / 2 - 0.2;
+    if (wingW > 0.5) {
+      // Decorative angled wing wall stepping out from pillar
+      const wing = MeshBuilder.CreateBox(`wing${side}-${roomId}`, { width: wingW, height: 4.5, depth: 0.5 }, scene);
+      wing.position = new Vector3(xc + sign * (0.75 + wingW / 2), 2.25, 0);
+      wing.material = woodMat;
+      wing.parent = g;
+      wing.checkCollisions = true;
+
+      // Wing gold top trim
+      const wingGold = MeshBuilder.CreateBox(`wingGold${side}-${roomId}`, { width: wingW + 0.1, height: 0.12, depth: 0.55 }, scene);
+      wingGold.position = new Vector3(xc + sign * (0.75 + wingW / 2), 4.56, 0);
+      wingGold.material = goldMat;
+      wingGold.parent = g;
+
+      // Wing accent color stripe
+      const wingAccent = MeshBuilder.CreateBox(`wingAccent${side}-${roomId}`, { width: wingW - 0.2, height: 0.8, depth: 0.52 }, scene);
+      wingAccent.position = new Vector3(xc + sign * (0.75 + wingW / 2), 3.6, 0);
+      wingAccent.material = accentMat;
+      wingAccent.parent = g;
+    }
+  };
+
+  buildPillar("L");
+  buildPillar("R");
+
+  // =====================================================
+  // ARCH & LINTEL STRUCTURE (spans over the doorway)
+  // =====================================================
+
+  // Main lintel beam
+  const lintelW = doorW + 2.0;
+  const lintel = MeshBuilder.CreateBox(`lintel-${roomId}`, { width: lintelW, height: 0.5, depth: 1.4 }, scene);
+  lintel.position = new Vector3(0, 5.2, 0);
+  lintel.material = woodMat;
+  lintel.parent = g;
+
+  // Gold trim under lintel
+  const lintelTrimBot = MeshBuilder.CreateBox(`lintelTrimBot-${roomId}`, { width: lintelW + 0.15, height: 0.1, depth: 1.5 }, scene);
+  lintelTrimBot.position = new Vector3(0, 4.9, 0);
+  lintelTrimBot.material = goldMat;
+  lintelTrimBot.parent = g;
+
+  // Curved arch segments under the lintel (stepped arching inward)
+  // Creates a subtle arch illusion using stepped boxes
+  const archSteps = 6;
+  for (let i = 0; i < archSteps; i++) {
+    const frac = i / archSteps;
+    const archW = doorW * (1 - frac * 0.12);
+    const archH = 0.12;
+    const yPos = 4.9 - i * 0.14;
+    const archD = 0.6 - frac * 0.25;
+    const arch = MeshBuilder.CreateBox(`arch${i}-${roomId}`, { width: archW, height: archH, depth: archD }, scene);
+    arch.position = new Vector3(0, yPos, 0);
+    arch.material = i % 2 === 0 ? goldMat : woodMat;
+    arch.parent = g;
+  }
+
+  // =====================================================
+  // LAYERED CROWN (stacked tiers above lintel)
+  // =====================================================
+
+  // Tier 1: Wide cornice
+  const crown1 = MeshBuilder.CreateBox(`crown1-${roomId}`, { width: lintelW + 0.8, height: 0.3, depth: 1.6 }, scene);
+  crown1.position = new Vector3(0, 5.6, 0);
+  crown1.material = woodMat;
+  crown1.parent = g;
+
+  // Tier 1 gold edge
+  const crown1Gold = MeshBuilder.CreateBox(`crown1Gold-${roomId}`, { width: lintelW + 0.9, height: 0.08, depth: 1.7 }, scene);
+  crown1Gold.position = new Vector3(0, 5.79, 0);
+  crown1Gold.material = goldMat;
+  crown1Gold.parent = g;
+
+  // Tier 2: Narrower step up
+  const crown2 = MeshBuilder.CreateBox(`crown2-${roomId}`, { width: lintelW - 0.4, height: 0.35, depth: 1.3 }, scene);
+  crown2.position = new Vector3(0, 6.0, 0);
+  crown2.material = woodMat;
+  crown2.parent = g;
+
+  // Tier 2 accent band (hall color)
+  const crown2Accent = MeshBuilder.CreateBox(`crown2Accent-${roomId}`, { width: lintelW - 0.6, height: 0.12, depth: 1.35 }, scene);
+  crown2Accent.position = new Vector3(0, 6.23, 0);
+  crown2Accent.material = accentMat;
+  crown2Accent.parent = g;
+
+  // Tier 3: Small crown peak
+  const crown3 = MeshBuilder.CreateBox(`crown3-${roomId}`, { width: lintelW - 1.8, height: 0.3, depth: 1.0 }, scene);
+  crown3.position = new Vector3(0, 6.45, 0);
+  crown3.material = woodMat;
+  crown3.parent = g;
+
+  // Tier 3 gold cap
+  const crown3Gold = MeshBuilder.CreateBox(`crown3Gold-${roomId}`, { width: lintelW - 1.6, height: 0.08, depth: 1.1 }, scene);
+  crown3Gold.position = new Vector3(0, 6.64, 0);
+  crown3Gold.material = goldMat;
+  crown3Gold.parent = g;
+
+  // ---- Golden Finial (puncak gapura) ----
+  // Sphere base
+  const finialBase = MeshBuilder.CreateSphere(`finialBase-${roomId}`, { diameter: 0.6, segments: 12 }, scene);
+  finialBase.position = new Vector3(0, 6.98, 0);
+  finialBase.material = goldMat;
+  finialBase.parent = g;
+
+  // Spire on top
+  const spire = MeshBuilder.CreateCylinder(`spire-${roomId}`, { height: 0.5, diameterTop: 0.02, diameterBottom: 0.2, tessellation: 8 }, scene);
+  spire.position = new Vector3(0, 7.48, 0);
+  spire.material = goldMat;
+  spire.parent = g;
+
+  // ---- Decorative corner ornaments on crown ----
+  for (const sx of [-1, 1]) {
+    const cornerOrn = MeshBuilder.CreateBox(`cornerOrn${sx > 0 ? "R" : "L"}-${roomId}`, { width: 0.4, height: 0.4, depth: 0.4 }, scene);
+    cornerOrn.position = new Vector3(sx * (lintelW / 2 + 0.2), 5.8, 0);
+    cornerOrn.rotation.y = Math.PI / 4;
+    cornerOrn.material = goldMat;
+    cornerOrn.parent = g;
+  }
+
+  // =====================================================
+  // SIGNBOARD with HALL NAME (centered on the lintel)
+  // =====================================================
+
+  // Signboard backing
+  const signBacking = MeshBuilder.CreateBox(`signBacking-${roomId}`, { width: 4.6, height: 1.1, depth: 0.18 }, scene);
+  signBacking.position = new Vector3(0, 5.25, -0.72);
   signBacking.material = woodMat;
-  signBacking.parent = gapuraParent;
+  signBacking.parent = g;
 
   // Signboard gold frame
-  const signFrame = MeshBuilder.CreateBox(`signFrame-${roomId}`, { width: 4.3, height: 1.1, depth: 0.08 }, scene);
-  signFrame.position = new Vector3(0, 4.3, 0.01);
+  const signFrame = MeshBuilder.CreateBox(`signFrame-${roomId}`, { width: 4.75, height: 1.25, depth: 0.1 }, scene);
+  signFrame.position = new Vector3(0, 5.25, -0.73);
   signFrame.material = goldMat;
-  signFrame.parent = gapuraParent;
+  signFrame.parent = g;
 
-  // Dynamic Texture Plaque for the Hall Name (Front Plane)
+  // Dynamic Texture for Hall Name
   const plaqueTex = new DynamicTexture(`plaqueTex-${roomId}`, { width: 1024, height: 256 }, scene, false);
   const pctx = plaqueTex.getContext() as CanvasRenderingContext2D;
-  pctx.fillStyle = "#16110b"; // dark wooden background
+
+  // Background
+  pctx.fillStyle = "#16110b";
   pctx.fillRect(0, 0, 1024, 256);
 
-  // Plaque outer gold line
+  // Ornate double gold border
   pctx.strokeStyle = "#c9a14a";
   pctx.lineWidth = 10;
-  pctx.strokeRect(15, 15, 994, 226);
+  pctx.strokeRect(12, 12, 1000, 232);
+  pctx.strokeStyle = "#8b6914";
+  pctx.lineWidth = 4;
+  pctx.strokeRect(26, 26, 972, 204);
 
-  // Hall Name
-  pctx.fillStyle = accentColor;
-  pctx.font = "bold 60px Georgia, serif";
+  // Corner ornaments (drawn as text decorations)
+  pctx.fillStyle = "#c9a14a";
+  pctx.font = "28px Georgia, serif";
   pctx.textAlign = "center";
   pctx.textBaseline = "middle";
+  pctx.fillText("✦", 50, 45);
+  pctx.fillText("✦", 974, 45);
+  pctx.fillText("✦", 50, 211);
+  pctx.fillText("✦", 974, 211);
+
+  // Hall Name (main title)
+  pctx.fillStyle = accentColor;
+  pctx.font = "bold 62px Georgia, serif";
   pctx.fillText(lang === "id" ? nameId.toUpperCase() : nameEn.toUpperCase(), 512, 100);
 
   // Subtitle
-  pctx.font = "italic 32px Georgia, serif";
+  pctx.font = "italic 34px Georgia, serif";
   pctx.fillStyle = "#c9a14a";
-  pctx.fillText(lang === "id" ? "SILAKAN MASUK" : "ENTER HALL", 512, 175);
+  pctx.fillText(lang === "id" ? "⸻  SILAKAN MASUK  ⸻" : "⸻  ENTER HALL  ⸻", 512, 178);
 
   plaqueTex.update();
 
@@ -488,22 +693,19 @@ function createGapuraEntrance(
   plaqueMat.emissiveColor = new Color3(0.7, 0.6, 0.4);
   plaqueMat.specularColor = new Color3(0, 0, 0);
 
-  // Signboard face plane (facing South, which means rotation.y = 0)
-  const signFace = MeshBuilder.CreatePlane(`signFace-${roomId}`, { width: 4.15, height: 0.95 }, scene);
-  signFace.position = new Vector3(0, 4.3, -0.08); // slightly in front of the backing
+  // Signboard face plane
+  const signFace = MeshBuilder.CreatePlane(`signFace-${roomId}`, { width: 4.5, height: 1.05 }, scene);
+  signFace.position = new Vector3(0, 5.25, -0.83);
   signFace.material = plaqueMat;
-  signFace.parent = gapuraParent;
+  signFace.parent = g;
 
-  // Decorative gold hanger rods holding the signboard
-  const rodL = MeshBuilder.CreateCylinder(`rodL-${roomId}`, { height: 0.4, diameter: 0.06 }, scene);
-  rodL.position = new Vector3(-1.8, 4.9, -0.05);
-  rodL.material = goldMat;
-  rodL.parent = gapuraParent;
-
-  const rodR = MeshBuilder.CreateCylinder(`rodR-${roomId}`, { height: 0.4, diameter: 0.06 }, scene);
-  rodR.position = new Vector3(1.8, 4.9, -0.05);
-  rodR.material = goldMat;
-  rodR.parent = gapuraParent;
+  // ---- Decorative hanging chains for signboard (gold rods) ----
+  for (const sx of [-1.9, 1.9]) {
+    const chain = MeshBuilder.CreateCylinder(`chain${sx > 0 ? "R" : "L"}-${roomId}`, { height: 0.6, diameter: 0.05 }, scene);
+    chain.position = new Vector3(sx, 5.95, -0.78);
+    chain.material = goldMat;
+    chain.parent = g;
+  }
 }
 
 // Generic Base Hall setup - Completely overhauled for grand royal aesthetic
