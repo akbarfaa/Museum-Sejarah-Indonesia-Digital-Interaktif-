@@ -280,6 +280,7 @@ function Museum() {
         playerName={playerName}
         playerAvatar={playerAvatar}
         onSaveProfile={setPlayerProfile}
+        totalArtifacts={artifacts.length}
       />
 
       <RoomWelcomeModal

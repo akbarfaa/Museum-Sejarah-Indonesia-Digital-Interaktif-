@@ -20,7 +20,7 @@ export const translations = {
       explore: "Explore Halls",
       stats: [
         { value: "8", label: "Exhibition Zones" },
-        { value: "27+", label: "Curated Artifacts" },
+        { value: "150+", label: "Curated Artifacts" },
         { value: "2000+", label: "Years of History" },
       ],
       featuresTitle: "A museum reborn for the browser",
@@ -106,7 +106,7 @@ export const translations = {
       explore: "Jelajahi Ruangan",
       stats: [
         { value: "8", label: "Zona Pameran" },
-        { value: "27+", label: "Artefak Kurasi" },
+        { value: "150+", label: "Artefak Kurasi" },
         { value: "2000+", label: "Tahun Sejarah" },
       ],
       featuresTitle: "Museum yang lahir kembali di peramban",

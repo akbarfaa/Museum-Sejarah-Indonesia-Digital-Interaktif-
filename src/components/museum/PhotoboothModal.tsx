@@ -10,6 +10,7 @@ interface PhotoboothModalProps {
   playerName: string;
   playerAvatar: string;
   onSaveProfile: (name: string, avatar: string) => void;
+  totalArtifacts?: number;
 }
 
 interface BadgeDef {
@@ -73,6 +74,7 @@ export function PhotoboothModal({
   playerName,
   playerAvatar,
   onSaveProfile,
+  totalArtifacts = 150,
 }: PhotoboothModalProps) {
   const { achievements, visitedRooms, inspectedArtifacts } = useProgress();
   const [name, setName] = useState(playerName || "");
@@ -640,8 +642,8 @@ export function PhotoboothModal({
       ctx.textAlign = "center";
       
       const pText = lang === "id"
-        ? `✦  ${inspectedArtifacts.length}/27 ARTEFAK  ·  ${visitedRooms.length}/8 ZONA  ✦`
-        : `✦  ${inspectedArtifacts.length}/27 EXHIBITS  ·  ${visitedRooms.length}/8 ZONES  ✦`;
+        ? `✦  ${inspectedArtifacts.length}/${totalArtifacts} ARTEFAK  ·  ${visitedRooms.length}/8 ZONA  ✦`
+        : `✦  ${inspectedArtifacts.length}/${totalArtifacts} EXHIBITS  ·  ${visitedRooms.length}/8 ZONES  ✦`;
       ctx.fillText(pText, 300, 650);
     } else {
       ctx.fillStyle = "#c9a14a";
@@ -957,7 +959,7 @@ export function PhotoboothModal({
                         </div>
                         {includeProgress ? (
                           <div className="text-[6px] tracking-wide font-mono text-gray-500 uppercase mt-0.5 truncate whitespace-nowrap px-1">
-                            ✦ {inspectedArtifacts.length}/27 {lang === "id" ? "ARTEFAK" : "EXHIBITS"} · {visitedRooms.length}/8 {lang === "id" ? "ZONA" : "ZONES"} ✦
+                            ✦ {inspectedArtifacts.length}/{totalArtifacts} {lang === "id" ? "ARTEFAK" : "EXHIBITS"} · {visitedRooms.length}/8 {lang === "id" ? "ZONA" : "ZONES"} ✦
                           </div>
                         ) : (
                           <div className="text-[8px] tracking-wider font-mono text-gray-400 uppercase mt-0.5">
