@@ -176,6 +176,17 @@ function Landing() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
+                id: "lobby",
+                titleEn: "Grand Lobby",
+                titleId: "Lobi Utama",
+                descEn: "The grand entrance hall where you begin your virtual historical tour.",
+                descId: "Ruang masuk megah tempat awal Anda memulai perjalanan sejarah virtual.",
+                color: "from-stone-900/50 to-slate-900/50 border-stone-500/20 hover:border-stone-500/50",
+                textColor: "text-stone-300",
+                badgeEn: "Start",
+                badgeId: "Mulai",
+              },
+              {
                 id: "ancient",
                 titleEn: "Ancient Indonesia",
                 titleId: "Indonesia Purbakala",
@@ -231,6 +242,17 @@ function Landing() {
                 badgeId: "Era 5",
               },
               {
+                id: "heritage",
+                titleEn: "Cultural & Nature Heritage",
+                titleId: "Warisan Budaya & Alam",
+                descEn: "Celebrate extraordinary Indonesian cultural diversity (UNESCO Batik & Wayang) and natural wonders.",
+                descId: "Rayakan keberagaman warisan budaya takbenda UNESCO (Batik, Wayang) dan keajaiban alam Nusantara.",
+                color: "from-teal-950/40 to-slate-950/40 border-teal-500/20 hover:border-teal-500/50",
+                textColor: "text-teal-400",
+                badgeEn: "Era 6",
+                badgeId: "Era 6",
+              },
+              {
                 id: "cinema",
                 titleEn: "Cinema Theater",
                 titleId: "Teater Bioskop",
@@ -240,6 +262,17 @@ function Landing() {
                 textColor: "text-rose-400",
                 badgeEn: "Media",
                 badgeId: "Media",
+              },
+              {
+                id: "studio",
+                titleEn: "Virtual Photo Studio",
+                titleId: "Studio Foto Virtual",
+                descEn: "Try on traditional costumes (Kebaya, Pangsi, Batik), customize your avatar, and print a Polaroid souvenir.",
+                descId: "Kenakan busana adat Nusantara (Kebaya, Pangsi, Batik) dan unduh cetakan foto Polaroid suvenir virtual Anda.",
+                color: "from-violet-950/40 to-slate-950/40 border-violet-500/20 hover:border-violet-500/50",
+                textColor: "text-violet-400",
+                badgeEn: "Custom",
+                badgeId: "Kustom",
               },
             ].map((zone, idx) => (
               <motion.div
