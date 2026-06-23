@@ -822,7 +822,7 @@ export function buildArtifactMesh(
     item.actionManager = new ActionManager(scene);
     outerFrame.actionManager = new ActionManager(scene);
 
-    const onOver = () => highlight.addMesh(item, Color3.FromHexString("#c9a14a"));
+    const onOver = () => highlight.addMesh(item, Color3.FromHexString("#ffd700"));
     const onOut = () => highlight.removeMesh(item);
     const onClick = () => onArtifactClick(a);
 
@@ -992,7 +992,7 @@ export function buildArtifactMesh(
   ped.actionManager = new ActionManager(scene);
   glass.actionManager = new ActionManager(scene);
 
-  const onOver = () => highlight.addMesh(ped, Color3.FromHexString("#c9a14a"));
+  const onOver = () => highlight.addMesh(ped, Color3.FromHexString("#ffd700"));
   const onOut = () => highlight.removeMesh(ped);
   const onClick = () => onArtifactClick(a);
 

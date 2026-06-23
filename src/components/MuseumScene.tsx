@@ -16,6 +16,7 @@ import {
   HighlightLayer,
   GlowLayer,
   DynamicTexture,
+  ActionManager,
 } from "@babylonjs/core";
 import {
   rooms,
@@ -72,7 +73,9 @@ export function MuseumScene({
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const engineRef = useRef<Engine | null>(null);
   const cameraRef = useRef<UniversalCamera | null>(null);
+  const lastAimedMeshRef = useRef<Mesh | null>(null);
   const [currentRoom, setCurrentRoom] = useState<RoomId | "lobby">("lobby");
+  const [targeted, setTargeted] = useState(false);
   const [isNewMuseum, setIsNewMuseum] = useState(false);
 
   const ticketRedeemedRef = useRef(ticketRedeemed);
@@ -123,12 +126,19 @@ export function MuseumScene({
     camera.keysLeft = [65, 37]; // A, left
     camera.keysRight = [68, 39]; // D, right
 
-    const requestLock = () => {
-      if (document.pointerLockElement !== canvas) {
+    const handleCanvasClick = (e: MouseEvent) => {
+      if (document.pointerLockElement === canvas) {
+        if (lastAimedMeshRef.current && lastAimedMeshRef.current.actionManager) {
+          document.exitPointerLock?.();
+          lastAimedMeshRef.current.actionManager.processTrigger(ActionManager.OnPickTrigger);
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      } else {
         canvas.requestPointerLock?.();
       }
     };
-    canvas.addEventListener("click", requestLock);
+    canvas.addEventListener("click", handleCanvasClick);
 
     // ============ Lighting & Atmosphere ============
     const hemi = new HemisphericLight("hemi", new Vector3(0, 1, 0), scene);
@@ -143,6 +153,8 @@ export function MuseumScene({
     glow.intensity = 0.35;
 
     const highlight = new HighlightLayer("hl", scene);
+    highlight.blurHorizontalSize = 1.8;
+    highlight.blurVerticalSize = 1.8;
 
     // ============ Shared Materials ============
     const floorTex = new DynamicTexture("floorTex", { width: 512, height: 512 }, scene, false);
@@ -279,6 +291,58 @@ export function MuseumScene({
     let lastRoom: RoomId | "lobby" | null = null;
 
     scene.onBeforeRenderObservable.add(() => {
+      // Responsive Raycasting for Crosshair interaction under Pointer Lock
+      if (scene.activeCamera) {
+        const ray = scene.createPickingRay(
+          canvas.width / 2,
+          canvas.height / 2,
+          null,
+          scene.activeCamera
+        );
+        const hit = scene.pickWithRay(ray);
+        let aimedMesh: Mesh | null = null;
+
+        if (hit && hit.hit && hit.pickedMesh) {
+          let curr = hit.pickedMesh;
+          while (curr) {
+            if (curr.actionManager) {
+              aimedMesh = curr as Mesh;
+              break;
+            }
+            curr = curr.parent as Mesh;
+          }
+
+          // Companion check: route sub-meshes or items back to their interactive parent/companion
+          if (!aimedMesh && hit.pickedMesh.name) {
+            const name = hit.pickedMesh.name;
+            if (name.startsWith("item-")) {
+              const id = name.replace("item-", "");
+              const companion = scene.getMeshByName(`glass-${id}`) || scene.getMeshByName(`ped-${id}`);
+              if (companion && companion.actionManager) {
+                aimedMesh = companion as Mesh;
+              }
+            } else if (name.startsWith("innerFrame-")) {
+              const id = name.replace("innerFrame-", "");
+              const companion = scene.getMeshByName(`outerFrame-${id}`);
+              if (companion && companion.actionManager) {
+                aimedMesh = companion as Mesh;
+              }
+            }
+          }
+        }
+
+        if (aimedMesh !== lastAimedMeshRef.current) {
+          if (lastAimedMeshRef.current && lastAimedMeshRef.current.actionManager) {
+            lastAimedMeshRef.current.actionManager.processTrigger(ActionManager.OnPointerOutTrigger);
+          }
+          if (aimedMesh && aimedMesh.actionManager) {
+            aimedMesh.actionManager.processTrigger(ActionManager.OnPointerOverTrigger);
+          }
+          lastAimedMeshRef.current = aimedMesh;
+          setTargeted(!!aimedMesh);
+        }
+      }
+
       const pos = camera.position;
       const rot = camera.rotation.y;
 
@@ -344,7 +408,11 @@ export function MuseumScene({
 
     return () => {
       window.removeEventListener("resize", onResize);
-      canvas.removeEventListener("click", requestLock);
+      canvas.removeEventListener("click", handleCanvasClick);
+      if (lastAimedMeshRef.current && lastAimedMeshRef.current.actionManager) {
+        lastAimedMeshRef.current.actionManager.processTrigger(ActionManager.OnPointerOutTrigger);
+      }
+      lastAimedMeshRef.current = null;
       scene.dispose();
       engine.dispose();
     };
@@ -354,8 +422,23 @@ export function MuseumScene({
   return (
     <div className="absolute inset-0">
       <canvas ref={canvasRef} className="w-full h-full outline-none" tabIndex={0} />
-      {/* Crosshair */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-white/40 pointer-events-none border border-black/20" />
+      {/* Premium Interactive Crosshair */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none flex items-center justify-center">
+        {/* Outer Gold Ring pulsing when interactive */}
+        <div
+          className={`absolute w-6 h-6 rounded-full border border-amber-400/80 transition-all duration-300 ease-out ${
+            targeted ? "scale-100 opacity-100 rotate-45" : "scale-0 opacity-0"
+          }`}
+        />
+        {/* Center Dot - Glowing gold when aimed at interactive items, else semi-transparent white */}
+        <div
+          className={`rounded-full transition-all duration-200 ease-out ${
+            targeted
+              ? "w-2.5 h-2.5 bg-amber-400 border border-amber-300 shadow-[0_0_12px_rgba(251,191,36,1)] scale-110"
+              : "w-1.5 h-1.5 bg-white/60 border border-black/20"
+          }`}
+        />
+      </div>
     </div>
   );
 }
