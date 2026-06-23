@@ -239,51 +239,6 @@ export function MuseumScene({
       }
     });
 
-    // ============ Floor Directional Signs ============
-    const buildFloorArrow = (x: number, z: number, rotY: number) => {
-      const tex = new DynamicTexture(`arrowTex-${x}-${z}`, { width: 1024, height: 256 }, scene, false);
-      const ctx = tex.getContext() as CanvasRenderingContext2D;
-      ctx.clearRect(0, 0, 1024, 256);
-      
-      const grd = ctx.createLinearGradient(0, 0, 1024, 0);
-      grd.addColorStop(0, "rgba(233,69,96,0)");
-      grd.addColorStop(0.5, "rgba(233,69,96,0.85)");
-      grd.addColorStop(1, "rgba(233,69,96,0)");
-      ctx.fillStyle = grd;
-      ctx.fillRect(0, 80, 1024, 96);
-      
-      ctx.fillStyle = "#fff5e6";
-      ctx.font = "bold 90px Georgia, serif";
-      ctx.textAlign = "center";
-      ctx.textBaseline = "middle";
-      ctx.fillText(lang === "id" ? "LANJUT  →" : "FORWARD  →", 512, 128);
-      
-      tex.hasAlpha = true;
-      tex.update();
-      
-      const mat = new StandardMaterial(`arrowMat-${x}-${z}`, scene);
-      mat.diffuseTexture = tex;
-      mat.emissiveTexture = tex;
-      mat.opacityTexture = tex;
-      mat.emissiveColor = new Color3(1, 0.5, 0.5);
-      mat.specularColor = new Color3(0, 0, 0);
-      mat.backFaceCulling = false;
-      
-      const plane = MeshBuilder.CreatePlane(`arrow-${x}-${z}`, { width: 4, height: 1 }, scene);
-      plane.position = new Vector3(x, 0.02, z);
-      plane.rotation.x = Math.PI / 2;
-      plane.rotation.y = rotY;
-      plane.material = mat;
-    };
-
-    buildFloorArrow(0, -5, 0);
-    buildFloorArrow(0, 25, 0);
-    buildFloorArrow(0, 55, 0);
-    buildFloorArrow(0, 85, 0);
-    buildFloorArrow(0, 115, 0);
-    buildFloorArrow(0, 145, 0);
-    buildFloorArrow(0, 174.5, 0);
-
     // ============ Game Loop & Position Tracking ============
     let lastX = 0,
       lastZ = -25,

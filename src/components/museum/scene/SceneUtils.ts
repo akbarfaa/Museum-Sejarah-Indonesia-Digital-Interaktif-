@@ -351,6 +351,161 @@ function createDecoratedWall(
   return parent;
 }
 
+// Ornate 3D Gapura (Archway) at the entrance doorway
+function createGapuraEntrance(
+  scene: Scene,
+  roomId: RoomId,
+  center: Vector3,
+  nameId: string,
+  nameEn: string,
+  accentColor: string,
+  woodMat: StandardMaterial,
+  goldMat: StandardMaterial,
+  lang: "en" | "id"
+) {
+  const zPos = center.z - ROOM_DEPTH / 2; // South wall plane
+
+  // Parent node for the gapura
+  const gapuraParent = new Mesh(`gapura-${roomId}`, scene);
+  gapuraParent.position = new Vector3(center.x, 0, zPos);
+
+  // Left Pillar
+  const lpBase = MeshBuilder.CreateBox(`lpBase-${roomId}`, { width: 0.9, height: 1.0, depth: 0.9 }, scene);
+  lpBase.position = new Vector3(-(doorW / 2 + 0.45), 0.5, 0);
+  lpBase.material = woodMat;
+  lpBase.parent = gapuraParent;
+  lpBase.checkCollisions = true;
+
+  const lpCol = MeshBuilder.CreateBox(`lpCol-${roomId}`, { width: 0.65, height: 3.6, depth: 0.65 }, scene);
+  lpCol.position = new Vector3(-(doorW / 2 + 0.45), 2.8, 0);
+  lpCol.material = woodMat;
+  lpCol.parent = gapuraParent;
+  lpCol.checkCollisions = true;
+
+  const lpCap = MeshBuilder.CreateBox(`lpCap-${roomId}`, { width: 0.85, height: 0.3, depth: 0.85 }, scene);
+  lpCap.position = new Vector3(-(doorW / 2 + 0.45), 4.75, 0);
+  lpCap.material = goldMat;
+  lpCap.parent = gapuraParent;
+
+  // Left Pillar Gold Rings/Trims
+  const lpTrim1 = MeshBuilder.CreateBox(`lpTrim1-${roomId}`, { width: 0.72, height: 0.1, depth: 0.72 }, scene);
+  lpTrim1.position = new Vector3(-(doorW / 2 + 0.45), 1.25, 0);
+  lpTrim1.material = goldMat;
+  lpTrim1.parent = gapuraParent;
+
+  const lpTrim2 = MeshBuilder.CreateBox(`lpTrim2-${roomId}`, { width: 0.72, height: 0.1, depth: 0.72 }, scene);
+  lpTrim2.position = new Vector3(-(doorW / 2 + 0.45), 4.35, 0);
+  lpTrim2.material = goldMat;
+  lpTrim2.parent = gapuraParent;
+
+  // Right Pillar
+  const rpBase = MeshBuilder.CreateBox(`rpBase-${roomId}`, { width: 0.9, height: 1.0, depth: 0.9 }, scene);
+  rpBase.position = new Vector3((doorW / 2 + 0.45), 0.5, 0);
+  rpBase.material = woodMat;
+  rpBase.parent = gapuraParent;
+  rpBase.checkCollisions = true;
+
+  const rpCol = MeshBuilder.CreateBox(`rpCol-${roomId}`, { width: 0.65, height: 3.6, depth: 0.65 }, scene);
+  rpCol.position = new Vector3((doorW / 2 + 0.45), 2.8, 0);
+  rpCol.material = woodMat;
+  rpCol.parent = gapuraParent;
+  rpCol.checkCollisions = true;
+
+  const rpCap = MeshBuilder.CreateBox(`rpCap-${roomId}`, { width: 0.85, height: 0.3, depth: 0.85 }, scene);
+  rpCap.position = new Vector3((doorW / 2 + 0.45), 4.75, 0);
+  rpCap.material = goldMat;
+  rpCap.parent = gapuraParent;
+
+  // Right Pillar Gold Rings
+  const rpTrim1 = MeshBuilder.CreateBox(`rpTrim1-${roomId}`, { width: 0.72, height: 0.1, depth: 0.72 }, scene);
+  rpTrim1.position = new Vector3((doorW / 2 + 0.45), 1.25, 0);
+  rpTrim1.material = goldMat;
+  rpTrim1.parent = gapuraParent;
+
+  const rpTrim2 = MeshBuilder.CreateBox(`rpTrim2-${roomId}`, { width: 0.72, height: 0.1, depth: 0.72 }, scene);
+  rpTrim2.position = new Vector3((doorW / 2 + 0.45), 4.35, 0);
+  rpTrim2.material = goldMat;
+  rpTrim2.parent = gapuraParent;
+
+  // Top Arch / Lintel (Spans over the doorway)
+  const lintelMain = MeshBuilder.CreateBox(`lintelMain-${roomId}`, { width: doorW + 0.9, height: 0.4, depth: 0.7 }, scene);
+  lintelMain.position = new Vector3(0, 5.0, 0);
+  lintelMain.material = woodMat;
+  lintelMain.parent = gapuraParent;
+
+  // Decorative Stepped Lintel Top
+  const lintelStep = MeshBuilder.CreateBox(`lintelStep-${roomId}`, { width: doorW - 0.4, height: 0.3, depth: 0.5 }, scene);
+  lintelStep.position = new Vector3(0, 5.35, 0);
+  lintelStep.material = woodMat;
+  lintelStep.parent = gapuraParent;
+
+  // Top Crown Ornament
+  const lintelCrown = MeshBuilder.CreateBox(`lintelCrown-${roomId}`, { width: 1.8, height: 0.35, depth: 0.4 }, scene);
+  lintelCrown.position = new Vector3(0, 5.675, 0);
+  lintelCrown.material = goldMat;
+  lintelCrown.parent = gapuraParent;
+
+  // Signboard backing (mahogany box)
+  const signBacking = MeshBuilder.CreateBox(`signBacking-${roomId}`, { width: 4.2, height: 1.0, depth: 0.15 }, scene);
+  signBacking.position = new Vector3(0, 4.3, 0);
+  signBacking.material = woodMat;
+  signBacking.parent = gapuraParent;
+
+  // Signboard gold frame
+  const signFrame = MeshBuilder.CreateBox(`signFrame-${roomId}`, { width: 4.3, height: 1.1, depth: 0.08 }, scene);
+  signFrame.position = new Vector3(0, 4.3, 0.01);
+  signFrame.material = goldMat;
+  signFrame.parent = gapuraParent;
+
+  // Dynamic Texture Plaque for the Hall Name (Front Plane)
+  const plaqueTex = new DynamicTexture(`plaqueTex-${roomId}`, { width: 1024, height: 256 }, scene, false);
+  const pctx = plaqueTex.getContext() as CanvasRenderingContext2D;
+  pctx.fillStyle = "#16110b"; // dark wooden background
+  pctx.fillRect(0, 0, 1024, 256);
+
+  // Plaque outer gold line
+  pctx.strokeStyle = "#c9a14a";
+  pctx.lineWidth = 10;
+  pctx.strokeRect(15, 15, 994, 226);
+
+  // Hall Name
+  pctx.fillStyle = accentColor;
+  pctx.font = "bold 60px Georgia, serif";
+  pctx.textAlign = "center";
+  pctx.textBaseline = "middle";
+  pctx.fillText(lang === "id" ? nameId.toUpperCase() : nameEn.toUpperCase(), 512, 100);
+
+  // Subtitle
+  pctx.font = "italic 32px Georgia, serif";
+  pctx.fillStyle = "#c9a14a";
+  pctx.fillText(lang === "id" ? "SILAKAN MASUK" : "ENTER HALL", 512, 175);
+
+  plaqueTex.update();
+
+  const plaqueMat = new StandardMaterial(`plaqueMat-${roomId}`, scene);
+  plaqueMat.diffuseTexture = plaqueTex;
+  plaqueMat.emissiveTexture = plaqueTex;
+  plaqueMat.emissiveColor = new Color3(0.7, 0.6, 0.4);
+  plaqueMat.specularColor = new Color3(0, 0, 0);
+
+  // Signboard face plane (facing South, which means rotation.y = 0)
+  const signFace = MeshBuilder.CreatePlane(`signFace-${roomId}`, { width: 4.15, height: 0.95 }, scene);
+  signFace.position = new Vector3(0, 4.3, -0.08); // slightly in front of the backing
+  signFace.material = plaqueMat;
+  signFace.parent = gapuraParent;
+
+  // Decorative gold hanger rods holding the signboard
+  const rodL = MeshBuilder.CreateCylinder(`rodL-${roomId}`, { height: 0.4, diameter: 0.06 }, scene);
+  rodL.position = new Vector3(-1.8, 4.9, -0.05);
+  rodL.material = goldMat;
+  rodL.parent = gapuraParent;
+
+  const rodR = MeshBuilder.CreateCylinder(`rodR-${roomId}`, { height: 0.4, diameter: 0.06 }, scene);
+  rodR.position = new Vector3(1.8, 4.9, -0.05);
+  rodR.material = goldMat;
+  rodR.parent = gapuraParent;
+}
+
 // Generic Base Hall setup - Completely overhauled for grand royal aesthetic
 export function buildBaseHall(
   scene: Scene,
@@ -514,31 +669,20 @@ export function buildBaseHall(
     beam.material = beamMat;
   }
 
-  // Entrance Name Plaque
-  const plaqueTex = new DynamicTexture(`plaqueTex-${room.id}`, { width: 1024, height: 256 }, scene, false);
-  const pctx = plaqueTex.getContext() as CanvasRenderingContext2D;
-  pctx.fillStyle = "#1a140e";
-  pctx.fillRect(0, 0, 1024, 256);
-  pctx.fillStyle = room.accent;
-  pctx.font = "bold 70px Georgia, serif";
-  pctx.textAlign = "center";
-  pctx.textBaseline = "middle";
-  pctx.fillText(lang === "id" ? room.nameId : room.nameEn, 512, 110);
-  pctx.font = "italic 36px Georgia, serif";
-  pctx.fillStyle = "#c9a14a";
-  pctx.fillText(`Hall ${idx + 1}`, 512, 190);
-  plaqueTex.update();
-
-  const plaqueMat = new StandardMaterial(`plaqueMat-${room.id}`, scene);
-  plaqueMat.diffuseTexture = plaqueTex;
-  plaqueMat.emissiveTexture = plaqueTex;
-  plaqueMat.emissiveColor = new Color3(0.6, 0.5, 0.3);
-  plaqueMat.specularColor = new Color3(0, 0, 0);
-
-  const plaque = MeshBuilder.CreatePlane(`plaque-${room.id}`, { width: 5, height: 1.25 }, scene);
-  plaque.position = new Vector3(center.x, WALL_HEIGHT - 0.8, center.z - ROOM_DEPTH / 2 + 0.21);
-  plaque.rotation.y = Math.PI;
-  plaque.material = plaqueMat;
+  // Ornate 3D Gapura (Archway) at the entrance doorway
+  if (doorways.includes("south")) {
+    createGapuraEntrance(
+      scene,
+      room.id,
+      center,
+      room.nameId,
+      room.nameEn,
+      room.accent,
+      woodMat,
+      goldMat,
+      lang
+    );
+  }
 
   // Ambient lights in corners
   const p1 = new PointLight(`p1-${room.id}`, new Vector3(center.x - ROOM_WIDTH / 2 + 1.5, WALL_HEIGHT - 1.5, center.z - 3), scene);
