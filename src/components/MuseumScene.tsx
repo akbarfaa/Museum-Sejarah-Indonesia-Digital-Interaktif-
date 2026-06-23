@@ -18,7 +18,6 @@ import {
   DynamicTexture,
 } from "@babylonjs/core";
 import {
-  artifacts,
   rooms,
   timeline,
   type Artifact,
@@ -46,6 +45,7 @@ import { buildModernHall } from "./museum/scene/ModernHall";
 import { buildHeritageHall } from "./museum/scene/HeritageHall";
 
 interface Props {
+  artifacts: Artifact[];
   onArtifactClick: (a: Artifact) => void;
   onMomentClick: (m: TimelineMoment) => void;
   onEnterRoom: (id: RoomId) => void;
@@ -58,6 +58,7 @@ interface Props {
 }
 
 export function MuseumScene({
+  artifacts,
   onArtifactClick,
   onMomentClick,
   onEnterRoom,

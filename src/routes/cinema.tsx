@@ -4,9 +4,14 @@ import { motion, AnimatePresence } from "framer-motion";
 import { HiOutlinePlay, HiOutlineStop, HiOutlineFilm } from "react-icons/hi2";
 import { Navbar } from "@/components/Navbar";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { cinemaEras } from "@/data/cinema";
+import { fetchCinema } from "@/lib/api-client";
 
 export const Route = createFileRoute("/cinema")({
+  loader: async () => {
+    return {
+      cinemaEras: await fetchCinema(),
+    };
+  },
   head: () => ({
     meta: [
       { title: "Museum Cinema — MuseumVerse Indonesia" },
@@ -26,13 +31,14 @@ export const Route = createFileRoute("/cinema")({
 });
 
 function CinemaPage() {
+  const { cinemaEras } = Route.useLoaderData();
   const { lang } = useLanguage();
-  const [activeId, setActiveId] = useState(cinemaEras[0].id);
+  const [activeId, setActiveId] = useState(cinemaEras[0]?.id || "");
   const [speaking, setSpeaking] = useState(false);
 
   const active = useMemo(
     () => cinemaEras.find((e) => e.id === activeId) ?? cinemaEras[0],
-    [activeId],
+    [activeId, cinemaEras],
   );
 
   // Stop narration when leaving page or switching era.

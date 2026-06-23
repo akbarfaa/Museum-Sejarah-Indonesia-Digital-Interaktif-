@@ -8,13 +8,13 @@ import { CinemaTheater } from "@/components/CinemaTheater";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useProgress } from "@/contexts/ProgressContext";
 import {
-  artifacts,
   rooms,
   type Artifact,
   type RoomId,
   type TimelineMoment,
 } from "@/data/artifacts";
 import { MomentModal } from "@/components/MomentModal";
+import { fetchArtifacts, fetchCinema } from "@/lib/api-client";
 
 // Modular Sub-components
 import { ProgressHUD } from "@/components/museum/ProgressHUD";
@@ -31,6 +31,12 @@ const MuseumScene = lazy(() =>
 );
 
 export const Route = createFileRoute("/museum")({
+  loader: async () => {
+    return {
+      artifacts: await fetchArtifacts(),
+      cinemaEras: await fetchCinema(),
+    };
+  },
   head: () => ({
     meta: [
       { title: "Virtual Museum — MuseumVerse Indonesia" },
@@ -45,6 +51,7 @@ export const Route = createFileRoute("/museum")({
 });
 
 function Museum() {
+  const { artifacts, cinemaEras } = Route.useLoaderData();
   const { t, lang } = useLanguage();
   const {
     visitRoom,
@@ -169,6 +176,7 @@ function Museum() {
         currentRoom={currentRoom}
         playerPos={playerPos}
         lang={lang}
+        artifacts={artifacts}
       />
 
       {/* Persistent Minimap Widget (bottom-right) */}
@@ -225,11 +233,13 @@ function Museum() {
         totalCompletion={totalCompletion}
         roomsList={rooms.filter((r) => r.id !== "studio")}
         roomMap={roomMap}
+        artifacts={artifacts}
       />
 
       <Suspense fallback={<LoadingScreen label={t.museum.loading} progress={60} />}>
         {mounted && (
           <MuseumScene
+            artifacts={artifacts}
             lang={lang}
             onArtifactClick={handleArtifactClick}
             onMomentClick={setActiveMoment}
@@ -248,7 +258,7 @@ function Museum() {
 
       <ArtifactModal artifact={active} onClose={() => setActive(null)} />
       <MomentModal moment={activeMoment} onClose={() => setActiveMoment(null)} />
-      <CinemaTheater open={cinemaOpen} onClose={() => setCinemaOpen(false)} />
+      <CinemaTheater open={cinemaOpen} onClose={() => setCinemaOpen(false)} cinemaEras={cinemaEras} />
 
       <TicketModal
         open={ticketModalOpen}

@@ -2,17 +2,18 @@ import { useEffect, useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { HiOutlinePlay, HiOutlineStop, HiOutlineFilm, HiXMark } from "react-icons/hi2";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { cinemaEras } from "@/data/cinema";
+import type { CinemaEra } from "@/data/cinema";
 
 interface Props {
   open: boolean;
   onClose: () => void;
+  cinemaEras: CinemaEra[];
 }
 
-export function CinemaTheater({ open, onClose }: Props) {
+export function CinemaTheater({ open, onClose, cinemaEras }: Props) {
   const { lang } = useLanguage();
   const [activeCategory, setActiveCategory] = useState<string>("general");
-  const [activeId, setActiveId] = useState(cinemaEras[0].id);
+  const [activeId, setActiveId] = useState(cinemaEras[0]?.id || "");
   const [speaking, setSpeaking] = useState(false);
 
   const categories = [
@@ -29,7 +30,7 @@ export function CinemaTheater({ open, onClose }: Props) {
 
   const active = useMemo(
     () => cinemaEras.find((e) => e.id === activeId) ?? cinemaEras[0],
-    [activeId],
+    [activeId, cinemaEras],
   );
 
   // Auto-select the first film in the selected category

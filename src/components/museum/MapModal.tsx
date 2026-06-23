@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { HiCheckCircle, HiLockClosed, HiXMark } from "react-icons/hi2";
-import type { RoomId } from "@/data/artifacts";
+import type { RoomId, Artifact } from "@/data/artifacts";
 import { getSectionsByHall } from "@/data/sections";
-import { artifacts } from "@/data/artifacts";
 
 interface MapModalProps {
   open: boolean;
@@ -17,6 +16,7 @@ interface MapModalProps {
   totalCompletion: number;
   roomsList: Array<{ id: RoomId; nameEn: string; nameId: string; accent: string; descEn: string; descId: string }>;
   roomMap: Map<string, { id: RoomId; nameEn: string; nameId: string; accent: string; descEn: string; descId: string }>;
+  artifacts: Artifact[];
 }
 
 export function MapModal({
@@ -31,6 +31,7 @@ export function MapModal({
   totalCompletion,
   roomsList,
   roomMap,
+  artifacts,
 }: MapModalProps) {
   const [selectedRoomId, setSelectedRoomId] = useState<RoomId>("ancient");
 

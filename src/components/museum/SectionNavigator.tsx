@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { HiCheckCircle, HiChevronDown, HiChevronUp, HiMapPin } from "react-icons/hi2";
-import type { RoomId } from "@/data/artifacts";
+import type { RoomId, Artifact } from "@/data/artifacts";
 import { getSectionsByHall } from "@/data/sections";
-import { artifacts } from "@/data/artifacts";
 import { useProgress } from "@/contexts/ProgressContext";
 
 interface SectionNavigatorProps {
   currentRoom: RoomId | "lobby" | null;
   playerPos: { x: number; z: number };
   lang: "en" | "id";
+  artifacts: Artifact[];
 }
 
 const ROOM_CENTERS_Z: Record<string, number> = {
@@ -21,7 +21,7 @@ const ROOM_CENTERS_Z: Record<string, number> = {
   heritage: 160,
 };
 
-export function SectionNavigator({ currentRoom, playerPos, lang }: SectionNavigatorProps) {
+export function SectionNavigator({ currentRoom, playerPos, lang, artifacts }: SectionNavigatorProps) {
   const { inspectedArtifacts } = useProgress();
   const [expandedSectionId, setExpandedSectionId] = useState<string | null>(null);
 
