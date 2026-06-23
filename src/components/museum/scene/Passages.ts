@@ -120,22 +120,22 @@ export function buildPassages(
   };
 
   // 1. Lobby to Ancient (Z: -10 to -3)
-  buildPassageZ(-10, -3, 0, 5.5);
+  buildPassageZ(-10, -3, 0, doorW);
   // 2. Ancient to Kingdom (Z: 23 to 27)
-  buildPassageZ(23, 27, 0, 5.5);
+  buildPassageZ(23, 27, 0, doorW);
   // 3. Kingdom to Colonial (Z: 53 to 57)
-  buildPassageZ(53, 57, 0, 5.5);
+  buildPassageZ(53, 57, 0, doorW);
   // 4. Colonial to National (Z: 83 to 87)
-  buildPassageZ(83, 87, 0, 5.5);
+  buildPassageZ(83, 87, 0, doorW);
   // 5. National to Modern (Z: 113 to 117)
-  buildPassageZ(113, 117, 0, 5.5);
+  buildPassageZ(113, 117, 0, doorW);
   // 6. Modern to Heritage (Z: 143 to 147)
-  buildPassageZ(143, 147, 0, 5.5);
+  buildPassageZ(143, 147, 0, doorW);
 
   // 7. Heritage to Cinema Passage (Z: 173 to 179)
   const corrLen = 6;
   const corrZCenter = 176;
-  const corrWidthX = 5.5;
+  const corrWidthX = doorW;
 
   const corrFloor = MeshBuilder.CreateGround("corrStudioFloor", { width: corrWidthX, height: corrLen }, scene);
   corrFloor.position = new Vector3(0, 0, corrZCenter);

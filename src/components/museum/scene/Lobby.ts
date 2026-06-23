@@ -9,7 +9,7 @@ import {
   Material,
   Mesh,
 } from "@babylonjs/core";
-import { WALL_HEIGHT } from "./SceneUtils";
+import { WALL_HEIGHT, doorW } from "./SceneUtils";
 
 export function buildLobby(
   scene: Scene,
@@ -34,7 +34,7 @@ export function buildLobby(
   const ceilingMat = materials.ceilingMat;
 
   // 1. Lobby Floor
-  const lobbyFloor = MeshBuilder.CreateGround("lobbyFloor", { width: 5.5, height: 20 }, scene);
+  const lobbyFloor = MeshBuilder.CreateGround("lobbyFloor", { width: doorW, height: 20 }, scene);
   lobbyFloor.position = new Vector3(0, 0, -20);
   lobbyFloor.material = floorMat;
   lobbyFloor.checkCollisions = true;
@@ -48,7 +48,7 @@ export function buildLobby(
   lobbyCarpet.material = carpetMat;
 
   // 3. Lobby Ceiling
-  const lobbyCeil = MeshBuilder.CreateGround("lobbyCeil", { width: 5.5, height: 20 }, scene);
+  const lobbyCeil = MeshBuilder.CreateGround("lobbyCeil", { width: doorW, height: 20 }, scene);
   lobbyCeil.position = new Vector3(0, WALL_HEIGHT, -20);
   lobbyCeil.rotation.x = Math.PI;
   lobbyCeil.material = ceilingMat;
@@ -89,9 +89,9 @@ export function buildLobby(
   };
 
   // 4. Lobby Walls (Left & Right Decorated)
-  buildLobbyDecoratedWall("lobbyLeftWall", 20, WALL_HEIGHT, 0.4, new Vector3(-2.75, 0, -20), Math.PI / 2);
-  buildLobbyDecoratedWall("lobbyRightWall", 20, WALL_HEIGHT, 0.4, new Vector3(2.75, 0, -20), -Math.PI / 2);
-  buildLobbyDecoratedWall("lobbyBackWall", 5.5, WALL_HEIGHT, 0.4, new Vector3(0, 0, -30), 0);
+  buildLobbyDecoratedWall("lobbyLeftWall", 20, WALL_HEIGHT, 0.4, new Vector3(-doorW / 2, 0, -20), Math.PI / 2);
+  buildLobbyDecoratedWall("lobbyRightWall", 20, WALL_HEIGHT, 0.4, new Vector3(doorW / 2, 0, -20), -Math.PI / 2);
+  buildLobbyDecoratedWall("lobbyBackWall", doorW, WALL_HEIGHT, 0.4, new Vector3(0, 0, -30), 0);
 
   // 5. Lobby Title Plaque (Ornate wood panel with gold trim)
   const lobbyTex = new DynamicTexture("lobbyTex", { width: 1024, height: 384 }, scene, false);

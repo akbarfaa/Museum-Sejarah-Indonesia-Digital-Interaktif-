@@ -23,7 +23,7 @@ import {
 export const ROOM_WIDTH = 36;
 export const ROOM_DEPTH = 26;
 export const WALL_HEIGHT = 7;
-export const doorW = 5.5;
+export const doorW = 7.5;
 export const doorHeaderH = 2.0;
 
 // Layout centers along Z-axis
@@ -637,53 +637,61 @@ function createGapuraEntrance(
   // SIGNBOARD with HALL NAME (centered on the lintel)
   // =====================================================
 
+  // Wider signboard to accommodate long hall names
+  const signW = 6.4;
+
   // Signboard backing
-  const signBacking = MeshBuilder.CreateBox(`signBacking-${roomId}`, { width: 4.6, height: 1.1, depth: 0.18 }, scene);
+  const signBacking = MeshBuilder.CreateBox(`signBacking-${roomId}`, { width: signW, height: 1.2, depth: 0.18 }, scene);
   signBacking.position = new Vector3(0, 5.25, -0.72);
   signBacking.material = woodMat;
   signBacking.parent = g;
 
   // Signboard gold frame
-  const signFrame = MeshBuilder.CreateBox(`signFrame-${roomId}`, { width: 4.75, height: 1.25, depth: 0.1 }, scene);
+  const signFrame = MeshBuilder.CreateBox(`signFrame-${roomId}`, { width: signW + 0.2, height: 1.35, depth: 0.1 }, scene);
   signFrame.position = new Vector3(0, 5.25, -0.73);
   signFrame.material = goldMat;
   signFrame.parent = g;
 
-  // Dynamic Texture for Hall Name
-  const plaqueTex = new DynamicTexture(`plaqueTex-${roomId}`, { width: 1024, height: 256 }, scene, false);
+  // Dynamic Texture for Hall Name (wider canvas for longer text)
+  const texW = 1536;
+  const texH = 384;
+  const plaqueTex = new DynamicTexture(`plaqueTex-${roomId}`, { width: texW, height: texH }, scene, false);
   const pctx = plaqueTex.getContext() as CanvasRenderingContext2D;
 
   // Background
   pctx.fillStyle = "#16110b";
-  pctx.fillRect(0, 0, 1024, 256);
+  pctx.fillRect(0, 0, texW, texH);
 
   // Ornate double gold border
   pctx.strokeStyle = "#c9a14a";
   pctx.lineWidth = 10;
-  pctx.strokeRect(12, 12, 1000, 232);
+  pctx.strokeRect(12, 12, texW - 24, texH - 24);
   pctx.strokeStyle = "#8b6914";
   pctx.lineWidth = 4;
-  pctx.strokeRect(26, 26, 972, 204);
+  pctx.strokeRect(28, 28, texW - 56, texH - 56);
 
-  // Corner ornaments (drawn as text decorations)
+  // Corner ornaments
   pctx.fillStyle = "#c9a14a";
-  pctx.font = "28px Georgia, serif";
+  pctx.font = "32px Georgia, serif";
   pctx.textAlign = "center";
   pctx.textBaseline = "middle";
-  pctx.fillText("✦", 50, 45);
-  pctx.fillText("✦", 974, 45);
-  pctx.fillText("✦", 50, 211);
-  pctx.fillText("✦", 974, 211);
+  pctx.fillText("✦", 55, 55);
+  pctx.fillText("✦", texW - 55, 55);
+  pctx.fillText("✦", 55, texH - 55);
+  pctx.fillText("✦", texW - 55, texH - 55);
 
-  // Hall Name (main title)
+  // Hall Name (main title) — adaptive font size for long names
+  const hallTitle = lang === "id" ? nameId.toUpperCase() : nameEn.toUpperCase();
+  const titleLen = hallTitle.length;
+  const titleFontSize = titleLen > 28 ? 62 : titleLen > 22 ? 72 : 82;
   pctx.fillStyle = accentColor;
-  pctx.font = "bold 62px Georgia, serif";
-  pctx.fillText(lang === "id" ? nameId.toUpperCase() : nameEn.toUpperCase(), 512, 100);
+  pctx.font = `bold ${titleFontSize}px Georgia, serif`;
+  pctx.fillText(hallTitle, texW / 2, texH * 0.38);
 
   // Subtitle
-  pctx.font = "italic 34px Georgia, serif";
+  pctx.font = "italic 38px Georgia, serif";
   pctx.fillStyle = "#c9a14a";
-  pctx.fillText(lang === "id" ? "⸻  SILAKAN MASUK  ⸻" : "⸻  ENTER HALL  ⸻", 512, 178);
+  pctx.fillText(lang === "id" ? "⸻  SILAKAN MASUK  ⸻" : "⸻  ENTER HALL  ⸻", texW / 2, texH * 0.68);
 
   plaqueTex.update();
 
@@ -694,7 +702,7 @@ function createGapuraEntrance(
   plaqueMat.specularColor = new Color3(0, 0, 0);
 
   // Signboard face plane
-  const signFace = MeshBuilder.CreatePlane(`signFace-${roomId}`, { width: 4.5, height: 1.05 }, scene);
+  const signFace = MeshBuilder.CreatePlane(`signFace-${roomId}`, { width: signW - 0.15, height: 1.1 }, scene);
   signFace.position = new Vector3(0, 5.25, -0.83);
   signFace.material = plaqueMat;
   signFace.parent = g;
