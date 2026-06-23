@@ -1,8 +1,38 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import { HiXMark, HiSpeakerWave, HiStop } from "react-icons/hi2";
+import { HiXMark, HiSpeakerWave, HiStop, HiArrowTopRightOnSquare } from "react-icons/hi2";
 import type { Artifact } from "@/data/artifacts";
 import { useLanguage } from "@/contexts/LanguageContext";
+
+const wikiSlugs: Record<string, { en: string; id: string }> = {
+  "homo-erectus": { en: "Java_Man", id: "Manusia_Jawa" },
+  "stone-axe": { en: "Hand_axe", id: "Kapak_genggam" },
+  "megalith": { en: "Menhir", id: "Menhir" },
+  "sangiran-site": { en: "Sangiran", id: "Sangiran" },
+  "nias-megalith": { en: "Nias_people", id: "Lompat_batu_Nias" },
+  "keris": { en: "Kris", id: "Keris" },
+  "ganesha": { en: "Ganesha", id: "Ganesa" },
+  "inscription": { en: "Kedukan_Bukit_inscription", id: "Prasasti_Kedukan_Bukit" },
+  "crown": { en: "Mataram_Sultanate", id: "Kesultanan_Mataram" },
+  "borobudur": { en: "Borobudur", id: "Borobudur" },
+  "prambanan": { en: "Prambanan", id: "Candi_Prambanan" },
+  "voc-map": { en: "Dutch_East_India_Company", id: "Vereenigde_Oostindische_Compagnie" },
+  "diponegoro-kris": { en: "Diponegoro", id: "Diponegoro" },
+  "old-photo": { en: "Batavia,_Dutch_East_Indies", id: "Batavia" },
+  "hasanuddin-helmet": { en: "Hasanuddin_of_Gowa", id: "Sultan_Hasanuddin" },
+  "banda-spices": { en: "Banda_Islands", id: "Kepulauan_Banda" },
+  "proklamasi": { en: "Proclamation_of_Indonesian_Independence", id: "Proklamasi_Kemerdekaan_Indonesia" },
+  "merah-putih": { en: "Flag_of_Indonesia", id: "Bendera_Indonesia" },
+  "soekarno-speech": { en: "Sukarno", id: "Soekarno" },
+  "surabaya-spear": { en: "Battle_of_Surabaya", id: "Pertempuran_Surabaya" },
+  "bung-tomo-radio": { en: "Sutomo", id: "Sutomo" },
+  "monas": { en: "National_Monument_(Indonesia)", id: "Monumen_Nasional" },
+  "batik": { en: "Batik", id: "Batik" },
+  "satellite": { en: "Palapa", id: "Satelit_Palapa" },
+  "angklung": { en: "Angklung", id: "Angklung" },
+  "wayang": { en: "Wayang", id: "Wayang" },
+  "garuda": { en: "National_emblem_of_Indonesia", id: "Lambang_Negara_Indonesia" }
+};
 
 export function ArtifactModal({
   artifact,
@@ -14,6 +44,13 @@ export function ArtifactModal({
   const { t, lang } = useLanguage();
   const [speaking, setSpeaking] = useState(false);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+
+  const slugData = artifact ? wikiSlugs[artifact.id] : null;
+  const wikiUrl = slugData
+    ? lang === "id"
+      ? `https://id.wikipedia.org/wiki/${slugData.id}`
+      : `https://en.wikipedia.org/wiki/${slugData.en}`
+    : null;
 
   useEffect(() => {
     return () => {
@@ -135,6 +172,17 @@ export function ArtifactModal({
                     >
                       <HiStop /> {t.museum.stop}
                     </button>
+                  )}
+                  {wikiUrl && (
+                    <a
+                      href={wikiUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gold-soft/40 hover:border-gold-soft text-foreground/80 hover:text-foreground text-sm hover:bg-primary/10 transition-colors"
+                    >
+                      <HiArrowTopRightOnSquare className="text-xs text-primary" />
+                      {lang === "id" ? "Sejarah Lengkap" : "Full History"}
+                    </a>
                   )}
                 </div>
               </div>
