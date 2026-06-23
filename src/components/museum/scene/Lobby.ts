@@ -40,7 +40,7 @@ export function buildLobby(
   lobbyFloor.checkCollisions = true;
 
   // 2. Royal Red Carpet along the center of the lobby
-  const lobbyCarpet = MeshBuilder.CreateGround("lobbyCarpet", { width: 3.5, height: 20 }, scene);
+  const lobbyCarpet = MeshBuilder.CreateGround("lobbyCarpet", { width: 5.5, height: 20 }, scene);
   lobbyCarpet.position = new Vector3(0, 0.012, -20);
   const carpetMat = new StandardMaterial("lobbyCarpetMat", scene);
   carpetMat.diffuseColor = new Color3(0.48, 0.08, 0.12);

@@ -84,7 +84,7 @@ export function buildPassages(
     floor.checkCollisions = true;
 
     // Royal carpet in the middle of passage
-    const pCarpet = MeshBuilder.CreateGround(`pCarpetZ-${zCenter}`, { width: 3.5, height: len }, scene);
+    const pCarpet = MeshBuilder.CreateGround(`pCarpetZ-${zCenter}`, { width: 5.5, height: len }, scene);
     pCarpet.position = new Vector3(xCenter, 0.012, zCenter);
     const pCarpetMat = new StandardMaterial(`pCarpetMat-${zCenter}`, scene);
     pCarpetMat.diffuseColor = new Color3(0.48, 0.08, 0.12);
@@ -142,7 +142,7 @@ export function buildPassages(
   corrFloor.material = floorMat;
   corrFloor.checkCollisions = true;
 
-  const corrCarpet = MeshBuilder.CreateGround("corrStudioCarpet", { width: 3.5, height: corrLen }, scene);
+  const corrCarpet = MeshBuilder.CreateGround("corrStudioCarpet", { width: 5.5, height: corrLen }, scene);
   corrCarpet.position = new Vector3(0, 0.012, corrZCenter);
   const corrCarpetMat = new StandardMaterial("corrStudioCarpetMat", scene);
   corrCarpetMat.diffuseColor = new Color3(0.48, 0.08, 0.12);

@@ -784,7 +784,7 @@ export function buildBaseHall(
   ceiling.material = ceilingMat;
 
   // Royal Red Carpet along the center walkway
-  const carpet = MeshBuilder.CreateGround(`carpet-${room.id}`, { width: 4.5, height: ROOM_DEPTH }, scene);
+  const carpet = MeshBuilder.CreateGround(`carpet-${room.id}`, { width: 5.5, height: ROOM_DEPTH }, scene);
   carpet.position = new Vector3(center.x, 0.015, center.z);
   const carpetMat = new StandardMaterial(`carpetMat-${room.id}`, scene);
   carpetMat.diffuseColor = new Color3(0.48, 0.08, 0.12); // Velvet Crimson red
