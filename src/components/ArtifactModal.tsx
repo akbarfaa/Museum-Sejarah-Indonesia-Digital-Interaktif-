@@ -78,17 +78,31 @@ export function ArtifactModal({
               <div
                 className="relative h-64 md:h-full min-h-[300px] flex items-center justify-center overflow-hidden"
                 style={{
-                  background: `radial-gradient(ellipse at center, ${artifact.color}80, oklch(0.1 0.01 60) 70%)`,
+                  background: `radial-gradient(ellipse at center, ${artifact.color}40, oklch(0.1 0.01 60) 70%)`,
                 }}
               >
                 <motion.div
-                  className="w-40 h-40 rounded-full"
+                  className="absolute w-48 h-48 rounded-full blur-xl opacity-60"
                   style={{
                     background: `radial-gradient(circle, ${artifact.color}, transparent 70%)`,
                   }}
-                  animate={{ scale: [1, 1.1, 1], opacity: [0.6, 1, 0.6] }}
-                  transition={{ duration: 4, repeat: Infinity }}
+                  animate={{ scale: [1, 1.15, 1], opacity: [0.4, 0.7, 0.4] }}
+                  transition={{ duration: 5, repeat: Infinity }}
                 />
+                
+                {/* Artifact Exhibit Image */}
+                <motion.img
+                  src={`/assets/artifacts/${artifact.id}.png`}
+                  alt={artifact.name[lang]}
+                  className="relative z-10 max-w-[80%] max-h-[80%] object-contain drop-shadow-[0_12px_24px_rgba(0,0,0,0.6)]"
+                  initial={{ scale: 0.9, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ delay: 0.1, duration: 0.3 }}
+                  onError={(e) => {
+                    (e.target as HTMLElement).style.display = "none";
+                  }}
+                />
+
                 <div className="absolute inset-0 animate-shimmer pointer-events-none" />
                 <div className="absolute bottom-4 left-4 text-xs uppercase tracking-[0.3em] text-primary">
                   {artifact.era[lang]}
