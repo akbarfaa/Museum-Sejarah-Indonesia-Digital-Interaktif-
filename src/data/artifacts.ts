@@ -1,7 +1,4 @@
-export type RoomId = "ancient" | "kingdom" | "colonial" | "national" | "modern" | "heritage" | "cinema" | "studio";
-
-/** @deprecated Use "modern" instead — independence content is merged into the modern hall */
-export type LegacyRoomId = RoomId | "independence";
+export type RoomId = "ancient" | "kingdom" | "colonial" | "independence" | "modern" | "cinema" | "studio";
 
 export interface TimelineMoment {
   year: string;
@@ -15,7 +12,6 @@ export interface TimelineMoment {
 export interface Artifact {
   id: string;
   room: RoomId;
-  section: string;
   name: { en: string; id: string };
   era: { en: string; id: string };
   origin: { en: string; id: string };
@@ -42,19 +38,17 @@ export const rooms: {
     nameId: "Ruang Indonesia Kuno",
     accent: "#a87a3d",
     ambient: "0.05 0.04 0.06",
-    descEn: "Explore 1.5 million years of prehistory — from the earliest Homo erectus fossils at Sangiran, through Neolithic tools and megalithic monuments, to the great Austronesian migration that populated the archipelago.",
-    descId: "Jelajahi 1,5 juta tahun prasejarah — dari fosil Homo erectus tertua di Sangiran, peralatan Neolitik dan monumen megalitik, hingga migrasi besar Austronesia yang mendiami kepulauan Nusantara.",
+    descEn: "Explore the prehistoric origins of early humans and ancient tools in the Indonesian archipelago.",
+    descId: "Jelajahi asal-usul prasejarah manusia purba dan peralatan kuno di kepulauan Indonesia.",
     objectivesEn: [
-      "Examine fossils of Java Man, Homo floresiensis 'Hobbit', and Homo wajakensis",
-      "Inspect Paleolithic, Neolithic, and Bronze Age tools and cave paintings",
-      "Discover megalithic sites including the mysterious Gunung Padang",
-      "Trace the Austronesian migration routes across the Pacific"
+      "Examine the Sangiran early human Java Man skull fossil",
+      "Inspect the Pacitan Neolithic stone hand axe tool",
+      "Discover the Megalithic Menhir standing stone from Sulawesi"
     ],
     objectivesId: [
-      "Periksa fosil Manusia Jawa, Homo floresiensis 'Hobbit', dan Homo wajakensis",
-      "Lihat peralatan Paleolitik, Neolitik, dan Zaman Perunggu beserta lukisan gua",
-      "Temukan situs megalitik termasuk Gunung Padang yang misterius",
-      "Telusuri rute migrasi Austronesia melintasi Pasifik"
+      "Periksa fosil tengkorak manusia purba Sangiran (Manusia Jawa)",
+      "Lihat alat kapak genggam batu Neolitik Pacitan",
+      "Temukan batu berdiri Menhir Megalitik dari Sulawesi"
     ]
   },
   {
@@ -63,19 +57,19 @@ export const rooms: {
     nameId: "Ruang Era Kerajaan",
     accent: "#c9a14a",
     ambient: "0.07 0.05 0.04",
-    descEn: "Witness 1,200 years of kingdoms — from the earliest Hindu polities of Kutai and Tarumanagara, through the Buddhist maritime empire of Sriwijaya, the magnificent temples of Borobudur and Prambanan, the golden age of Majapahit, to the rise of Islamic sultanates across the archipelago.",
-    descId: "Saksikan 1.200 tahun kerajaan — dari kerajaan Hindu pertama Kutai dan Tarumanagara, kekaisaran maritim Buddha Sriwijaya, candi-candi megah Borobudur dan Prambanan, masa keemasan Majapahit, hingga kebangkitan kesultanan Islam di seluruh Nusantara.",
+    descEn: "Witness the golden age of Hindu-Buddhist maritime empires and Islamic sultanates across Nusantara.",
+    descId: "Saksikan masa keemasan kerajaan maritim Hindu-Buddha dan Kesultanan Islam di Nusantara.",
     objectivesEn: [
-      "Explore inscriptions from Kutai, Tarumanagara, and Sriwijaya",
-      "Marvel at Borobudur, Prambanan, and other classical temples",
-      "Learn about Majapahit's golden age and Gajah Mada's Sumpah Palapa",
-      "Discover 15+ Islamic sultanates from Samudera Pasai to Ternate"
+      "Examine the sacred wavy-bladed Majapahit Royal Keris",
+      "Read the stone Kedukan Bukit Inscription of Srivijaya",
+      "Inspect the volcanic stone Ganesha Temple Statue",
+      "View the gold gilded ceremonial Mataram Royal Crown"
     ],
     objectivesId: [
-      "Jelajahi prasasti dari Kutai, Tarumanagara, dan Sriwijaya",
-      "Kagumi Borobudur, Prambanan, dan candi-candi klasik lainnya",
-      "Pelajari masa keemasan Majapahit dan Sumpah Palapa Gajah Mada",
-      "Temukan 15+ kesultanan Islam dari Samudera Pasai hingga Ternate"
+      "Periksa keris pusaka berlekuk peninggalan Majapahit",
+      "Baca batu bersejarah Prasasti Kedukan Bukit dari Sriwijaya",
+      "Lihat Arca Candi Ganesha dari batu vulkanik",
+      "Saksikan Mahkota Emas seremonial Kerajaan Mataram"
     ]
   },
   {
@@ -84,40 +78,36 @@ export const rooms: {
     nameId: "Ruang Sejarah Kolonial",
     accent: "#7a8a9c",
     ambient: "0.05 0.05 0.06",
-    descEn: "Understand four centuries of colonialism — from the Portuguese capture of Malacca in 1511, through the VOC monopoly, the brutal Cultivation System, heroic resistance wars across the archipelago, to the dark years of Japanese occupation.",
-    descId: "Pahami empat abad kolonialisme — dari penaklukan Malaka oleh Portugis tahun 1511, monopoli VOC, Sistem Tanam Paksa yang brutal, perang perlawanan heroik di seluruh Nusantara, hingga tahun-tahun kelam pendudukan Jepang.",
+    descEn: "Understand the period of spice trade, European exploration, and the rise of local resistances.",
+    descId: "Pahami masa perdagangan rempah, penjelajahan Eropa, dan bangkitnya perlawanan lokal.",
     objectivesEn: [
-      "Learn how the spice trade drew European powers to Indonesia",
-      "Examine the VOC system, Tanam Paksa, and Dutch colonial mechanisms",
-      "Honor 11+ resistance heroes from Diponegoro to Cut Nyak Dhien",
-      "Understand the Japanese occupation and its lasting impact"
+      "Examine the VOC Spice Trade Routes navigation map",
+      "Inspect Prince Diponegoro's legendary Java War keris",
+      "View historical albumen prints of the old harbor of Batavia"
     ],
     objectivesId: [
-      "Pelajari bagaimana perdagangan rempah menarik kekuatan Eropa ke Indonesia",
-      "Periksa sistem VOC, Tanam Paksa, dan mekanisme kolonial Belanda",
-      "Hormati 11+ pahlawan perlawanan dari Diponegoro hingga Cut Nyak Dhien",
-      "Pahami pendudukan Jepang dan dampaknya yang berlangsung lama"
+      "Periksa peta navigasi jalur perdagangan rempah-rempah VOC",
+      "Lihat keris pusaka perang legendaris Pangeran Diponegoro",
+      "Saksikan cetakan foto album kuno pelabuhan Batavia"
     ]
   },
   {
-    id: "national",
-    nameEn: "National Movement Hall",
-    nameId: "Ruang Pergerakan Nasional",
-    accent: "#d4a017",
-    ambient: "0.06 0.05 0.04",
-    descEn: "Follow the birth of modern Indonesian nationalism — from the founding of Budi Utomo in 1908, through the Youth Pledge of 1928, to the formation of BPUPKI and PPKI that prepared the foundation of an independent Indonesia.",
-    descId: "Ikuti lahirnya nasionalisme Indonesia modern — dari pendirian Budi Utomo tahun 1908, Sumpah Pemuda 1928, hingga pembentukan BPUPKI dan PPKI yang menyiapkan fondasi Indonesia merdeka.",
+    id: "independence",
+    nameEn: "Independence Hall",
+    nameId: "Ruang Kemerdekaan",
+    accent: "#c0392b",
+    ambient: "0.07 0.04 0.04",
+    descEn: "Relive the historic steps of the Indonesian struggle for sovereignty and national proclamation.",
+    descId: "Ikuti langkah bersejarah perjuangan bangsa Indonesia merebut kedaulatan dan proklamasi nasional.",
     objectivesEn: [
-      "Discover the pioneering organizations: Budi Utomo, Sarekat Islam, PNI",
-      "Relive the historic Youth Pledge of October 28, 1928",
-      "Learn about unsung heroes like Tan Malaka and Ki Hajar Dewantara",
-      "Understand BPUPKI, the birth of Pancasila, and PPKI"
+      "Read the typed text of the Proclamation of Independence",
+      "Examine the original Merah Putih flag sewn by Fatmawati",
+      "Read historic speech logs of President Soekarno"
     ],
     objectivesId: [
-      "Temukan organisasi perintis: Budi Utomo, Sarekat Islam, PNI",
-      "Hidupkan kembali Sumpah Pemuda bersejarah 28 Oktober 1928",
-      "Pelajari pahlawan tak dikenal seperti Tan Malaka dan Ki Hajar Dewantara",
-      "Pahami BPUPKI, lahirnya Pancasila, dan PPKI"
+      "Baca naskah ketikan teks Proklamasi Kemerdekaan RI",
+      "Saksikan bendera pusaka merah-putih jepitan Fatmawati",
+      "Baca kumpulan arsip pidato bersejarah Presiden Soekarno"
     ]
   },
   {
@@ -126,40 +116,17 @@ export const rooms: {
     nameId: "Ruang Indonesia Modern",
     accent: "#4aa3c9",
     ambient: "0.04 0.05 0.07",
-    descEn: "From the Proclamation of Independence in 1945 through revolution, nation-building, the Old Order, the New Order, Reformation, and into 21st-century democratic Indonesia — every major event that shaped the nation.",
-    descId: "Dari Proklamasi Kemerdekaan 1945 melalui revolusi, pembangunan bangsa, Orde Lama, Orde Baru, Reformasi, hingga Indonesia demokratis abad ke-21 — setiap peristiwa besar yang membentuk bangsa.",
+    descEn: "Celebrate contemporary cultural heritage, national symbols, and modern technological integration.",
+    descId: "Rayakan warisan budaya kontemporer, simbol negara, dan integrasi teknologi modern.",
     objectivesEn: [
-      "Relive the Proclamation and the revolutionary struggle (1945-1949)",
-      "Understand the Old Order, G30S, and the transition to the New Order",
-      "Examine the 32-year New Order era: development, control, and crisis",
-      "Follow the Reformation era from 1998 to the present day",
-      "Celebrate national symbols: Pancasila, Garuda, and Bhinneka Tunggal Ika"
+      "View the gold-crowned miniature National Monument (Monas)",
+      "Examine UNESCO-recognized wax-resist Batik cloth art",
+      "Inspect the Palapa Satellite model that unified the islands"
     ],
     objectivesId: [
-      "Hidupkan kembali Proklamasi dan perjuangan revolusi (1945-1949)",
-      "Pahami Orde Lama, G30S, dan transisi ke Orde Baru",
-      "Periksa era Orde Baru 32 tahun: pembangunan, kontrol, dan krisis",
-      "Ikuti era Reformasi dari 1998 hingga saat ini",
-      "Rayakan simbol negara: Pancasila, Garuda, dan Bhinneka Tunggal Ika"
-    ]
-  },
-  {
-    id: "heritage",
-    nameEn: "Cultural Heritage & Nature Hall",
-    nameId: "Ruang Warisan Budaya & Alam",
-    accent: "#2ecc71",
-    ambient: "0.04 0.06 0.05",
-    descEn: "Celebrate Indonesia's extraordinary cultural diversity and natural wonders — from UNESCO-recognized intangible heritage like Batik and Wayang, to World Heritage Sites like Komodo and Lorentz, to the living traditions of hundreds of ethnic groups.",
-    descId: "Rayakan keragaman budaya luar biasa dan keajaiban alam Indonesia — dari warisan takbenda UNESCO seperti Batik dan Wayang, Situs Warisan Dunia seperti Komodo dan Lorentz, hingga tradisi hidup ratusan kelompok etnis.",
-    objectivesEn: [
-      "Discover 9+ UNESCO Intangible Cultural Heritage items from Indonesia",
-      "Visit World Heritage Sites from Komodo to the Tropical Rainforests of Sumatra",
-      "Explore traditional arts: Tenun Ikat, Songket, Toraja rituals, and more"
-    ],
-    objectivesId: [
-      "Temukan 9+ item Warisan Budaya Takbenda UNESCO dari Indonesia",
-      "Kunjungi Situs Warisan Dunia dari Komodo hingga Hutan Hujan Tropis Sumatera",
-      "Jelajahi seni tradisional: Tenun Ikat, Songket, ritual Toraja, dan lainnya"
+      "Saksikan miniatur Monumen Nasional (Monas) bermahkota emas",
+      "Periksa kain kerajinan Batik warisan budaya UNESCO",
+      "Lihat model Satelit Palapa pemersatu ribuan pulau"
     ]
   },
   {
@@ -200,431 +167,804 @@ export const rooms: {
   }
 ];
 
-import { artifactsData } from "./artifacts-data";
-
-export const artifacts: Artifact[] = artifactsData;
+export const artifacts: Artifact[] = [
+  {
+    "id": "homo-erectus",
+    "room": "ancient",
+    "shape": "texture",
+    "color": "#8b6f47",
+    "position": [
+      -6,
+      -4
+    ],
+    "name": {
+      "en": "Java Man Skull",
+      "id": "Tengkorak Manusia Jawa"
+    },
+    "origin": {
+      "en": "Sangiran, Central Java",
+      "id": "Sangiran, Jawa Tengah"
+    },
+    "era": {
+      "en": "c. 1.5 million years ago",
+      "id": "± 1,5 juta tahun lalu"
+    },
+    "description": {
+      "en": "Java Man (Homo erectus erectus, formerly also Anthropopithecus erectus or Pithecanthropus erectus) is an early human fossil discovered in 1891 and 1892 on the island of Java (Indonesia). Estimated to be between 700,000 and 1,490,000 years old, it was, at the time of its discovery, the oldest hominid fossil ever found, and it remains the type specimen for Homo erectus. Led by Eugène Dubois, the excavation team uncovered a tooth, a skullcap, and a thighbone at Trinil on the banks of the Solo River in East Java. Arguing that the fossils represented the \"missing link\" between apes and humans, Dubois gave the species the scientific name Anthropopithecus erectus, then later renamed it Pithecanthropus erectus.",
+      "id": "Manusia Jawa (Homo erectus erectus) adalah jenis Homo erectus yang pertama kali ditemukan. Pada awal penemuan, makhluk mirip manusia ini diberi nama ilmiah Pithecanthropus erectus oleh Eugène Dubois, pemimpin tim yang berhasil menemukan fosil tengkoraknya di Trinil, Ngawi pada tahun 1891. Nama Pithecanthropus erectus sendiri berasal dari akar bahasa Yunani dan latin dan memiliki arti manusia-kera yang dapat berdiri."
+    }
+  },
+  {
+    "id": "stone-axe",
+    "room": "ancient",
+    "shape": "sword",
+    "color": "#6b5a3a",
+    "position": [
+      6,
+      -4
+    ],
+    "name": {
+      "en": "Neolithic Hand Axe",
+      "id": "Kapak Genggam Neolitik"
+    },
+    "origin": {
+      "en": "Pacitan, East Java",
+      "id": "Pacitan, Jawa Timur"
+    },
+    "era": {
+      "en": "c. 8000 BCE",
+      "id": "± 8000 SM"
+    },
+    "description": {
+      "en": "A hand axe (or handaxe or  Acheulean hand axe) is a prehistoric stone tool with two faces that is the longest-used tool in human history. It is made from stone, usually flint or chert that has been \"reduced\" and shaped from a larger piece by knapping, or hitting against another stone. They are characteristic of the lower Acheulean and middle Palaeolithic (Mousterian) periods, roughly 1.6 million years ago to about 100,000 years ago, and used by Homo erectus and other early humans, but rarely by Homo sapiens. Their technical name (biface) comes from the fact that the archetypical model is a generally bifacial (with two wide sides or faces) and almond-shaped (amygdaloid) lithic flake.",
+      "id": "Kapak genggam adalah sebuah batu yang mirip dengan kapak, tetapi tidak bertangkai dan cara mempergunakannya dengan cara menggenggam. Kapak genggam terkenal juga dengan sebutan kapak perimbas, dalam ilmu prasejarah disebut chopper artinya alat penetak. Kapak genggam pernah ditemukan oleh Gustav Heinrich Ralph von Koenigswald pada 1935 di Pacitan, Jawa Timur. Batu genggam biasanya dibuat dari batu gamping."
+    }
+  },
+  {
+    "id": "megalith",
+    "room": "ancient",
+    "shape": "tablet",
+    "color": "#7a7062",
+    "position": [
+      -6,
+      4
+    ],
+    "name": {
+      "en": "Megalithic Menhir",
+      "id": "Menhir Megalitik"
+    },
+    "origin": {
+      "en": "Lore Lindu, Central Sulawesi",
+      "id": "Lore Lindu, Sulawesi Tengah"
+    },
+    "era": {
+      "en": "c. 1500 BCE",
+      "id": "± 1500 SM"
+    },
+    "description": {
+      "en": "A menhir (; from Brittonic languages: maen or men, \"stone\" and hir or hîr, \"long\"), standing stone, orthostat, or lith is a large upright stone, emplaced in the ground by humans, typically dating from the European middle Bronze Age. They can be found individually as monoliths, or as part of a group of similar stones. Menhirs' sizes can vary considerably, but they often taper toward the top. Menhirs are found across Europe, Africa, and Asia, with a concentration in Western Europe, notably in Ireland, Great Britain, and Brittany.",
+      "id": "Menhir adalah batu tunggal, biasanya berukuran besar, yang ditatah seperlunya sehingga berbentuk tugu dan biasanya diletakkan berdiri tegak di atas tanah. Istilah menhir diambil dari bahasa Keltik, dari kata men (batu) dan hir (panjang).Jadi,artinya adalah batu Panjang. Menhir biasanya didirikan secara tunggal atau berkelompok sejajar di atas tanah, tetapi pada beberapa tradisi juga ada yang diletakkan terlentang di tanah. Menhir, bersama-sama dengan dolmen dan sarkofagus, adalah megalit."
+    }
+  },
+  {
+    "id": "sangiran-site",
+    "room": "ancient",
+    "shape": "wall",
+    "color": "#7c5c3c",
+    "position": [
+      -10.85,
+      -2
+    ],
+    "name": {
+      "en": "Sangiran Archaeological Site",
+      "id": "Situs Arkeologi Sangiran"
+    },
+    "origin": {
+      "en": "Sangiran Dome, Central Java",
+      "id": "Kubah Sangiran, Jawa Tengah"
+    },
+    "era": {
+      "en": "Pleistocene Epoch",
+      "id": "Kala Pleistosen"
+    },
+    "description": {
+      "en": "Sangiran is an archaeological excavation site in Java in Indonesia. According to a UNESCO report (1995) \"Sangiran is recognized by scientists to be one of the most important sites in the world for studying fossil man, ranking alongside Zhoukoudian (China), Willandra Lakes (Australia), Olduvai Gorge (Tanzania), and Sterkfontein (South Africa), and more fruitful in finds than any of these.\"\nThe area comprises about 56 km2 (7 km x 8 km). It is located in Central Java, about 15 kilometers north of Surakarta in the Solo River valley. Administratively, Sangiran area is divided between 2 regencies: Sragen (districts of Gemolong, Kalijambe, and Plupuh) and Karanganyar (district of Gondangrejo).",
+      "id": "Sangiran adalah situs arkeologi di Jawa, Indonesia. Menurut laporan UNESCO (1995) \"Sangiran diakui oleh para ilmuwan untuk menjadi salah satu situs yang paling penting di dunia untuk mempelajari fosil manusia, disejajarkan bersama situs Zhoukoudian (Cina), Willandra Lakes (Australia), Olduvai Gorge (Tanzania), dan Sterkfontein (Afrika Selatan), dan lebih baik dalam penemuan daripada yang lain.\"\nDaerah terdiri dari sekitar 56 km² (7 km x 8 km). Lokasi ini terletak di Jawa Tengah, sekitar 15 kilometer sebelah utara Surakarta di lembah Sungai Bengawan Solo. Secara administratif, kawasan Sangiran terbagi antara 2 kabupaten: Kabupaten Sragen (Kecamatan Gemolong, Kecamatan Kalijambe, dan Plupuh) dan Kabupaten Karanganyar (Kecamatan Gondangrejo)."
+    }
+  },
+  {
+    "id": "nias-megalith",
+    "room": "ancient",
+    "shape": "wall",
+    "color": "#8a8275",
+    "position": [
+      10.85,
+      -2
+    ],
+    "name": {
+      "en": "Nias Megalithic Site",
+      "id": "Situs Megalitik Nias"
+    },
+    "origin": {
+      "en": "Nias Island, North Sumatra",
+      "id": "Pulau Nias, Sumatera Utara"
+    },
+    "era": {
+      "en": "c. 500 BCE - 1000 CE",
+      "id": "± 500 SM - 1000 M"
+    },
+    "description": {
+      "en": "The Nias (Nias: Ono Niha, lit. 'descendants of humans'; Indonesian: Orang Nias) or Niasans, are an Austronesian ethnic group native to Nias, an island off the west coast of North Sumatra, Indonesia. In the Nias language Nias Island is known as Tanö Niha, with Tanö meaning 'land' in the Nias language. The Nias people are a community that continues living within the norms and practices of their indigenous culture.",
+      "id": "Tradisi Megalitik Nias mewakili kebudayaan monumen batu hidup di mana struktur batu besar didirikan untuk menghormati kepala suku dan ritual adat. Berasal dari 500 SM hingga 1000 M, meja dan pilar batu ini mencerminkan struktur sosial suku yang terorganisir, terkenal dengan tradisi lompat batu."
+    }
+  },
+  {
+    "id": "keris",
+    "room": "kingdom",
+    "shape": "texture",
+    "color": "#3a2e1f",
+    "position": [
+      -6,
+      -4
+    ],
+    "name": {
+      "en": "Royal Keris",
+      "id": "Keris Pusaka"
+    },
+    "origin": {
+      "en": "Majapahit Empire, Java",
+      "id": "Kekaisaran Majapahit, Jawa"
+    },
+    "era": {
+      "en": "14th Century",
+      "id": "Abad ke-14"
+    },
+    "description": {
+      "en": "The kris or keris is a Javanese asymmetrical dagger with a distinctive blade-patterning achieved through alternating laminations of iron and nickelous iron (pamor). The kris is famous for its distinctive wavy blade, although many have straight blades as well, and is one of the weapons commonly used in the pencak silat martial art native to Indonesia. Kris have been produced in many regions of Indonesia for centuries, but nowhere—although the island of Bali comes close—is the kris so embedded in a mutually-connected whole of ritual prescriptions and acts, ceremonies, storied backgrounds, and epic poetry as in Central Java. Within Indonesia the kris is commonly associated with Javanese culture, although other ethnicities in the surrounding regions are familiar with the weapon as part of their cultures, such as the Balinese, Sundanese, Malay, Madurese, Banjar, Buginese, and Makassar people.",
+      "id": "Keris merupakan senjata tajam golongan belati dari suku Jawa yang memiliki ragam fungsi budaya yang dikenal di kawasan Nusantara bagian barat dan tengah. Bentuknya khas dan mudah dibedakan dari senjata tajam lainnya karena tidak simetris di bagian pangkal yang melebar, sering kali bilahnya berkelok-kelok, dan banyak di antaranya memiliki pamor (damascene), yaitu terlihat serat-serat lapisan logam pada helai bilah. Keris bagi orang Jawa adalah senjata pemungkas/terakhir setelah pedang, tombak, dan panah. Sejatinya keris bukanlah senjata utama dalam peperangan tetapi juga senjata yang disukai untuk dibawa pergi ke mana pun."
+    }
+  },
+  {
+    "id": "ganesha",
+    "room": "kingdom",
+    "shape": "texture",
+    "color": "#6e5a2f",
+    "position": [
+      6,
+      -4
+    ],
+    "name": {
+      "en": "Ganesha Statue",
+      "id": "Arca Ganesha"
+    },
+    "origin": {
+      "en": "Singosari Temple, East Java",
+      "id": "Candi Singosari, Jawa Timur"
+    },
+    "era": {
+      "en": "10th Century",
+      "id": "Abad ke-10"
+    },
+    "description": {
+      "en": "Ganesha or Ganesh (Sanskrit: गणेश, IAST: Gaṇeśa, IPA: [ɡɐˈɳeːɕɐ]), also known as Ganapati, Vinayaka and Pillaiyar, is one of the best-known and most revered and worshipped deities in the Hindu pantheon and is the Supreme god in the Ganapatya sect. His depictions are found throughout India. Hindu denominations worship him regardless of affiliations. Ganesha also holds the Title of \"Pratham Pujya\" (the god to be worshipped initially before the worship of any other Deity).",
+      "id": "Ganesa  (Dewanagari: गणेश; ,IAST: Gaṇeśa,; ) adalah salah satu dewa terkenal dalam agama Hindu dan banyak dipuja oleh umat Hindu, yang memiliki gelar sebagai Dewa pengetahuan dan kecerdasan, Dewa pelindung, Dewa penolak bala/bencana dan Dewa kebijaksanaan. Lukisan dan patungnya banyak ditemukan di berbagai penjuru India; termasuk Nepal, Tibet dan Asia Tenggara. Dalam relief, patung dan lukisan, ia sering digambarkan berkepala gajah, berlengan empat dan berbadan gemuk. Ia dikenal pula dengan nama Ganapati, Winayaka dan Pilleyar."
+    }
+  },
+  {
+    "id": "inscription",
+    "room": "kingdom",
+    "shape": "tablet",
+    "color": "#4a3f2a",
+    "position": [
+      -6,
+      4
+    ],
+    "name": {
+      "en": "Kedukan Bukit Inscription",
+      "id": "Prasasti Kedukan Bukit"
+    },
+    "origin": {
+      "en": "Srivijaya, South Sumatra",
+      "id": "Sriwijaya, Sumatera Selatan"
+    },
+    "era": {
+      "en": "682 CE",
+      "id": "682 M"
+    },
+    "description": {
+      "en": "The Kedukan Bukit inscription (Indonesian: Prasasti Kedukan Bukit) is an inscription discovered by the Dutchman C.J. Batenburg on 29 November 1920 at Kedukan Bukit, South Sumatra, Dutch East Indies (now Indonesia), on the banks of Tatang River, a tributary of Musi River. It is the oldest surviving specimen of the Malay language, in a form known as Old Malay. It is a small stone of 45 cm × 80 cm (18 in × 31 in).",
+      "id": "Prasasti Kedukan Bukit ditemukan oleh C.J. Batenburg pada tanggal 29 November 1920 di Kampung Kedukan Bukit, Kelurahan 35 Ilir, Palembang, Sumatera Selatan, di tepi Sungai Tatang yang mengalir ke Sungai Musi. Prasasti ini berbentuk batu kecil berukuran 45 × 80 cm, ditulis dalam aksara Pallawa, menggunakan Bahasa Melayu Kuno Prasasti ini sekarang disimpan di Museum Nasional Indonesia dengan nomor D.146."
+    }
+  },
+  {
+    "id": "crown",
+    "room": "kingdom",
+    "shape": "texture",
+    "color": "#c9a14a",
+    "position": [
+      6,
+      4
+    ],
+    "name": {
+      "en": "Mataram Royal Crown",
+      "id": "Mahkota Kerajaan Mataram"
+    },
+    "origin": {
+      "en": "Mataram Sultanate, Java",
+      "id": "Kesultanan Mataram, Jawa"
+    },
+    "era": {
+      "en": "17th Century",
+      "id": "Abad ke-17"
+    },
+    "description": {
+      "en": "The Sultanate of Mataram () was an early modern state based on the island of Java that lasted from the late 16th century to the 18th century. At its peak, Mataram was one of the most powerful kingdoms in the Indonesian archipelago and Southeast Asia. Along with Aceh and Makassar, it has been referred to as one of Southeast Asia's major \"gunpowder empires.\" At its greatest extent, Mataram's territory spanned most of mainland Java and Madura, with vassals in Palembang, Sukadana, and Jambi. Mataram reached its peak of power during the reign of Sultan Agung Anyokrokusumo (r.",
+      "id": "Kesultanan Mataram atau Kesunanan Mataram (bahasa Jawa: ꧋ꦤꦒꦫꦶꦏꦱꦸꦭ꧀ꦠꦤꦤ꧀ꦩꦠꦫꦩ꧀, Pegon: نڮاري كسولتانن متارامcode: jv is deprecated , translit. Nagari Kasultanan Mataram) adalah sebuah kerajaan Islam di Pulau Jawa dari akhir abad ke-16, ketika Panembahan Senapati dinobatkan menjadi raja, hingga 1755, ketika Mataram dibagi menjadi negara-negara lebih kecil dalam Perjanjian Giyanti. Kerajaan ini dipimpin oleh Wangsa Mataram. Sepanjang abad ke-17, tepatnya di bawah pemerintahan Sultan Agung, Mataram adalah salah satu negara terkuat di Jawa yang menyatukan Jawa Tengah, Yogyakarta, sebagian besar Jawa Barat (kecuali Banten) dan Jawa Timur (termasuk Madura), Sukadana (Kalimantan Barat), Makassar, hingga Pulau Sumatra (Palembang dan Jambi)."
+    }
+  },
+  {
+    "id": "borobudur",
+    "room": "kingdom",
+    "shape": "wall",
+    "color": "#706a58",
+    "position": [
+      -10.85,
+      0
+    ],
+    "name": {
+      "en": "Borobudur Temple Photo",
+      "id": "Foto Candi Borobudur"
+    },
+    "origin": {
+      "en": "Magelang, Central Java",
+      "id": "Magelang, Jawa Tengah"
+    },
+    "era": {
+      "en": "9th Century",
+      "id": "Abad ke-9"
+    },
+    "description": {
+      "en": "Borobudur, also transcribed Barabudur (Indonesian: Candi Borobudur, Javanese: ꦕꦤ꧀ꦝꦶꦧꦫꦧꦸꦝꦸꦂ, romanized: Candhi Barabudhur), is a 9th-century Mahayana Buddhist temple in Magelang Regency, near the town of Muntilan, northwest of the city of Yogyakarta, in Central Java, Indonesia. Constructed of gray andesite-like stone, the temple consists of nine stacked platforms, six square and three circular, topped by a central dome. It is decorated with 2,672 relief panels and originally 504 Buddha statues. The central dome is surrounded by 72 Buddha statues, each seated inside a perforated stupa.",
+      "id": "Candi Borobudur (bahasa Jawa: ꦕꦟ꧀ꦝꦶꦧꦫꦧꦸꦝꦸꦂcode: jv is deprecated , translit. Candhi Båråbudhur) adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini terletak kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta. Candi dengan banyak stupa ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan wangsa Syailendra, dan diperkirakan baru rampung sekitar tahun 825 M."
+    }
+  },
+  {
+    "id": "prambanan",
+    "room": "kingdom",
+    "shape": "wall",
+    "color": "#7e786b",
+    "position": [
+      10.85,
+      0
+    ],
+    "name": {
+      "en": "Prambanan Temple Relief",
+      "id": "Relief Candi Prambanan"
+    },
+    "origin": {
+      "en": "Sleman, Yogyakarta",
+      "id": "Sleman, Yogyakarta"
+    },
+    "era": {
+      "en": "10th Century",
+      "id": "Abad ke-10"
+    },
+    "description": {
+      "en": "Prambanan (Indonesian: Candi Prambanan, Javanese: Rara Jonggrang, Hanacaraka: ꦫꦫꦗꦺꦴꦁꦒꦿꦁ) is a 9th-century Hindu temple compound in the Special Region of Yogyakarta, in southern Java, Indonesia, dedicated to the Trimūrti, the expression of God as the Creator (Brahma), the Preserver (Vishnu) and the Destroyer (Shiva). The temple compound is located approximately 17 kilometres (11 mi) northeast of the city of Yogyakarta on the boundary between Central Java and Yogyakarta provinces. The temple compound, a UNESCO World Heritage Site, is the largest Hindu temple site in Indonesia and the second-largest in Southeast Asia after Angkor Wat. It is characterized by its tall and pointed architecture, typical of Hindu architecture, and by the towering 47-metre-high (154 ft) central building inside a large complex of individual temples.",
+      "id": "Candi Prambanan (bahasa Jawa: ꦕꦟ꧀ꦝꦶꦥꦿꦩ꧀ꦧꦤꦤ꧀code: jv is deprecated , translit. Caṇḍi Prambanan) adalah bangunan candi bercorak agama Hindu terbesar di Indonesia yang dibangun pada abad ke-9 Masehi. Candi yang juga disebut sebagai Rara Jonggrang ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu dewa Brahma sebagai dewa pencipta, dewa Wisnu sebagai dewa pemelihara, dan dewa Siwa sebagai dewa pemusnah. Berdasarkan prasasti Siwagrha nama asli kompleks candi ini adalah Siwagrha (bahasa Sanskerta yang bermakna 'Rumah Siwa'), dan memang di garbagriha (ruang utama) candi ini bersemayam arca Siwa Mahadewa setinggi tiga meter, karena aliran Syaiwa mengutamakan pemujaan dewa Siwa di candi ini."
+    }
+  },
+  {
+    "id": "voc-map",
+    "room": "colonial",
+    "shape": "wall",
+    "color": "#a89373",
+    "position": [
+      -10.85,
+      -2
+    ],
+    "name": {
+      "en": "VOC Trade Map",
+      "id": "Peta Dagang VOC"
+    },
+    "origin": {
+      "en": "Dutch East India Company",
+      "id": "Vereenigde Oostindische Compagnie"
+    },
+    "era": {
+      "en": "1670",
+      "id": "1670"
+    },
+    "description": {
+      "en": "The United East India Company (Dutch: Vereenigde Oostindische Compagnie [vərˈeːnɪɣdə oːstˈɪndisə kɔmpɑˈɲi]; abbr. VOC [veː(j)oːˈseː]), commonly known as the Dutch East India Company, was a chartered trading company and one of the first joint-stock companies in the world. Established on 20 March 1602 by the States General of the Netherlands amalgamating existing companies, it was granted a 21-year monopoly to carry out trade activities in Asia. Shares in the company could be purchased by any citizen of the Dutch Republic and bought and sold in open-air secondary markets, one of which became the Amsterdam Stock Exchange.",
+      "id": "Perusahaan Hindia Timur Belanda, secara resmi bernama Perserikatan Perusahaan Hindia Timur (bahasa Belanda: Vereenigde Oostindische Compagniecode: nl is deprecated ; disingkat VOC) didirikan pada 20 Maret 1602. VOC adalah persekutuan dagang asal Belanda yang memiliki monopoli untuk aktivitas perdagangan di Asia. Disebut Hindia Timur karena ada pula Geoctroyeerde Westindische Compagnie yang merupakan persekutuan dagang untuk kawasan Hindia Barat. Perusahaan ini dianggap sebagai perusahaan multinasional pertama di dunia  sekaligus merupakan perusahaan pertama yang mengeluarkan sistem pembagian saham."
+    }
+  },
+  {
+    "id": "diponegoro-kris",
+    "room": "colonial",
+    "shape": "sword",
+    "color": "#2f2418",
+    "position": [
+      -6,
+      -4
+    ],
+    "name": {
+      "en": "Kiai Naga Siluman",
+      "id": "Kiai Naga Siluman"
+    },
+    "origin": {
+      "en": "Java War, Yogyakarta",
+      "id": "Perang Jawa, Yogyakarta"
+    },
+    "era": {
+      "en": "1825–1830",
+      "id": "1825–1830"
+    },
+    "description": {
+      "en": "Prince Diponegoro (Javanese: ꦢꦶꦥꦤꦼꦒꦫ, romanized: Dipånegårå; born Bendara Raden Mas Mustahar, ꦧꦼꦤ꧀ꦢꦫꦫꦢꦺꦤ꧀ꦩꦱ꧀ꦩꦸꦱ꧀ꦠꦲꦂ; later Bendara Raden Mas Antawirya, ꦧꦼꦤ꧀ꦢꦫꦫꦢꦺꦤ꧀ꦩꦱ꧀ꦲꦤ꧀ꦠꦮꦶꦂꦪ; 11 November 1785 – 8 January 1855), also known as Dipanegara and Dipa Negara, was a Javanese prince who opposed the Dutch colonial rule. The eldest son of the Yogyakarta Sultan Hamengkubuwono III, he played an important role in the Java War between 1825 and 1830. After his defeat and capture, he was exiled to Makassar, where he died at 69 years old. His five-year struggle against the Dutch control of Java has become celebrated by Indonesians throughout the years, acting as a source of inspiration for the fighters in the Indonesian National Revolution and nationalism in modern-day Indonesia among others.",
+      "id": "Pangeran Diponegoro (Bahasa Jawa: ꦣꦶꦥꦤꦒꦫ, Dipanagara; lahir sebagai Bendara Raden Mas Mustahar; kemudian Bendara Raden Mas Antawirya ꦧꦼꦤ꧀ꦢꦫꦫꦢꦺꦤ꧀ꦩꦱ꧀ꦲꦤ꧀ꦠꦮꦶꦂꦪ; 11 November 1785 – 8 Januari 1855) adalah seorang pangeran Jawa yang menentang pemerintahan kolonial Belanda. Putra sulung Hamengkubuwana III ini memegang peranan penting dalam Perang Jawa tahun 1825 hingga 1830. Setelah kalah dan tertangkap, ia diasingkan ke Manado dan Makassar, dan meninggal di Makassar pada usia 69 tahun. Perjuangannya selama lima tahun melawan kekuasaan Belanda di Jawa telah dirayakan oleh masyarakat Indonesia selama bertahun-tahun, menjadi sumber inspirasi bagi para pejuang Revolusi Nasional Indonesia dan nasionalisme di Indonesia modern antara lain."
+    }
+  },
+  {
+    "id": "old-photo",
+    "room": "colonial",
+    "shape": "wall",
+    "color": "#7a6a5a",
+    "position": [
+      10.85,
+      -2
+    ],
+    "name": {
+      "en": "Batavia Photograph",
+      "id": "Foto Batavia"
+    },
+    "origin": {
+      "en": "Batavia (Jakarta)",
+      "id": "Batavia (Jakarta)"
+    },
+    "era": {
+      "en": "c. 1890",
+      "id": "± 1890"
+    },
+    "description": {
+      "en": "Batavia was an imperial Dutch port city that eventually, after two centuries of Dutch occupation, became the capital of the Dutch East Indies. The area corresponds to present-day Jakarta, Indonesia. Batavia can refer to the city proper or its suburbs and hinterland, the Ommelanden, which included the much larger area of the Residency of Batavia in the present-day Indonesian provinces of Jakarta Banten and West Java. The founding of Batavia by the Dutch in 1619, on the site of the ruins of Jayakarta, led to the establishment of a Dutch colony; Batavia became the center of the Dutch East India Company's trading network in Asia.",
+      "id": "Batavia adalah ibu kota Hindia Belanda. Wilayahnya setara dengan Jakarta saat ini, Indonesia. Batavia dapat merujuk pada kota itu sendiri atau pinggiran kota dan daerah pedalamannya, Ommelanden, yang mencakup wilayah yang jauh lebih luas dari Keresidenan Batavia di provinsi-provinsi Indonesia saat ini, yaitu Jakarta, Banten, dan Jawa Barat. Pendirian Batavia oleh Belanda pada tahun 1619, di lokasi reruntuhan Jayakarta, menyebabkan berdirinya koloni Belanda; Batavia menjadi pusat jaringan perdagangan Perusahaan Hindia Timur Belanda di Asia."
+    }
+  },
+  {
+    "id": "hasanuddin-helmet",
+    "room": "colonial",
+    "shape": "texture",
+    "color": "#6b583f",
+    "position": [
+      6,
+      -4
+    ],
+    "name": {
+      "en": "Sultan Hasanuddin Helmet",
+      "id": "Helm Sultan Hasanuddin"
+    },
+    "origin": {
+      "en": "Kingdom of Gowa, South Sulawesi",
+      "id": "Kerajaan Gowa, Sulawesi Selatan"
+    },
+    "era": {
+      "en": "17th Century",
+      "id": "Abad ke-17"
+    },
+    "description": {
+      "en": "Sultan Hasanuddin (Sultan Hasanuddin Tumenanga Ri Balla Pangkana; (12 January 1631 – 12 June 1670) was the 16th Ruler of The Sultanate of Gowa as Sombaya Ri Gowa XVI from 1653 to 1669. He was proclaimed as Indonesian National Hero on 6 November 1973. The Dutch called Sultan Hasanuddin \"the Rooster of the East\" as he was described as aggressive in battle.",
+      "id": "Sultan Hasanuddin (Dijuluki Ayam Jantan dari Timur oleh Belanda) (12 Januari 1631 – 12 Juni 1670) adalah Sultan Gowa ke-16 dan pahlawan nasional Indonesia yang terlahir dengan nama Muhammad Bakir I Mallombasi Daeng Mattawang Karaeng Bonto Mangape. Setelah menaiki takhta, ia diberi gelar Sultan Hasanuddin, setelah meninggal ia digelar Tumenanga Ri Balla Pangkana. Karena keberaniannya, ia dijuluki De Haantjes van Het Osten oleh Belanda yang artinya Ayam Jantan dari Timur. Ia dimakamkan di Katangka, Kabupaten Gowa."
+    }
+  },
+  {
+    "id": "banda-spices",
+    "room": "colonial",
+    "shape": "texture",
+    "color": "#5c704f",
+    "position": [
+      -6,
+      4
+    ],
+    "name": {
+      "en": "Banda Nutmeg Artifact",
+      "id": "Artefak Pala Banda"
+    },
+    "origin": {
+      "en": "Banda Islands, Maluku",
+      "id": "Kepulauan Banda, Maluku"
+    },
+    "era": {
+      "en": "16th-18th Century",
+      "id": "Abad ke-16 - ke-18"
+    },
+    "description": {
+      "en": "The Banda Islands (Indonesian: Kepulauan Banda) are a volcanic group of ten small islands in the Banda Sea, about 140 km (87 mi) south of Seram Island and about 2,000 km (1,243 mi) east of Java, and constitute an administrative district (kecamatan) within the Central Maluku Regency in the Indonesian province of Maluku. The islands rise out of 4-to-6-kilometre (2.5 to 3.7 mi) deep ocean and have a total land area of approximately 172 square kilometres (66 sq mi); with associated maritime area this reaches 736.3 square kilometres (284.3 sq mi). They had a population of 18,544 at the 2010 Census and 20,924 at the 2020 Census; the official estimate as of mid-2023 was 21,902. Until the mid-19th century the Banda Islands were the world's only source of the spices nutmeg and mace, produced from the nutmeg tree.",
+      "id": "Kepulauan Banda adalah salah satu gugusan pulau yang berada dalam wilayah Maluku, Indonesia. Kepulauan Banda termasuk dalam wilayah Kecamatan Banda dengan wilayah administratif daratan seluas 55,3 km2. Pada tahun 2000, mayoritas produksi pala dunia masih berasal dari Kepulauan Banda. Kepulauan Banda terdiri atas beberapa pulau, seperti Pulau Lontor, Pulau Banda, Pulau Banda Api, Pulau Ai, Pulau Run, Pulau Pisang, Pulau Hatta, dan Pulau Karaba."
+    }
+  },
+  {
+    "id": "proklamasi",
+    "room": "independence",
+    "shape": "wall",
+    "color": "#e8d6a3",
+    "position": [
+      -10.85,
+      -2
+    ],
+    "name": {
+      "en": "Proclamation Text",
+      "id": "Teks Proklamasi"
+    },
+    "origin": {
+      "en": "Jakarta",
+      "id": "Jakarta"
+    },
+    "era": {
+      "en": "17 August 1945",
+      "id": "17 Agustus 1945"
+    },
+    "description": {
+      "en": "The Proclamation of Indonesian Independence (Indonesian: Proklamasi Kemerdekaan Indonesia, or simply Proklamasi) was read at 10:00 Tokyo Standard Time on Friday, 17 August 1945 in Jakarta. The declaration marked the start of the diplomatic and armed resistance of the Indonesian National Revolution, fighting against the forces of the Netherlands and pro-Dutch civilians, until the latter officially acknowledged Indonesia's independence in 1949. The document was signed by Sukarno and Mohammad Hatta, who were appointed president and vice-president respectively the following day. The date of the Proclamation of Indonesian Independence was made a public holiday by a government decree issued on 18 June 1946.",
+      "id": "Proklamasi Kemerdekaan Indonesia dibacakan oleh Soekarno dengan didampingi oleh Mohammad Hatta pada pukul 10:00 Waktu Standar Tokyo hari Jumat, 17 Agustus 1945 di sebuah rumah di Jalan Pegangsaan Timur No. 56, Jakarta Pusat. Pembacaan proklamasi ini menandai dimulainya perlawanan diplomatik dan bersenjata dari Revolusi Nasional Indonesia, yang berperang melawan pasukan Belanda dan warga sipil pro-Belanda, hingga Belanda secara resmi mengakui kemerdekaan Indonesia pada tahun 1949. Naskah Proklamasi ditandatangani oleh Soekarno dan Mohammad Hatta, yang masing-masing diangkat menjadi presiden dan wakil presiden keesokan harinya."
+    }
+  },
+  {
+    "id": "merah-putih",
+    "room": "independence",
+    "shape": "wall",
+    "color": "#c0392b",
+    "position": [
+      10.85,
+      -2
+    ],
+    "name": {
+      "en": "Sang Saka Merah Putih",
+      "id": "Sang Saka Merah Putih"
+    },
+    "origin": {
+      "en": "Sewn by Fatmawati",
+      "id": "Dijahit oleh Fatmawati"
+    },
+    "era": {
+      "en": "1945",
+      "id": "1945"
+    },
+    "description": {
+      "en": "The national flag of Indonesia is bicolor, with two horizontal bands, red (top) and white (bottom) with an overall ratio of 2:3. It was introduced and hoisted in public during the proclamation of independence on 17 August 1945 at 56 Jalan Proklamasi (formerly Jalan Pegangsaan Timur) in Jakarta, and again when the Dutch formally transferred sovereignty on 27 December 1949. The design of the flag has remained unchanged since. The flag of Indonesia is graphically similar to the flag of Monaco, with a slight difference in the shade of red, and ratio of its dimensions.",
+      "id": "Bendera Indonesia (disingkat bendera negara) atau biasa juga disebut Sang Merah Putih, (Sang Saka Merah Putih, Merah Putih, atau kadang Sang Dwiwarna (dua warna)) adalah bendera negara Indonesia dengan dua warna, dengan dua garis horizontal, merah (atas) dan putih (bawah) dengan rasio keseluruhan 2:3. Bendera negara berbentuk empat persegi panjang dengan ukuran lebar 2/3 (dua-pertiga) dari panjang dengan bagian atas berwarna merah dan bagian bawah berwarna putih yang kedua bagiannya berukuran sama. Bendera ini diperkenalkan dan dikibarkan di depan umum pada saat proklamasi kemerdekaan pada 17 Agustus 1945 di Jalan Proklamasi 56 (sebelumnya Jalan Pegangsaan Timur) di Jakarta, dan sekali lagi ketika Belanda secara resmi menyerahkan kedaulatan pada 27 Desember 1949. Desain bendera tersebut tetap tidak berubah sejak saat itu."
+    }
+  },
+  {
+    "id": "soekarno-speech",
+    "room": "independence",
+    "shape": "book",
+    "color": "#3a2a1a",
+    "position": [
+      -6,
+      -4
+    ],
+    "name": {
+      "en": "Soekarno's Speeches",
+      "id": "Pidato Soekarno"
+    },
+    "origin": {
+      "en": "Office of the President",
+      "id": "Kantor Presiden"
+    },
+    "era": {
+      "en": "1945–1965",
+      "id": "1945–1965"
+    },
+    "description": {
+      "en": "Sukarno (born Koesno Sosrodihardjo; 6 June 1901 – 21 June 1970) was an Indonesian statesman, activist, and revolutionary who served as the first president of Indonesia from 1945 to 1967. Sukarno was the leader of the Indonesian struggle for independence from the Dutch colonialists. He was a prominent leader of Indonesia's nationalist movement during the colonial period and spent over a decade under Dutch detention until released by the invading Japanese forces in World War II. Sukarno and his fellow nationalists collaborated to garner support for the Japanese war effort from the population, in exchange for Japanese aid in spreading nationalist ideas.",
+      "id": "Ir. Soekarno (Ejaan Republik: Sukarno; 6 Juni 1901 – 21 Juni 1970), dikenal juga dengan sapaan Bung Karno, adalah seorang negarawan, orator, dan Presiden Indonesia pertama yang menjabat sejak tahun 1945 sampai 1967. Ia menjabat sebagai presiden setelah memproklamasikan kemerdekaan Indonesia bersama wakilnya, Mohammad Hatta. Selain dikenal sebagai \"Bapak Proklamator\", Soekarno dikenal juga sebagai pencetus Pancasila, dasar negara dan ideologi bangsa Indonesia."
+    }
+  },
+  {
+    "id": "surabaya-spear",
+    "room": "independence",
+    "shape": "texture",
+    "color": "#9c3b28",
+    "position": [
+      6,
+      -4
+    ],
+    "name": {
+      "en": "Surabaya Bamboo Spear",
+      "id": "Bambu Runcing Surabaya"
+    },
+    "origin": {
+      "en": "Surabaya, East Java",
+      "id": "Surabaya, Jawa Timur"
+    },
+    "era": {
+      "en": "November 1945",
+      "id": "November 1945"
+    },
+    "description": {
+      "en": "The Battle of Surabaya (Javanese: ꦦꦺꦂꦠꦺꦩ꧀ꦥꦸꦫꦤ꧀ ꦯꦸꦫꦧꦪ; Indonesian: Pertempuran Surabaya) was a major battle in the Indonesian National Revolution fought between regular infantry and militia of the Indonesian nationalist movement and British and British Indian troops against the re-imposition of Dutch colonial rule. The peak of the battle was in November 1945, and was the largest single battle of the revolution and became a national symbol of Indonesian resistance. Considered a heroic effort by Indonesians, the battle helped galvanise Indonesian and international support for Indonesian independence. 10 November is celebrated annually as Heroes' Day (Hari Pahlawan).",
+      "id": "Pertempuran Surabaya (Jawa: ꦦꦺꦂꦠꦺꦩ꧀ꦥꦸꦫꦤ꧀ ꦯꦸꦫꦧꦪ; Inggris: Battle of Surabaya) merupakan pertempuran antara pasukan pejuang Indonesia yang diorganisasi oleh mantan pasukan anggota Pembela Tanah Air yang dibentuk oleh Pasukan Jepang dan Polisi Istimewa di waktu masa Pendudukan Jepang di Indonesia (yang dulunya Hindia Belanda) pada saat itu, yang bertujuan untuk mencegah pasukan sekutu pasca Jepang menyerah tanpa syarat kepada sekutu  di Perang Pasifik yang mendarat di kota Surabaya yang terdiri dari pasukan Kekaisaran Britania dengan sukarelawan Persemakmuran Britania yakni Angkatan Darat India Britania dengan mendapatkan dukungan khusus oleh tentara Kekaisaran Belanda. Puncaknya terjadi pada tanggal 10 November 1945. Pertempuran ini adalah perang pertama pasukan Indonesia dengan pasukan Sekutu  setelah Proklamasi Kemerdekaan Indonesia dan satu pertempuran terbesar dan terberat dalam sejarah Revolusi Nasional Indonesia yang menjadi simbol nasional atas perlawanan Indonesia terhadap kolonialisme dan Imperialisme. Usai pertempuran ini, dukungan rakyat Indonesia dan dunia internasional terhadap perjuangan kemerdekaan Indonesia makin kuat."
+    }
+  },
+  {
+    "id": "bung-tomo-radio",
+    "room": "independence",
+    "shape": "texture",
+    "color": "#52433f",
+    "position": [
+      -6,
+      4
+    ],
+    "name": {
+      "en": "Bung Tomo's Radio Transceiver",
+      "id": "Pemancar Radio Bung Tomo"
+    },
+    "origin": {
+      "en": "Surabaya Broadcast Studio",
+      "id": "Studio Siaran Surabaya"
+    },
+    "era": {
+      "en": "1945 Resistance",
+      "id": "Perjuangan 1945"
+    },
+    "description": {
+      "en": "Sutomo (3 October 1920 – 7 October 1981), also known as Bung Tomo (meaning Comrade or Brother Tomo), was an Indonesian revolutionary and military leader best known for his role in the Indonesian National Revolution against Dutch colonial rule. He played a central role in the Battle of Surabaya, which was fought between British and Indonesian forces from October to November 1945.",
+      "id": "Sutomo (3 Oktober 1920 – 7 Oktober 1981), juga dikenal sebagai Bung Tomo, adalah seorang pemimpin revolusioner dan militer Indonesia yang terkenal karena perannya dalam Revolusi Nasional Indonesia melawan pemerintahan kolonial Belanda. Dia memainkan peran sentral dalam Pertempuran Surabaya, yang terjadi antara pasukan Britania Raya dan Indonesia dari bulan Oktober hingga November 1945."
+    }
+  },
+  {
+    "id": "monas",
+    "room": "modern",
+    "shape": "crown",
+    "color": "#d6c47a",
+    "position": [
+      -6,
+      -4
+    ],
+    "name": {
+      "en": "Monas Miniature",
+      "id": "Miniatur Monas"
+    },
+    "origin": {
+      "en": "Jakarta",
+      "id": "Jakarta"
+    },
+    "era": {
+      "en": "1975",
+      "id": "1975"
+    },
+    "description": {
+      "en": "The National Monument (Indonesian: Monumen Nasional, abbreviated Monas) is a 132 m (433 ft) obelisk in the centre of Merdeka Square, Central Jakarta. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. This monument is crowned with a flame covered in gold leaf which symbolizes the burning spirit of struggle of the Indonesian people. Construction began in 1961 under the direction of President Sukarno, and the monument was opened to the public in 1975.",
+      "id": "Monumen Nasional yang disingkat dengan Monas atau Tugu Monas adalah monumen peringatan setinggi 132 meter (433 kaki), terletak tepat di tengah Lapangan Medan Merdeka, Jakarta Pusat. Monas didirikan untuk mengenang perlawanan dan perjuangan rakyat Indonesia dalam merebut kemerdekaan dari pemerintahan kolonial Kerajaan Belanda. Pembangunan dimulai pada  17 Agustus 1961 di bawah perintah Presiden Soekarno dan diresmikan hingga dibuka untuk umum pada  12 Juli 1975 oleh Presiden Soeharto. Tugu ini dimahkotai lidah api yang dilapisi lembaran emas yang melambangkan semangat perjuangan dari rakyat Indonesia."
+    }
+  },
+  {
+    "id": "batik",
+    "room": "modern",
+    "shape": "wall",
+    "color": "#8e5a2e",
+    "position": [
+      -10.85,
+      -2
+    ],
+    "name": {
+      "en": "Batik Cloth",
+      "id": "Kain Batik"
+    },
+    "origin": {
+      "en": "UNESCO Heritage, 2009",
+      "id": "Warisan UNESCO, 2009"
+    },
+    "era": {
+      "en": "Contemporary",
+      "id": "Kontemporer"
+    },
+    "description": {
+      "en": "Batik is a dyeing technique using wax resist. The term is also used to describe patterned textiles created with that technique. Batik is made by drawing or stamping wax on a cloth to prevent colour absorption during the dyeing process. This creates a patterned negative when the wax is removed from the dyed cloth.",
+      "id": "Batik (bahasa Jawa: ꦧꦛꦶꦏ꧀code: jv is deprecated , translit. Bathik) adalah kain bergambar yang pembuatannya secara khusus dengan menuliskan atau menerakan malam pada kain itu, kemudian pengolahannya diproses dengan cara tertentu yang memiliki kekhasan. sebagai keseluruhan teknik, teknologi, serta pengembangan motif dan budaya yang terkait, oleh UNESCO telah ditetapkan sebagai Warisan Kemanusiaan untuk Budaya Lisan dan Nonbendawi (Masterpieces of the Oral and Intangible Heritage of Humanity) sejak 2 Oktober 2009. Sejak saat itu, 2 Oktober ditetapkan sebagai Hari Batik Nasional."
+    }
+  },
+  {
+    "id": "satellite",
+    "room": "modern",
+    "shape": "vase",
+    "color": "#7aa8d6",
+    "position": [
+      6,
+      -4
+    ],
+    "name": {
+      "en": "Palapa Satellite Model",
+      "id": "Model Satelit Palapa"
+    },
+    "origin": {
+      "en": "PT Telkom Indonesia",
+      "id": "PT Telkom Indonesia"
+    },
+    "era": {
+      "en": "1976",
+      "id": "1976"
+    },
+    "description": {
+      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system. The estimated cost for the project was US$1 billion (equivalent to $4.28 billion in 2024).",
+      "id": "Palapa ialah nama bagi sejumlah satelit telekomunikasi geostasioner Indonesia. Nama ini diambil dari \"Sumpah Palapa\", yang pernah dicetuskan oleh Patih Gajah Mada dari Majapahit pada tahun 1334. Satelit pertama diluncurkan pada tanggal 8 Juli 1976 oleh roket Amerika Serikat dan dilepas di atas Samudra Hindia pada 83° BT. Satelit pertama dari 2 satelit itu bertipe HS-333 dan bermassa 574 kg."
+    }
+  },
+  {
+    "id": "angklung",
+    "room": "modern",
+    "shape": "texture",
+    "color": "#9c7f55",
+    "position": [
+      -6,
+      4
+    ],
+    "name": {
+      "en": "Bamboo Angklung Instrument",
+      "id": "Instrumen Musik Angklung"
+    },
+    "origin": {
+      "en": "UNESCO Heritage, 2010",
+      "id": "Warisan UNESCO, 2010"
+    },
+    "era": {
+      "en": "Traditional & Modern",
+      "id": "Tradisional & Modern"
+    },
+    "description": {
+      "en": "The angklung (Sundanese: ᮃᮀᮊᮣᮥᮀ) is a musical instrument from the Sundanese in Indonesia that is made of a varying number of bamboo tubes attached to a bamboo frame. The tubes are carved to produce a resonant pitch when struck and are tuned to octaves, similar to Western handbells. The base of the frame is held in one hand, while the other hand shakes the instrument, causing a repeating note to sound. Each performer in an angklung ensemble is typically responsible for just one pitch, sounding their individual angklung at the appropriate times to produce complete melodies (see Kotekan).",
+      "id": "Angklung (Aksara Sunda Baku: ᮃᮀᮊᮣᮥᮀ) adalah alat musik multitonal (bernada ganda) yang berkembang dari masyarakat Sunda. Alat musik ini dibuat dari bambu, dibunyikan dengan cara digoyangkan (bunyi disebabkan oleh benturan badan pipa bambu) sehingga menghasilkan bunyi yang bergetar dalam susunan nada 2, 3, sampai 4 nada dalam setiap ukuran, baik besar maupun kecil. Dictionary of the Sunda Language karya Jonathan Rigg yang diterbitkan pada tahun 1862 di Batavia, menuliskan bahwa angklung adalah alat musik yang terbuat dari pipa-pipa bambu yang dipotong ujung-ujungnya menyerupai pipa-pipa dalam suatu organ, dan diikat bersama dalam suatu bingkai, digetarkan atau digoyangkan untuk menghasilkan bunyi. Angklung terdaftar sebagai Karya Agung Warisan Budaya Lisan dan Nonbendawi Manusia dari UNESCO sejak November 2010."
+    }
+  },
+  {
+    "id": "wayang",
+    "room": "modern",
+    "shape": "texture",
+    "color": "#b07358",
+    "position": [
+      6,
+      4
+    ],
+    "name": {
+      "en": "Wayang Kulit Shadow Puppet",
+      "id": "Wayang Kulit Warisan Dunia"
+    },
+    "origin": {
+      "en": "UNESCO Heritage, 2003",
+      "id": "Warisan UNESCO, 2003"
+    },
+    "era": {
+      "en": "Classical & Modern",
+      "id": "Klasik & Modern"
+    },
+    "description": {
+      "en": "Wayang (from Javanese  ꦮꦪꦁ, wayang (in the ngoko register), ꦫꦶꦁꦒꦶꦠ꧀ (in the krama register), Balinese: ᬯᬬᬂ, Sundanese: ᮝᮚᮀcode: sun promoted to code: su , ultimately from Old Javanese wayaṅ) is a traditional Java-origin (dramatic) performance in which a story is represented (by puppets, by dancers) invented by the indigenous Javans (the Javanese and Sundanese) — the Native Indonesian ethnic groups. The term wayang refers both to the show as a whole and the puppet in particular. Performances of wayang puppet theatre are accompanied by a gamelan orchestra in Java, and by gender wayang in Bali. The dramatic stories depict mythologies, such as episodes from the Hindu epics the Ramayana and the Mahabharata, as well as local adaptations of cultural legends.",
+      "id": "Wayang (berasal dari bahasa Jawa: ꦮꦪꦁcode: jv is deprecated , translit. wayang, har. 'bayangan') adalah seni pertunjukan tradisional asli Indonesia yang berasal dari  Suku Jawa dan berkembang pesat di Pulau Jawa hingga menyebar luas ke berbagai wilayah di Nusantara. UNESCO, lembaga yang membawahi kebudayaan dari PBB, pada 7 November 2003 menetapkan wayang sebagai pertunjukan boneka bayangan tersohor dari Indonesia, sebuah Warisan Maha-karya Dunia yang Tak Ternilai dalam Seni Bertutur (bahasa Inggris: Masterpiece of Oral and Intangible Heritage of Humanitycode: en is deprecated )."
+    }
+  },
+  {
+    "id": "garuda",
+    "room": "modern",
+    "shape": "wall",
+    "color": "#d6b158",
+    "position": [
+      10.85,
+      -2
+    ],
+    "name": {
+      "en": "Garuda Pancasila",
+      "id": "Garuda Pancasila"
+    },
+    "origin": {
+      "en": "Designed by Sultan Hamid II",
+      "id": "Dirancang oleh Sultan Hamid II"
+    },
+    "era": {
+      "en": "Adopted in 1950",
+      "id": "Diresmikan 1950"
+    },
+    "description": {
+      "en": "The national emblem of Indonesia is called Garuda Pancasila. The main part is the Garuda with a heraldic shield on its chest and a scroll gripped by its legs. The shield's five emblems represent Pancasila, the five principles of Indonesia's national ideology. The Garuda claws gripping a white ribbon scroll inscribed with the national motto Bhinneka Tunggal Ika written in black text, which can be loosely translated as \"Unity in Diversity\".",
+      "id": "Lambang negara Indonesia adalah Garuda Pancasila dengan semboyan Bhinneka Tunggal Ika. Lambang negara Indonesia berbentuk burung Garuda yang kepalanya menoleh ke sebelah kanan heraldik, perisai berbentuk menyerupai jantung yang digantung dengan rantai pada leher Garuda, dan semboyan Bhinneka Tunggal Ika yang berarti “berbeda-beda tetapi tetap satu” ditulis di atas pita yang dicengkeram oleh Garuda. Dalam prosesnya, dibentuklah Panitia Lambang Negara yang diketuai oleh Muhammad Yamin. Lambang Garuda dirancang oleh Sultan Hamid II dari Pontianak."
+    }
+  }
+];
 
 export const timeline: TimelineMoment[] = [
   {
     year: "1.5M BCE",
-    titleEn: "Java Man (Homo erectus)",
-    titleId: "Manusia Jawa (Homo erectus)",
-    bodyEn: "Homo erectus arrives and settles in Java, marking the dawn of human presence.",
-    bodyId: "Homo erectus tiba dan tinggal di Jawa, menandai awal kehadiran manusia.",
+    titleEn: "Java Man",
+    titleId: "Manusia Jawa",
+    bodyEn: "Homo erectus walks the island of Java.",
+    bodyId: "Homo erectus berjalan di Pulau Jawa.",
     room: "ancient",
-  },
-  {
-    year: "60,000 BCE",
-    titleEn: "Homo floresiensis 'Hobbit'",
-    titleId: "Homo floresiensis 'Hobbit'",
-    bodyEn: "The tiny species lives and hunts in Flores alongside dwarf stegodons.",
-    bodyId: "Spesimen bertubuh kecil hidup dan berburu di Flores bersama stegodon kerdil.",
-    room: "ancient",
-  },
-  {
-    year: "45,500 BCE",
-    titleEn: "World's Oldest Cave Art",
-    titleId: "Seni Gua Tertua di Dunia",
-    bodyEn: "Saddled pig cave painting created in Leang Tedongnge, South Sulawesi.",
-    bodyId: "Lukisan babi hutan sulawesi dibuat di Leang Tedongnge, Sulawesi Selatan.",
-    room: "ancient",
-  },
-  {
-    year: "40,000 BCE",
-    titleEn: "Borneo Cave Hand Stencils",
-    titleId: "Stensil Tangan Gua Kalimantan",
-    bodyEn: "Red-orange hand stencils painted on the limestone cave walls of East Kalimantan.",
-    bodyId: "Stensil tangan merah-jingga dilukis di dinding gua batu kapur Kalimantan Timur.",
-    room: "ancient",
-  },
-  {
-    year: "2500 BCE",
-    titleEn: "Austronesian Migration",
-    titleId: "Migrasi Austronesia",
-    bodyEn: "Seafaring Austronesians migrate from Taiwan, bringing agriculture and languages.",
-    bodyId: "Pelaut Austronesia bermigrasi dari Taiwan, membawa pertanian dan bahasa.",
-    room: "ancient",
-  },
-  {
-    year: "1500 BCE",
-    titleEn: "Megalithic Menhirs",
-    titleId: "Menhir Megalitik",
-    bodyEn: "Ancient communities erect megalithic statues and menhirs in Sulawesi.",
-    bodyId: "Masyarakat purba mendirikan patung megalitik dan menhir di Sulawesi.",
-    room: "ancient",
-  },
-  {
-    year: "4th Century",
-    titleEn: "Kutai Kingdom",
-    titleId: "Kerajaan Kutai",
-    bodyEn: "First written records in Indonesia appear on the sacrificial stone Yupas.",
-    bodyId: "Catatan tertulis pertama di Indonesia muncul pada tiang batu Yupa.",
-    room: "kingdom",
-  },
-  {
-    year: "5th Century",
-    titleEn: "Tarumanagara Kingdom",
-    titleId: "Kerajaan Tarumanagara",
-    bodyEn: "King Purnawarman builds canals and leaves his footprint inscriptions.",
-    bodyId: "Raja Purnawarman membangun saluran air dan meninggalkan prasasti tapak kaki.",
-    room: "kingdom",
   },
   {
     year: "682",
-    titleEn: "Srivijaya Maritime Empire",
-    titleId: "Kekaisaran Maritim Sriwijaya",
-    bodyEn: "Dapunta Hyang leads a military campaign, establishing Buddhist hegemony.",
-    bodyId: "Dapunta Hyang memimpin ekspedisi militer, menegakkan hegemoni Buddha.",
-    room: "kingdom",
-  },
-  {
-    year: "732",
-    titleEn: "Mataram Kingdom Founded",
-    titleId: "Pendirian Kerajaan Mataram",
-    bodyEn: "King Sanjaya establishes the Hindu Mataram Kingdom in Central Java.",
-    bodyId: "Raja Sanjaya mendirikan Kerajaan Mataram Hindu di Jawa Tengah.",
-    room: "kingdom",
-  },
-  {
-    year: "825",
-    titleEn: "Borobudur Completed",
-    titleId: "Borobudur Selesai",
-    bodyEn: "The massive Buddhist monument is finished under the Syailendra dynasty.",
-    bodyId: "Monumen Buddha raksasa selesai dibangun di bawah Wangsa Syailendra.",
-    room: "kingdom",
-  },
-  {
-    year: "856",
-    titleEn: "Prambanan Dedicated",
-    titleId: "Prambanan Diresmikan",
-    bodyEn: "The grand Shiva temple complex is built, showing Hindu artistic heights.",
-    bodyId: "Kompleks candi Siwa megah dibangun, menunjukkan seni tinggi Hindu.",
-    room: "kingdom",
-  },
-  {
-    year: "1025",
-    titleEn: "Chola Naval Raid",
-    titleId: "Serangan Angkatan Laut Chola",
-    bodyEn: "South Indian Chola empire raids Srivijaya ports, weakening its monopoly.",
-    bodyId: "Kekaisaran Chola India Selatan menyerang pelabuhan Sriwijaya, melemahkan monopoli.",
-    room: "kingdom",
-  },
-  {
-    year: "1157",
-    titleEn: "Kakawin Bharatayuddha",
-    titleId: "Kakawin Bharatayuddha",
-    bodyEn: "The epic Javanese poem is composed during the golden age of Kediri.",
-    bodyId: "Puisi epik Jawa Kuno digubah pada masa keemasan Kerajaan Kediri.",
-    room: "kingdom",
-  },
-  {
-    year: "1222",
-    titleEn: "Singasari Kingdom",
-    titleId: "Kerajaan Singasari",
-    bodyEn: "Ken Arok defeats Kediri and establishes the Singasari Dynasty.",
-    bodyId: "Ken Arok mengalahkan Kediri dan mendirikan Dinasti Singasari.",
-    room: "kingdom",
-  },
-  {
-    year: "1267",
-    titleEn: "Samudera Pasai",
-    titleId: "Samudera Pasai",
-    bodyEn: "The first Islamic Sultanate in Indonesia is founded in Aceh.",
-    bodyId: "Kesultanan Islam pertama di Indonesia didirikan di Aceh.",
+    titleEn: "Srivijaya Rises",
+    titleId: "Sriwijaya Bangkit",
+    bodyEn: "A Buddhist maritime empire controls the Strait of Malacca.",
+    bodyId: "Kerajaan maritim Buddhis menguasai Selat Malaka.",
     room: "kingdom",
   },
   {
     year: "1293",
-    titleEn: "Majapahit Empire Founded",
-    titleId: "Kemaharajaan Majapahit Berdiri",
-    bodyEn: "Raden Wijaya defeats the Mongols and founds the archipelago's largest empire.",
-    bodyId: "Raden Wijaya mengalahkan Mongol dan mendirikan kerajaan terbesar Nusantara.",
+    titleEn: "Majapahit Founded",
+    titleId: "Majapahit Berdiri",
+    bodyEn: "The greatest Hindu-Buddhist empire of the archipelago begins.",
+    bodyId: "Kekaisaran Hindu-Buddha terbesar Nusantara dimulai.",
     room: "kingdom",
-  },
-  {
-    year: "1331",
-    titleEn: "Gajah Mada's Oath",
-    titleId: "Sumpah Palapa Gajah Mada",
-    bodyEn: "Mahapatih Gajah Mada vows to unite the entire Nusantara archipelago.",
-    bodyId: "Mahapatih Gajah Mada bersumpah menyatukan seluruh kepulauan Nusantara.",
-    room: "kingdom",
-  },
-  {
-    year: "1365",
-    titleEn: "Nagarakretagama Written",
-    titleId: "Nagarakretagama Ditulis",
-    bodyEn: "Mpu Prapanca writes the chronicle of Majapahit's territory and administration.",
-    bodyId: "Mpu Prapanca menulis kronik wilayah dan administrasi Majapahit.",
-    room: "kingdom",
-  },
-  {
-    year: "1475",
-    titleEn: "Demak Sultanate Founded",
-    titleId: "Kesultanan Demak Berdiri",
-    bodyEn: "The first Islamic kingdom in Java is founded, replacing Majapahit's influence.",
-    bodyId: "Kerajaan Islam pertama di Jawa didirikan, menggantikan pengaruh Majapahit.",
-    room: "kingdom",
-  },
-  {
-    year: "1511",
-    titleEn: "Fall of Malacca",
-    titleId: "Jatuhnya Malaka",
-    bodyEn: "Portuguese forces capture Malacca, marking the start of European colonization.",
-    bodyId: "Pasukan Portugis merebut Malaka, menandai awal kolonisasi Eropa.",
-    room: "colonial",
-  },
-  {
-    year: "1521",
-    titleEn: "Spanish in Tidore",
-    titleId: "Spanyol di Tidore",
-    bodyEn: "Spanish expedition under Elcano arrives in Tidore to trade cloves.",
-    bodyId: "Ekspedisi Spanyol di bawah Elcano tiba di Tidore untuk dagang cengkih.",
-    room: "colonial",
-  },
-  {
-    year: "1527",
-    titleEn: "Jayakarta Founded",
-    titleId: "Jayakarta Didirikan",
-    bodyEn: "Fatahillah expels Portuguese and renames Sunda Kelapa to Jayakarta.",
-    bodyId: "Fatahillah mengusir Portugis dan mengubah nama Sunda Kelapa menjadi Jayakarta.",
-    room: "kingdom",
-  },
-  {
-    year: "1575",
-    titleEn: "Sultan Baabullah's Victory",
-    titleId: "Kemenangan Sultan Baabullah",
-    bodyEn: "Ternate expels the Portuguese, securing control over North Maluku spices.",
-    bodyId: "Ternate mengusir Portugis, mengamankan kendali atas rempah Maluku Utara.",
-    room: "kingdom",
-  },
-  {
-    year: "1596",
-    titleEn: "First Dutch Fleet",
-    titleId: "Armada Belanda Pertama",
-    bodyEn: "Cornelis de Houtman lands in Banten, opening trade negotiations.",
-    bodyId: "Cornelis de Houtman mendarat di Banten, membuka negosiasi dagang.",
-    room: "colonial",
   },
   {
     year: "1602",
-    titleEn: "VOC Established",
-    titleId: "Pembentukan VOC",
-    bodyEn: "The Dutch East India Company is formed to monopolize the spice trade.",
-    bodyId: "Kongsi Dagang Hindia Timur Belanda dibentuk untuk monopoli rempah.",
-    room: "colonial",
-  },
-  {
-    year: "1619",
-    titleEn: "Batavia Founded",
-    titleId: "Batavia Didirikan",
-    bodyEn: "J.P. Coen destroys Jayakarta and builds Batavia as the VOC capital.",
-    bodyId: "J.P. Coen menghancurkan Jayakarta dan membangun Batavia sebagai ibu kota VOC.",
-    room: "colonial",
-  },
-  {
-    year: "1628",
-    titleEn: "Siege of Batavia",
-    titleId: "Pengepungan Batavia",
-    bodyEn: "Sultan Agung of Mataram launches major military campaigns against Batavia.",
-    bodyId: "Sultan Agung dari Mataram melancarkan kampanye militer besar melawan Batavia.",
-    room: "colonial",
-  },
-  {
-    year: "1667",
-    titleEn: "Treaty of Bongaya",
-    titleId: "Perjanjian Bongaya",
-    bodyEn: "Makassar War ends, forcing Sultan Hasanuddin to sign a treaty with the VOC.",
-    bodyId: "Perang Makassar berakhir, memaksa Sultan Hasanuddin tanda tangani perjanjian.",
-    room: "colonial",
-  },
-  {
-    year: "1799",
-    titleEn: "VOC Dissolved",
-    titleId: "Pembubaran VOC",
-    bodyEn: "Bankruptcy forces VOC's dissolution; Dutch government takes direct control.",
-    bodyId: "Kebangkrutan memaksa VOC bubar; pemerintah Belanda mengambil alih langsung.",
-    room: "colonial",
-  },
-  {
-    year: "1808",
-    titleEn: "Great Post Road",
-    titleId: "Jalan Raya Pos",
-    bodyEn: "Daendels builds a 1,000 km road across Java using forced labor.",
-    bodyId: "Daendels membangun jalan 1.000 km melintasi Jawa menggunakan kerja paksa.",
+    titleEn: "Arrival of the VOC",
+    titleId: "Kedatangan VOC",
+    bodyEn: "The Dutch East India Company begins three centuries of colonial trade.",
+    bodyId: "VOC memulai tiga abad perdagangan kolonial.",
     room: "colonial",
   },
   {
     year: "1825",
-    titleEn: "Java War Begins",
-    titleId: "Perang Jawa Dimulai",
-    bodyEn: "Prince Diponegoro leads a massive rebellion against Dutch colonial rule.",
-    bodyId: "Pangeran Diponegoro memimpin pemberontakan massal melawan kolonial Belanda.",
+    titleEn: "Java War",
+    titleId: "Perang Jawa",
+    bodyEn: "Prince Diponegoro leads a five-year rebellion against colonial rule.",
+    bodyId: "Pangeran Diponegoro memimpin pemberontakan lima tahun.",
     room: "colonial",
-  },
-  {
-    year: "1830",
-    titleEn: "Cultivation System",
-    titleId: "Sistem Tanam Paksa",
-    bodyEn: "Dutch introduce Cultuurstelsel, forcing farmers to grow export crops.",
-    bodyId: "Belanda memperkenalkan Cultuurstelsel, memaksa petani menanam komoditas ekspor.",
-    room: "colonial",
-  },
-  {
-    year: "1873",
-    titleEn: "Aceh War Begins",
-    titleId: "Perang Aceh Dimulai",
-    bodyEn: "Aceh Sultanate fiercely resists Dutch invasion for over 30 years.",
-    bodyId: "Kesultanan Aceh dengan sengit melawan invasi Belanda selama 30 tahun.",
-    room: "colonial",
-  },
-  {
-    year: "1901",
-    titleEn: "Ethical Policy",
-    titleId: "Politik Etis",
-    bodyEn: "Queen Wilhelmina declares a debt of honor, focusing on education.",
-    bodyId: "Ratu Wilhelmina menyatakan utang budi, fokus pada pendidikan bumiputera.",
-    room: "colonial",
-  },
-  {
-    year: "1908",
-    titleEn: "Budi Utomo Founded",
-    titleId: "Budi Utomo Berdiri",
-    bodyEn: "First indigenous nationalist organization marks National Awakening.",
-    bodyId: "Organisasi nasionalis pribumi pertama menandai Kebangkitan Nasional.",
-    room: "national",
-  },
-  {
-    year: "1912",
-    titleEn: "Sarekat Islam & Muhammadiyah",
-    titleId: "Sarekat Islam & Muhammadiyah",
-    bodyEn: "Islamic mass organizations emerge, mobilizing political consciousness.",
-    bodyId: "Organisasi massa Islam lahir, memobilisasi kesadaran politik.",
-    room: "national",
   },
   {
     year: "1928",
     titleEn: "Youth Pledge",
     titleId: "Sumpah Pemuda",
-    bodyEn: "Youth declare one motherland, one nation, and one language: Indonesia.",
-    bodyId: "Pemuda menyatakan satu tanah air, satu bangsa, dan satu bahasa: Indonesia.",
-    room: "national",
-  },
-  {
-    year: "1942",
-    titleEn: "Japanese Occupation",
-    titleId: "Pendudukan Jepang",
-    bodyEn: "Japanese military forces invade and occupy the East Indies.",
-    bodyId: "Pasukan militer Jepang menyerbu dan menduduki Hindia Belanda.",
-    room: "colonial",
+    bodyEn: "One nation, one homeland, one language — Indonesia.",
+    bodyId: "Satu bangsa, satu tanah air, satu bahasa — Indonesia.",
+    room: "independence",
   },
   {
     year: "1945",
-    titleEn: "Proclamation of Independence",
-    titleId: "Proklamasi Kemerdekaan",
-    bodyEn: "Soekarno and Hatta declare independence on August 17.",
-    bodyId: "Soekarno dan Hatta memproklamasikan kemerdekaan pada 17 Agustus.",
-    room: "modern",
-  },
-  {
-    year: "1945",
-    titleEn: "Battle of Surabaya",
-    titleId: "Pertempuran Surabaya",
-    bodyEn: "Indonesian fighters resist Allied troops, commemorated as Heroes' Day.",
-    bodyId: "Pejuang Indonesia melawan pasukan Sekutu, diperingati sebagai Hari Pahlawan.",
-    room: "modern",
-  },
-  {
-    year: "1949",
-    titleEn: "Sovereignty Transfer",
-    titleId: "Pengakuan Kedaulatan",
-    bodyEn: "Dutch formally transfer sovereignty to Indonesia after the Round Table.",
-    bodyId: "Belanda menyerahkan kedaulatan kepada Indonesia setelah Konferensi Meja Bundar.",
-    room: "modern",
-  },
-  {
-    year: "1955",
-    titleEn: "Asia-Africa Conference",
-    titleId: "Konferensi Asia-Afrika",
-    bodyEn: "Indonesia hosts the historic Bandung Conference for post-colonial solidarity.",
-    bodyId: "Indonesia menjamu Konferensi Bandung untuk solidaritas pasca-kolonial.",
-    room: "modern",
-  },
-  {
-    year: "1965",
-    titleEn: "G30S Tragedy",
-    titleId: "Tragedi G30S",
-    bodyEn: "A failed coup attempt triggers a major political and social upheaval.",
-    bodyId: "Upaya kudeta yang gagal memicu pergolakan politik dan sosial besar.",
-    room: "modern",
-  },
-  {
-    year: "1966",
-    titleEn: "Supersemar",
-    titleId: "Supersemar",
-    bodyEn: "President Soekarno transfers executive authority to Soeharto, starting New Order.",
-    bodyId: "Presiden Soekarno memberikan wewenang eksekutif ke Soeharto, memulai Orde Baru.",
-    room: "modern",
+    titleEn: "Proclamation",
+    titleId: "Proklamasi",
+    bodyEn: "Independence is declared on the morning of 17 August.",
+    bodyId: "Kemerdekaan diproklamasikan pagi 17 Agustus.",
+    room: "independence",
   },
   {
     year: "1976",
     titleEn: "Palapa Satellite",
     titleId: "Satelit Palapa",
-    bodyEn: "Indonesia launches Palapa A1, unifying communication across the islands.",
-    bodyId: "Indonesia meluncurkan Palapa A1, menyatukan komunikasi di seluruh pulau.",
-    room: "modern",
-  },
-  {
-    year: "1998",
-    titleEn: "Reformation Era",
-    titleId: "Era Reformasi",
-    bodyEn: "President Soeharto resigns, launching Indonesia's democratic transition.",
-    bodyId: "Presiden Soeharto mundur, memulai transisi demokrasi Indonesia.",
-    room: "modern",
-  },
-  {
-    year: "2004",
-    titleEn: "Direct Elections & Tsunami",
-    titleId: "Pemilu Langsung & Tsunami",
-    bodyEn: "First direct presidential election and the tragic Indian Ocean Tsunami.",
-    bodyId: "Pemilu presiden langsung pertama dan bencana Tsunami Samudera Hindia.",
+    bodyEn: "Indonesia unites its 17,000 islands by satellite.",
+    bodyId: "Indonesia menyatukan 17.000 pulau melalui satelit.",
     room: "modern",
   },
   {
     year: "2009",
-    titleEn: "UNESCO Batik Recognition",
-    titleId: "Pengakuan Batik UNESCO",
-    bodyEn: "UNESCO designates Indonesian Batik as Intangible Cultural Heritage.",
-    bodyId: "UNESCO menetapkan Batik Indonesia sebagai Warisan Budaya Takbenda.",
-    room: "heritage",
-  },
-  {
-    year: "2024",
-    titleEn: "New Capital Nusantara",
-    titleId: "Ibu Kota Baru Nusantara",
-    bodyEn: "Indonesia begins relocation of the national capital to East Kalimantan.",
-    bodyId: "Indonesia mulai memindahkan ibu kota negara ke Kalimantan Timur.",
+    titleEn: "Batik Heritage",
+    titleId: "Warisan Batik",
+    bodyEn: "UNESCO recognizes Batik as Intangible Cultural Heritage.",
+    bodyId: "UNESCO mengakui Batik sebagai Warisan Budaya Takbenda.",
     room: "modern",
-  }
+  },
 ];
 
 export const quizQuestions = [
   {
     q: {
-      en: "Which temple is recognized as the largest Buddhist temple in the world?",
-      id: "Candi manakah yang diakui sebagai candi Buddha terbesar di dunia?",
+      en: "Which kingdom was one of the largest maritime powers of the archipelago?",
+      id: "Kerajaan apakah yang menjadi salah satu kekuatan maritim terbesar Nusantara?",
     },
     options: [
-      { en: "Borobudur", id: "Borobudur" },
-      { en: "Prambanan", id: "Prambanan" },
-      { en: "Mendut", id: "Mendut" },
-      { en: "Sewu", id: "Sewu" },
+      { en: "Srivijaya", id: "Sriwijaya" },
+      { en: "Mataram", id: "Mataram" },
+      { en: "Kutai", id: "Kutai" },
+      { en: "Banten", id: "Banten" },
     ],
     correct: 0,
   },
   {
     q: {
-      en: "When was the Proclamation of Indonesian Independence declared?",
-      id: "Kapan Proklamasi Kemerdekaan Indonesia dideklarasikan?",
+      en: "When was the Indonesian Independence proclaimed?",
+      id: "Kapan kemerdekaan Indonesia diproklamasikan?",
     },
     options: [
       { en: "17 August 1945", id: "17 Agustus 1945" },
@@ -636,235 +976,40 @@ export const quizQuestions = [
   },
   {
     q: {
-      en: "Which UNESCO-listed Indonesian textile art uses wax-resist dyeing techniques?",
-      id: "Seni tekstil Indonesia terdaftar di UNESCO yang menggunakan teknik rintangan lilin malam?",
+      en: "Which UNESCO-listed textile art uses wax-resist dyeing?",
+      id: "Seni tekstil mana yang terdaftar di UNESCO dan menggunakan teknik canting lilin?",
     },
     options: [
       { en: "Songket", id: "Songket" },
       { en: "Batik", id: "Batik" },
       { en: "Ikat", id: "Ikat" },
-      { en: "Tenun Sumba", id: "Tenun Sumba" },
+      { en: "Tenun", id: "Tenun" },
     ],
     correct: 1,
   },
   {
     q: {
-      en: "Where were the early human fossils of Homo erectus (Java Man) found?",
-      id: "Di manakah fosil manusia purba Homo erectus (Manusia Jawa) ditemukan?",
+      en: "Where were the Homo erectus 'Java Man' fossils discovered?",
+      id: "Di mana fosil Homo erectus 'Manusia Jawa' ditemukan?",
     },
     options: [
       { en: "Sangiran", id: "Sangiran" },
       { en: "Pacitan", id: "Pacitan" },
-      { en: "Liang Bua", id: "Liang Bua" },
-      { en: "Gunung Padang", id: "Gunung Padang" },
+      { en: "Borobudur", id: "Borobudur" },
+      { en: "Toraja", id: "Toraja" },
     ],
     correct: 0,
   },
   {
     q: {
-      en: "Who was the national hero that led the Java War (1825–1830)?",
-      id: "Siapakah pahlawan nasional yang memimpin Perang Jawa (1825–1830)?",
+      en: "Who led the Java War against colonial rule?",
+      id: "Siapa yang memimpin Perang Jawa melawan penjajahan?",
     },
     options: [
       { en: "Prince Diponegoro", id: "Pangeran Diponegoro" },
       { en: "Sultan Agung", id: "Sultan Agung" },
-      { en: "Tuanku Imam Bonjol", id: "Tuanku Imam Bonjol" },
-      { en: "Pattimura", id: "Pattimura" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "What are the oldest known written inscriptions in Indonesia called?",
-      id: "Apakah nama prasasti tertua yang diketahui di Indonesia?",
-    },
-    options: [
-      { en: "Yupa Inscriptions", id: "Prasasti Yupa" },
-      { en: "Ciaruteun Inscription", id: "Prasasti Ciaruteun" },
-      { en: "Kedukan Bukit Inscription", id: "Prasasti Kedukan Bukit" },
-      { en: "Tugu Inscription", id: "Prasasti Tugu" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "Which Majapatih is famous for the Sumpah Palapa oath to unite Nusantara?",
-      id: "Patih Majapahit siapakah yang terkenal dengan Sumpah Palapa untuk menyatukan Nusantara?",
-    },
-    options: [
-      { en: "Gajah Mada", id: "Gajah Mada" },
-      { en: "Hayam Wuruk", id: "Hayam Wuruk" },
-      { en: "Mpu Prapanca", id: "Mpu Prapanca" },
-      { en: "Raden Wijaya", id: "Raden Wijaya" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "Which was the first Islamic Sultanate established in the Indonesian archipelago?",
-      id: "Apakah kesultanan Islam pertama yang berdiri di kepulauan Nusantara?",
-    },
-    options: [
-      { en: "Samudera Pasai", id: "Samudera Pasai" },
-      { en: "Demak", id: "Demak" },
-      { en: "Aceh Darussalam", id: "Aceh Darussalam" },
-      { en: "Ternate", id: "Ternate" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "In which year was the Dutch East India Company (VOC) officially dissolved?",
-      id: "Pada tahun berapakah Kongsi Dagang Hindia Timur Belanda (VOC) resmi dibubarkan?",
-    },
-    options: [
-      { en: "1799", id: "1799" },
-      { en: "1602", id: "1602" },
-      { en: "1811", id: "1811" },
-      { en: "1942", id: "1942" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "The founding of which organization in 1908 marks the National Awakening of Indonesia?",
-      id: "Pendirian organisasi apa pada 1908 yang menandai Kebangkitan Nasional Indonesia?",
-    },
-    options: [
-      { en: "Budi Utomo", id: "Budi Utomo" },
-      { en: "Sarekat Islam", id: "Sarekat Islam" },
-      { en: "Indische Partij", id: "Indische Partij" },
-      { en: "PNI", id: "PNI" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "On which historic date was the Youth Pledge (Sumpah Pemuda) declared?",
-      id: "Pada tanggal bersejarah manakah Sumpah Pemuda diikrarkan?",
-    },
-    options: [
-      { en: "28 October 1928", id: "28 Oktober 1928" },
-      { en: "20 May 1908", id: "20 Mei 1908" },
-      { en: "17 August 1945", id: "17 Agustus 1945" },
-      { en: "10 November 1945", id: "10 November 1945" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "In which year did Indonesia hold its first direct presidential election?",
-      id: "Pada tahun berapakah Indonesia menyelenggarakan pemilu presiden langsung pertamanya?",
-    },
-    options: [
-      { en: "2004", id: "2004" },
-      { en: "1999", id: "1999" },
-      { en: "1955", id: "1955" },
-      { en: "2014", id: "2014" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "Who designed the national emblem, Garuda Pancasila?",
-      id: "Siapakah yang merancang lambang negara, Garuda Pancasila?",
-    },
-    options: [
-      { en: "Sultan Hamid II", id: "Sultan Hamid II" },
-      { en: "Muhammad Yamin", id: "Muhammad Yamin" },
-      { en: "Soekarno", id: "Soekarno" },
-      { en: "Ki Hajar Dewantara", id: "Ki Hajar Dewantara" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "Which UNESCO-recognized musical instrument is made of tuned bamboo tubes?",
-      id: "Alat musik terdaftar UNESCO manakah yang terbuat dari tabung bambu bernada?",
-    },
-    options: [
-      { en: "Angklung", id: "Angklung" },
-      { en: "Gamelan", id: "Gamelan" },
-      { en: "Sasando", id: "Sasando" },
-      { en: "Kolintang", id: "Kolintang" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "In which cave on the island of Flores were the Homo floresiensis ('Hobbit') fossils found?",
-      id: "Di gua manakah di Pulau Flores fosil Homo floresiensis ('Hobbit') ditemukan?",
-    },
-    options: [
-      { en: "Liang Bua Cave", id: "Gua Liang Bua" },
-      { en: "Leang Tedongnge", id: "Leang Tedongnge" },
-      { en: "Sangiran Dome", id: "Kubah Sangiran" },
-      { en: "Cipari Cave", id: "Gua Cipari" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "Who built the 1,000-kilometer Great Post Road (Jalan Raya Pos) across Java?",
-      id: "Siapakah yang membangun Jalan Raya Pos sepanjang 1.000 kilometer melintasi Jawa?",
-    },
-    options: [
-      { en: "Herman Willem Daendels", id: "Herman Willem Daendels" },
-      { en: "Thomas Stamford Raffles", id: "Thomas Stamford Raffles" },
-      { en: "Jan Pieterszoon Coen", id: "Jan Pieterszoon Coen" },
-      { en: "Johannes van den Bosch", id: "Johannes van den Bosch" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "Which Indonesian city hosted the historic 1955 Asia-Africa Conference?",
-      id: "Kota Indonesia manakah yang menjadi tuan rumah Konferensi Asia-Afrika 1955?",
-    },
-    options: [
-      { en: "Bandung", id: "Bandung" },
-      { en: "Jakarta", id: "Jakarta" },
-      { en: "Yogyakarta", id: "Yogyakarta" },
-      { en: "Surabaya", id: "Surabaya" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "What was the name of the first communications satellite launched by Indonesia in 1976?",
-      id: "Apakah nama satelit komunikasi pertama yang diluncurkan oleh Indonesia pada 1976?",
-    },
-    options: [
-      { en: "Palapa A1", id: "Palapa A1" },
-      { en: "Garuda 1", id: "Garuda 1" },
-      { en: "Nusantara Satu", id: "Nusantara Satu" },
-      { en: "Telkom-1", id: "Telkom-1" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "Which island region is famous for maintaining a living megalithic stone culture today?",
-      id: "Wilayah pulau manakah yang terkenal karena masih mempertahankan budaya batu megalitik hidup saat ini?",
-    },
-    options: [
-      { en: "Nias Island", id: "Pulau Nias" },
-      { en: "Bali Island", id: "Pulau Bali" },
-      { en: "Sumba Island", id: "Pulau Sumba" },
-      { en: "Flores Island", id: "Pulau Flores" },
-    ],
-    correct: 0,
-  },
-  {
-    q: {
-      en: "In which Majapahit-era literary work is the national motto 'Bhinneka Tunggal Ika' found?",
-      id: "Dalam karya sastra era Majapahit manakah semboyan negara 'Bhinneka Tunggal Ika' ditemukan?",
-    },
-    options: [
-      { en: "Kakawin Sutasoma", id: "Kakawin Sutasoma" },
-      { en: "Nagarakretagama", id: "Nagarakretagama" },
-      { en: "Kakawin Bharatayuddha", id: "Kakawin Bharatayuddha" },
-      { en: "Pararaton", id: "Pararaton" },
+      { en: "Cut Nyak Dhien", id: "Cut Nyak Dhien" },
+      { en: "Imam Bonjol", id: "Imam Bonjol" },
     ],
     correct: 0,
   },
@@ -893,11 +1038,11 @@ export const achievements = [
     descId: "Mengunjungi Ruang Sejarah Kolonial.",
   },
   {
-    id: "national",
-    titleEn: "National Pioneer",
-    titleId: "Pionir Nasional",
-    descEn: "Visited the National Movement Hall.",
-    descId: "Mengunjungi Ruang Pergerakan Nasional.",
+    id: "independence",
+    titleEn: "Independence Witness",
+    titleId: "Saksi Kemerdekaan",
+    descEn: "Visited the Independence Hall.",
+    descId: "Mengunjungi Ruang Kemerdekaan.",
   },
   {
     id: "modern",
@@ -905,13 +1050,6 @@ export const achievements = [
     titleId: "Warga Modern",
     descEn: "Visited the Modern Indonesia Hall.",
     descId: "Mengunjungi Ruang Indonesia Modern.",
-  },
-  {
-    id: "heritage",
-    titleEn: "Heritage Guardian",
-    titleId: "Penjaga Warisan",
-    descEn: "Visited the Cultural Heritage & Nature Hall.",
-    descId: "Mengunjungi Ruang Warisan Budaya & Alam.",
   },
   {
     id: "cinema",
@@ -922,8 +1060,8 @@ export const achievements = [
   },
   {
     id: "quiz",
-    titleEn: "Quiz Master",
-    titleId: "Master Kuis",
+    titleEn: "Heritage Guardian",
+    titleId: "Penjaga Warisan",
     descEn: "Completed the Heritage Quiz.",
     descId: "Menyelesaikan Kuis Warisan.",
   },

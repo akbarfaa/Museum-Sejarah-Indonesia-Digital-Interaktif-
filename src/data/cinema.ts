@@ -36,81 +36,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-UuDvUhxWXwk",
-    "youtubeId": "UuDvUhxWXwk",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "MEMAHAMI TAN MALAKA DALAM 56 MENIT",
-      "id": "MEMAHAMI TAN MALAKA DALAM 56 MENIT"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Jika ingin bekerjasama, silahkan hubungi kami via email lasakadarmagmail.com Chanel Backup Kamar Film ......",
-      "id": "Jika ingin bekerjasama, silahkan hubungi kami via email lasakadarmagmail.com Chanel Backup Kamar Film ......"
-    },
-    "narration": {
-      "en": "Watch this video: MEMAHAMI TAN MALAKA DALAM 56 MENIT",
-      "id": "Tonton video ini: MEMAHAMI TAN MALAKA DALAM 56 MENIT"
-    }
-  },
-  {
-    "id": "general-zbbifQEh4Tc",
-    "youtubeId": "zbbifQEh4Tc",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Daendels  Jalan 1000 KM: Sejarah yang tidak Diceritakan di Sekolah",
-      "id": "Daendels  Jalan 1000 KM: Sejarah yang tidak Diceritakan di Sekolah"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "De grote postweg atau jalan raya pos adalah cikal bakal dari jalur utama di pulau jawa yang lebih kita kenal sebagai jalur pantura ......",
-      "id": "De grote postweg atau jalan raya pos adalah cikal bakal dari jalur utama di pulau jawa yang lebih kita kenal sebagai jalur pantura ......"
-    },
-    "narration": {
-      "en": "Watch this video: Daendels  Jalan 1000 KM: Sejarah yang tidak Diceritakan di Sekolah",
-      "id": "Tonton video ini: Daendels  Jalan 1000 KM: Sejarah yang tidak Diceritakan di Sekolah"
-    }
-  },
-  {
-    "id": "general-bdPE9L4-12g",
-    "youtubeId": "bdPE9L4-12g",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "ASAL USUL NEGARA INDONESIA",
-      "id": "ASAL USUL NEGARA INDONESIA"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Stay safe and healty waaak!!!❤ kurang lebih minta maap -- ................................ Follow me on : INSTAGRAM : nadiaomara ......",
-      "id": "Stay safe and healty waaak!!!❤ kurang lebih minta maap -- ................................ Follow me on : INSTAGRAM : nadiaomara ......"
-    },
-    "narration": {
-      "en": "Watch this video: ASAL USUL NEGARA INDONESIA",
-      "id": "Tonton video ini: ASAL USUL NEGARA INDONESIA"
-    }
-  },
-  {
     "id": "general-qy59hu4cwVs",
     "youtubeId": "qy59hu4cwVs",
     "category": "general",
@@ -133,6 +58,131 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah",
       "id": "Tonton video ini: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah"
+    }
+  },
+  {
+    "id": "general-wXm9dt3_w5g",
+    "youtubeId": "wXm9dt3_w5g",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "The Deadly Plague That Terrorized Java 1920-1930",
+      "id": "The Deadly Plague That Terrorized Java 1920-1930"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "WARNING TO VIEWERS:\nWelcome to an archival documentary about the Dutch East Indies. This show delves into a dark chapter in ......",
+      "id": "WARNING TO VIEWERS:\nWelcome to an archival documentary about the Dutch East Indies. This show delves into a dark chapter in ......"
+    },
+    "narration": {
+      "en": "Watch this video: The Deadly Plague That Terrorized Java 1920-1930",
+      "id": "Tonton video ini: The Deadly Plague That Terrorized Java 1920-1930"
+    }
+  },
+  {
+    "id": "general-4euFSZ9ewWs",
+    "youtubeId": "4euFSZ9ewWs",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Dokumenter Asli  Tradisi Jawa  Pesta Rakyat: Maulid Nabi 1912, Ciamis ",
+      "id": "Dokumenter Asli  Tradisi Jawa  Pesta Rakyat: Maulid Nabi 1912, Ciamis "
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "PERHATIAN UNTUK PENONTON: Selamat datang di dokumenter arsip kolonial awal abad ke-20, terdiri dari tiga film langka dari ......",
+      "id": "PERHATIAN UNTUK PENONTON: Selamat datang di dokumenter arsip kolonial awal abad ke-20, terdiri dari tiga film langka dari ......"
+    },
+    "narration": {
+      "en": "Watch this video: Dokumenter Asli  Tradisi Jawa  Pesta Rakyat: Maulid Nabi 1912, Ciamis ",
+      "id": "Tonton video ini: Dokumenter Asli  Tradisi Jawa  Pesta Rakyat: Maulid Nabi 1912, Ciamis "
+    }
+  },
+  {
+    "id": "general-RcDjzXhHvho",
+    "youtubeId": "RcDjzXhHvho",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "HIKAYAT SUKARNO",
+      "id": "HIKAYAT SUKARNO"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "sejarahindonesia #sejarah #presidensoekarno #g30spki TIME LINE: 0:33 - CIA MENANG, SUKARNO TUMBANG 12:52 - CARA ......",
+      "id": "sejarahindonesia #sejarah #presidensoekarno #g30spki TIME LINE: 0:33 - CIA MENANG, SUKARNO TUMBANG 12:52 - CARA ......"
+    },
+    "narration": {
+      "en": "Watch this video: HIKAYAT SUKARNO",
+      "id": "Tonton video ini: HIKAYAT SUKARNO"
+    }
+  },
+  {
+    "id": "war-6bslntO0auI",
+    "youtubeId": "6bslntO0auI",
+    "category": "war",
+    "era": {
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
+    },
+    "title": {
+      "en": "Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949",
+      "id": "Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "KOMUNITAS CINTA PEJUANG INDONESIA KCPI “Komunitas Penggiat Sejarah Perjuangan Bangsa dan sahabat para Pejuang ......",
+      "id": "KOMUNITAS CINTA PEJUANG INDONESIA KCPI “Komunitas Penggiat Sejarah Perjuangan Bangsa dan sahabat para Pejuang ......"
+    },
+    "narration": {
+      "en": "Watch this video: Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949",
+      "id": "Tonton video ini: Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949"
+    }
+  },
+  {
+    "id": "war-4ftKN4Uh6Hc",
+    "youtubeId": "4ftKN4Uh6Hc",
+    "category": "war",
+    "era": {
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
+    },
+    "title": {
+      "en": "The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda",
+      "id": "The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "AgresiMiliterBelanda #Peristiwa #Matahatipemuda The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda Dalam catatan ......",
+      "id": "AgresiMiliterBelanda #Peristiwa #Matahatipemuda The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda Dalam catatan ......"
+    },
+    "narration": {
+      "en": "Watch this video: The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda",
+      "id": "Tonton video ini: The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda"
     }
   },
   {
@@ -186,78 +236,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-8U2QImMSzwE",
-    "youtubeId": "8U2QImMSzwE",
+    "id": "war-JOJZkx3Utac",
+    "youtubeId": "JOJZkx3Utac",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Perang Kemerdekaan Indonesia 1945-1949",
-      "id": "Perang Kemerdekaan Indonesia 1945-1949"
+      "en": "Perjalanan Film Dokumenter Masa Perang Kemerdekaan Indonesia",
+      "id": "Perjalanan Film Dokumenter Masa Perang Kemerdekaan Indonesia"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Indonesian war of independence 1945-1949 2:49 Bersiap period 14:14 Battle of Surabaya 26:07 Dutch Military Interventions ......",
-      "id": "Indonesian war of independence 1945-1949 2:49 Bersiap period 14:14 Battle of Surabaya 26:07 Dutch Military Interventions ......"
+      "en": "Perjalanan Film Dokumenter Masa Perang Kemerdekaan Indonesia....",
+      "id": "Perjalanan Film Dokumenter Masa Perang Kemerdekaan Indonesia...."
     },
     "narration": {
-      "en": "Watch this video: Perang Kemerdekaan Indonesia 1945-1949",
-      "id": "Tonton video ini: Perang Kemerdekaan Indonesia 1945-1949"
-    }
-  },
-  {
-    "id": "war-4ftKN4Uh6Hc",
-    "youtubeId": "4ftKN4Uh6Hc",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda",
-      "id": "The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "AgresiMiliterBelanda #Peristiwa #Matahatipemuda The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda Dalam catatan ......",
-      "id": "AgresiMiliterBelanda #Peristiwa #Matahatipemuda The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda Dalam catatan ......"
-    },
-    "narration": {
-      "en": "Watch this video: The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda",
-      "id": "Tonton video ini: The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda"
-    }
-  },
-  {
-    "id": "war-6bslntO0auI",
-    "youtubeId": "6bslntO0auI",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949",
-      "id": "Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "KOMUNITAS CINTA PEJUANG INDONESIA KCPI “Komunitas Penggiat Sejarah Perjuangan Bangsa dan sahabat para Pejuang ......",
-      "id": "KOMUNITAS CINTA PEJUANG INDONESIA KCPI “Komunitas Penggiat Sejarah Perjuangan Bangsa dan sahabat para Pejuang ......"
-    },
-    "narration": {
-      "en": "Watch this video: Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949",
-      "id": "Tonton video ini: Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949"
+      "en": "Watch this video: Perjalanan Film Dokumenter Masa Perang Kemerdekaan Indonesia",
+      "id": "Tonton video ini: Perjalanan Film Dokumenter Masa Perang Kemerdekaan Indonesia"
     }
   },
   {
@@ -311,31 +311,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-6nYv_eMbO6Q",
-    "youtubeId": "6nYv_eMbO6Q",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
-      "id": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......",
-      "id": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......"
-    },
-    "narration": {
-      "en": "Watch this video: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
-      "id": "Tonton video ini: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
-    }
-  },
-  {
     "id": "culture-dYGboqChEpU",
     "youtubeId": "dYGboqChEpU",
     "category": "culture",
@@ -361,53 +336,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-QvqcsJeUgB0",
-    "youtubeId": "QvqcsJeUgB0",
+    "id": "culture-6nYv_eMbO6Q",
+    "youtubeId": "6nYv_eMbO6Q",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "Mengenal Situs Warisan Dunia UNESCO dari Indonesia",
-      "id": "Mengenal Situs Warisan Dunia UNESCO dari Indonesia"
+      "en": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
+      "id": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Hai teman kece, mungkin pernah denger yah tentang situs UNESCO? Biasanya situs ini menjadi kebanggaan setiap negara ......",
-      "id": "Hai teman kece, mungkin pernah denger yah tentang situs UNESCO? Biasanya situs ini menjadi kebanggaan setiap negara ......"
+      "en": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......",
+      "id": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......"
     },
     "narration": {
-      "en": "Watch this video: Mengenal Situs Warisan Dunia UNESCO dari Indonesia",
-      "id": "Tonton video ini: Mengenal Situs Warisan Dunia UNESCO dari Indonesia"
+      "en": "Watch this video: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
+      "id": "Tonton video ini: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
     }
   },
   {
-    "id": "kingdoms-9_K6_gOnXj8",
-    "youtubeId": "9_K6_gOnXj8",
-    "category": "kingdoms",
+    "id": "culture-2q7EfCCaaig",
+    "youtubeId": "2q7EfCCaaig",
+    "category": "culture",
     "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
-      "id": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
+      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
+      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll....",
-      "id": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll...."
+      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......",
+      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......"
     },
     "narration": {
-      "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
-      "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
+      "en": "Watch this video: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
+      "id": "Tonton video ini: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
     }
   },
   {
@@ -436,53 +411,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "kingdoms-oBShIXxAj4E",
-    "youtubeId": "oBShIXxAj4E",
+    "id": "kingdoms-9_K6_gOnXj8",
+    "youtubeId": "9_K6_gOnXj8",
     "category": "kingdoms",
     "era": {
       "en": "Ancient Kingdoms",
       "id": "Kerajaan Nusantara Kuno"
     },
     "title": {
-      "en": "Sejarah Kerajaan Sriwijaya, Mengapa Mendominasi Asia Tenggara dan Peny",
-      "id": "Sejarah Kerajaan Sriwijaya, Mengapa Mendominasi Asia Tenggara dan Peny"
+      "en": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
+      "id": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Membahas sejarah dari kerajaan Sriwijaya, Asal Usul berdirinya, mengapa mampu menjadi yang terkuat di asia tenggara serta ......",
-      "id": "Membahas sejarah dari kerajaan Sriwijaya, Asal Usul berdirinya, mengapa mampu menjadi yang terkuat di asia tenggara serta ......"
+      "en": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll....",
+      "id": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll...."
     },
     "narration": {
-      "en": "Watch this video: Sejarah Kerajaan Sriwijaya, Mengapa Mendominasi Asia Tenggara dan Peny",
-      "id": "Tonton video ini: Sejarah Kerajaan Sriwijaya, Mengapa Mendominasi Asia Tenggara dan Peny"
+      "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
+      "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
     }
   },
   {
-    "id": "kingdoms-SFiwETBVP1c",
-    "youtubeId": "SFiwETBVP1c",
+    "id": "kingdoms-2o7U9KlFRRQ",
+    "youtubeId": "2o7U9KlFRRQ",
     "category": "kingdoms",
     "era": {
       "en": "Ancient Kingdoms",
       "id": "Kerajaan Nusantara Kuno"
     },
     "title": {
-      "en": "Sejarah Kerajaan Majapahit  Sejarah SMA",
-      "id": "Sejarah Kerajaan Majapahit  Sejarah SMA"
+      "en": "Understanding the Srivijaya Empire in 47 Minutes: The Largest Maritime",
+      "id": "Understanding the Srivijaya Empire in 47 Minutes: The Largest Maritime"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Kerajaan Majapahit adalah kerajaan terbesar dan paling sukses yang pernah menyatukan hampir seluruh nusantara. Kejayaan ......",
-      "id": "Kerajaan Majapahit adalah kerajaan terbesar dan paling sukses yang pernah menyatukan hampir seluruh nusantara. Kejayaan ......"
+      "en": "Why do we rarely hear the great story of the Srivijaya Empire, even though it was once the largest maritime empire in the ......",
+      "id": "Why do we rarely hear the great story of the Srivijaya Empire, even though it was once the largest maritime empire in the ......"
     },
     "narration": {
-      "en": "Watch this video: Sejarah Kerajaan Majapahit  Sejarah SMA",
-      "id": "Tonton video ini: Sejarah Kerajaan Majapahit  Sejarah SMA"
+      "en": "Watch this video: Understanding the Srivijaya Empire in 47 Minutes: The Largest Maritime",
+      "id": "Tonton video ini: Understanding the Srivijaya Empire in 47 Minutes: The Largest Maritime"
     }
   },
   {
@@ -508,6 +483,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
       "id": "Tonton video ini: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
+    }
+  },
+  {
+    "id": "kingdoms-LIYjqr68_ig",
+    "youtubeId": "LIYjqr68_ig",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "SRIWIJAYA - Southeast Asias Forgotten Superpower",
+      "id": "SRIWIJAYA - Southeast Asias Forgotten Superpower"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "➡️Support ASISI channel via Super Thanks or https://trakteer.id/asisichannel\n👉 Join the ASISI Community: https://www.facebook ......",
+      "id": "➡️Support ASISI channel via Super Thanks or https://trakteer.id/asisichannel\n👉 Join the ASISI Community: https://www.facebook ......"
+    },
+    "narration": {
+      "en": "Watch this video: SRIWIJAYA - Southeast Asias Forgotten Superpower",
+      "id": "Tonton video ini: SRIWIJAYA - Southeast Asias Forgotten Superpower"
     }
   }
 ];
