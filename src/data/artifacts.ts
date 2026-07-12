@@ -346,7 +346,7 @@ export const artifacts: Artifact[] = [
       "id": "Abad ke-10"
     },
     "description": {
-      "en": "Ganesha or Ganesh (Sanskrit: गणेश, IAST: Gaṇeśa, IPA: [ɡɐˈɳeːɕɐ]), also known as Ganapati, Vinayaka and Pillaiyar, is one of the best-known and most revered and worshipped deities in the Hindu pantheon and is the Supreme god in the Ganapatya sect. His depictions are found throughout India. Hindu denominations worship him regardless of affiliations. Ganesha also holds the Title of \"Pratham Pujya\" (the god to be worshipped initially before the worship of any other Deity).",
+      "en": "Ganesha, or Ganesh (Sanskrit: गणेश, IAST: Gaṇeśa, IPA: [ɡɐˈɳeːɕɐ]), also known as Ganapati, Vinayaka and Pillaiyar, is one of the best-known and most revered and worshipped deities in the Hindu pantheon and is the Supreme god in the Ganapatya sect. His depictions are found throughout India. Hindu denominations worship him regardless of affiliations. Ganesha also holds the Title of \"Pratham Pujya\" (the god to be worshipped initially before the worship of any other Deity).",
       "id": "Ganesa  (Dewanagari: गणेश; ,IAST: Gaṇeśa,; ) adalah salah satu dewa terkenal dalam agama Hindu dan banyak dipuja oleh umat Hindu, yang memiliki gelar sebagai Dewa pengetahuan dan kecerdasan, Dewa pelindung, Dewa penolak bala/bencana dan Dewa kebijaksanaan. Lukisan dan patungnya banyak ditemukan di berbagai penjuru India; termasuk Nepal, Tibet dan Asia Tenggara. Dalam relief, patung dan lukisan, ia sering digambarkan berkepala gajah, berlengan empat dan berbadan gemuk. Ia dikenal pula dengan nama Ganapati, Winayaka dan Pilleyar."
     }
   },

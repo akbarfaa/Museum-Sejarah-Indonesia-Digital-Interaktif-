@@ -36,6 +36,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "general-_oNJNzsqgJU",
+    "youtubeId": "_oNJNzsqgJU",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Film Dokumenter sejarah indonesia pertempuran laut jawa 27 februari 19",
+      "id": "Film Dokumenter sejarah indonesia pertempuran laut jawa 27 februari 19"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "ok kali ini sayah akan meringkas cerita Film Dokumenter sejarah indonesia film perang dunia ke 2 perang kapal laut battleship ......",
+      "id": "ok kali ini sayah akan meringkas cerita Film Dokumenter sejarah indonesia film perang dunia ke 2 perang kapal laut battleship ......"
+    },
+    "narration": {
+      "en": "Watch this video: Film Dokumenter sejarah indonesia pertempuran laut jawa 27 februari 19",
+      "id": "Tonton video ini: Film Dokumenter sejarah indonesia pertempuran laut jawa 27 februari 19"
+    }
+  },
+  {
     "id": "general-UuDvUhxWXwk",
     "youtubeId": "UuDvUhxWXwk",
     "category": "general",
@@ -61,28 +86,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-z4p8Oih8xZs",
-    "youtubeId": "z4p8Oih8xZs",
+    "id": "general-nM4mitSBQKk",
+    "youtubeId": "nM4mitSBQKk",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta",
-      "id": "Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta"
+      "en": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
+      "id": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Status daerah istimewa dalam sistem kenegaraan Republik Indonesia, yang disandang sejumlah kecil wilayah di Indonesia, tidak ......",
-      "id": "Status daerah istimewa dalam sistem kenegaraan Republik Indonesia, yang disandang sejumlah kecil wilayah di Indonesia, tidak ......"
+      "en": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ....",
+      "id": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ...."
     },
     "narration": {
-      "en": "Watch this video: Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta",
-      "id": "Tonton video ini: Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta"
+      "en": "Watch this video: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
+      "id": "Tonton video ini: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
     }
   },
   {
@@ -108,31 +133,6 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah",
       "id": "Tonton video ini: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah"
-    }
-  },
-  {
-    "id": "general-nM4mitSBQKk",
-    "youtubeId": "nM4mitSBQKk",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
-      "id": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ....",
-      "id": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ...."
-    },
-    "narration": {
-      "en": "Watch this video: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
-      "id": "Tonton video ini: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
     }
   },
   {
@@ -186,6 +186,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "war-zx46Vy3KTLs",
+    "youtubeId": "zx46Vy3KTLs",
+    "category": "war",
+    "era": {
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
+    },
+    "title": {
+      "en": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
+      "id": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "...",
+      "id": "..."
+    },
+    "narration": {
+      "en": "Watch this video: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
+      "id": "Tonton video ini: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+    }
+  },
+  {
     "id": "war-LBh3quIaTsI",
     "youtubeId": "LBh3quIaTsI",
     "category": "war",
@@ -211,53 +236,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-pTyMa-xanJE",
-    "youtubeId": "pTyMa-xanJE",
+    "id": "war-8KQ5VDLB4Kw",
+    "youtubeId": "8KQ5VDLB4Kw",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan",
-      "id": "Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan"
+      "en": "Melawan Lupa - Pertempuran Jawa",
+      "id": "Melawan Lupa - Pertempuran Jawa"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Indonesia tidak hanya dijajah. Ia dianiaya, diduduki, kelaparan, dan kemudian dipaksa membayar untuk kebebasannya sendiri. Ini ......",
-      "id": "Indonesia tidak hanya dijajah. Ia dianiaya, diduduki, kelaparan, dan kemudian dipaksa membayar untuk kebebasannya sendiri. Ini ......"
+      "en": "Meski rakyat Indonesia tidak terlibat langsung selama Perang Dunia II, beberapa wilayah Indonesia pernah menjadi lokasi ......",
+      "id": "Meski rakyat Indonesia tidak terlibat langsung selama Perang Dunia II, beberapa wilayah Indonesia pernah menjadi lokasi ......"
     },
     "narration": {
-      "en": "Watch this video: Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan",
-      "id": "Tonton video ini: Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan"
-    }
-  },
-  {
-    "id": "war-zx46Vy3KTLs",
-    "youtubeId": "zx46Vy3KTLs",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
-      "id": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "...",
-      "id": "..."
-    },
-    "narration": {
-      "en": "Watch this video: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
-      "id": "Tonton video ini: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+      "en": "Watch this video: Melawan Lupa - Pertempuran Jawa",
+      "id": "Tonton video ini: Melawan Lupa - Pertempuran Jawa"
     }
   },
   {
@@ -311,6 +311,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "culture-dYGboqChEpU",
+    "youtubeId": "dYGboqChEpU",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
+      "id": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......",
+      "id": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......"
+    },
+    "narration": {
+      "en": "Watch this video: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
+      "id": "Tonton video ini: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
+    }
+  },
+  {
     "id": "culture-6nYv_eMbO6Q",
     "youtubeId": "6nYv_eMbO6Q",
     "category": "culture",
@@ -336,53 +361,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-2q7EfCCaaig",
-    "youtubeId": "2q7EfCCaaig",
+    "id": "culture-oeR6KOoIZXE",
+    "youtubeId": "oeR6KOoIZXE",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
-      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
+      "en": "5 WARISAN DUNIA UNESCO DI INDONESIA  No. 5 Jarang Diketahui!!!  INDONE",
+      "id": "5 WARISAN DUNIA UNESCO DI INDONESIA  No. 5 Jarang Diketahui!!!  INDONE"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......",
-      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......"
+      "en": "Inilah daftar warisan dunia yang ada di indonesia yang diakui oleh UNESCO. Selamat menonton, semoga bisa menambah ......",
+      "id": "Inilah daftar warisan dunia yang ada di indonesia yang diakui oleh UNESCO. Selamat menonton, semoga bisa menambah ......"
     },
     "narration": {
-      "en": "Watch this video: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
-      "id": "Tonton video ini: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
-    }
-  },
-  {
-    "id": "culture-dYGboqChEpU",
-    "youtubeId": "dYGboqChEpU",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
-      "id": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......",
-      "id": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......"
-    },
-    "narration": {
-      "en": "Watch this video: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
-      "id": "Tonton video ini: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
+      "en": "Watch this video: 5 WARISAN DUNIA UNESCO DI INDONESIA  No. 5 Jarang Diketahui!!!  INDONE",
+      "id": "Tonton video ini: 5 WARISAN DUNIA UNESCO DI INDONESIA  No. 5 Jarang Diketahui!!!  INDONE"
     }
   },
   {
