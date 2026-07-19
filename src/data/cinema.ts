@@ -11,81 +11,6 @@ export type CinemaEra = {
 
 export const cinemaEras: CinemaEra[] = [
   {
-    "id": "general-8ohCOzsVKXg",
-    "youtubeId": "8ohCOzsVKXg",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc",
-      "id": "Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Tragedi 1998 adalah salah satu peristiwa paling kelam dalam sejarah Indonesia modern. Pada bulan Mei 1998, gelombang ......",
-      "id": "Tragedi 1998 adalah salah satu peristiwa paling kelam dalam sejarah Indonesia modern. Pada bulan Mei 1998, gelombang ......"
-    },
-    "narration": {
-      "en": "Watch this video: Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc",
-      "id": "Tonton video ini: Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc"
-    }
-  },
-  {
-    "id": "general-_oNJNzsqgJU",
-    "youtubeId": "_oNJNzsqgJU",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Film Dokumenter sejarah indonesia pertempuran laut jawa 27 februari 19",
-      "id": "Film Dokumenter sejarah indonesia pertempuran laut jawa 27 februari 19"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "ok kali ini sayah akan meringkas cerita Film Dokumenter sejarah indonesia film perang dunia ke 2 perang kapal laut battleship ......",
-      "id": "ok kali ini sayah akan meringkas cerita Film Dokumenter sejarah indonesia film perang dunia ke 2 perang kapal laut battleship ......"
-    },
-    "narration": {
-      "en": "Watch this video: Film Dokumenter sejarah indonesia pertempuran laut jawa 27 februari 19",
-      "id": "Tonton video ini: Film Dokumenter sejarah indonesia pertempuran laut jawa 27 februari 19"
-    }
-  },
-  {
-    "id": "general-UuDvUhxWXwk",
-    "youtubeId": "UuDvUhxWXwk",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "UNDERSTANDING TAN MALAKA IN 56 MINUTES",
-      "id": "UNDERSTANDING TAN MALAKA IN 56 MINUTES"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "If youd like to collaborate, please contact us via email at lasakadarmagmail.com\n\nKamar Film Backup Channel\nhttps://www ......",
-      "id": "If youd like to collaborate, please contact us via email at lasakadarmagmail.com\n\nKamar Film Backup Channel\nhttps://www ......"
-    },
-    "narration": {
-      "en": "Watch this video: UNDERSTANDING TAN MALAKA IN 56 MINUTES",
-      "id": "Tonton video ini: UNDERSTANDING TAN MALAKA IN 56 MINUTES"
-    }
-  },
-  {
     "id": "general-nM4mitSBQKk",
     "youtubeId": "nM4mitSBQKk",
     "category": "general",
@@ -111,78 +36,128 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-qy59hu4cwVs",
-    "youtubeId": "qy59hu4cwVs",
+    "id": "general-B92NPsuSgig",
+    "youtubeId": "B92NPsuSgig",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "Sejarah Lengkap Indonesia  Film Dokumenter Sejarah",
-      "id": "Sejarah Lengkap Indonesia  Film Dokumenter Sejarah"
+      "en": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
+      "id": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Bagaimana 17.000 pulau menjadi satu bangsa — persatuan Indonesia yang mustahil dari jalur perdagangan kuno hingga demokrasi ......",
-      "id": "Bagaimana 17.000 pulau menjadi satu bangsa — persatuan Indonesia yang mustahil dari jalur perdagangan kuno hingga demokrasi ......"
+      "en": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......",
+      "id": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......"
     },
     "narration": {
-      "en": "Watch this video: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah",
-      "id": "Tonton video ini: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah"
+      "en": "Watch this video: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
+      "id": "Tonton video ini: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
     }
   },
   {
-    "id": "war-6bslntO0auI",
-    "youtubeId": "6bslntO0auI",
+    "id": "general-WemvzuNbCHc",
+    "youtubeId": "WemvzuNbCHc",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Rare 1930 Documentary – Original Dutch East Indies Archive from the Co",
+      "id": "Rare 1930 Documentary – Original Dutch East Indies Archive from the Co"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "🟫 ATTENTION TO VIEWERS:\n\nWelcome to an archival documentary about the Dutch East Indies. This film reveals the lives of tea ......",
+      "id": "🟫 ATTENTION TO VIEWERS:\n\nWelcome to an archival documentary about the Dutch East Indies. This film reveals the lives of tea ......"
+    },
+    "narration": {
+      "en": "Watch this video: Rare 1930 Documentary – Original Dutch East Indies Archive from the Co",
+      "id": "Tonton video ini: Rare 1930 Documentary – Original Dutch East Indies Archive from the Co"
+    }
+  },
+  {
+    "id": "general-8ohCOzsVKXg",
+    "youtubeId": "8ohCOzsVKXg",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc",
+      "id": "Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Tragedi 1998 adalah salah satu peristiwa paling kelam dalam sejarah Indonesia modern. Pada bulan Mei 1998, gelombang ......",
+      "id": "Tragedi 1998 adalah salah satu peristiwa paling kelam dalam sejarah Indonesia modern. Pada bulan Mei 1998, gelombang ......"
+    },
+    "narration": {
+      "en": "Watch this video: Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc",
+      "id": "Tonton video ini: Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc"
+    }
+  },
+  {
+    "id": "general-s5NmktySAVg",
+    "youtubeId": "s5NmktySAVg",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
+      "id": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......",
+      "id": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......"
+    },
+    "narration": {
+      "en": "Watch this video: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
+      "id": "Tonton video ini: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+    }
+  },
+  {
+    "id": "war-wsZCAghk_0A",
+    "youtubeId": "wsZCAghk_0A",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949",
-      "id": "Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949"
+      "en": "Indonesia Perang Kemerdekaan 1945 1949 Full Documentary",
+      "id": "Indonesia Perang Kemerdekaan 1945 1949 Full Documentary"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "KOMUNITAS CINTA PEJUANG INDONESIA KCPI “Komunitas Penggiat Sejarah Perjuangan Bangsa dan sahabat para Pejuang ......",
-      "id": "KOMUNITAS CINTA PEJUANG INDONESIA KCPI “Komunitas Penggiat Sejarah Perjuangan Bangsa dan sahabat para Pejuang ......"
+      "en": "...",
+      "id": "..."
     },
     "narration": {
-      "en": "Watch this video: Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949",
-      "id": "Tonton video ini: Film DOKUMENTASI SEJARAH PERJUANGAN BANGSA INDONESIA TAHUN 1945 -1949"
-    }
-  },
-  {
-    "id": "war-4ftKN4Uh6Hc",
-    "youtubeId": "4ftKN4Uh6Hc",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda",
-      "id": "The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "AgresiMiliterBelanda #Peristiwa #Matahatipemuda The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda Dalam catatan ......",
-      "id": "AgresiMiliterBelanda #Peristiwa #Matahatipemuda The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda Dalam catatan ......"
-    },
-    "narration": {
-      "en": "Watch this video: The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda",
-      "id": "Tonton video ini: The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda"
+      "en": "Watch this video: Indonesia Perang Kemerdekaan 1945 1949 Full Documentary",
+      "id": "Tonton video ini: Indonesia Perang Kemerdekaan 1945 1949 Full Documentary"
     }
   },
   {
@@ -236,78 +211,78 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-8KQ5VDLB4Kw",
-    "youtubeId": "8KQ5VDLB4Kw",
+    "id": "war-8U2QImMSzwE",
+    "youtubeId": "8U2QImMSzwE",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Melawan Lupa - Pertempuran Jawa",
-      "id": "Melawan Lupa - Pertempuran Jawa"
+      "en": "Perang Kemerdekaan Indonesia 1945-1949",
+      "id": "Perang Kemerdekaan Indonesia 1945-1949"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Meski rakyat Indonesia tidak terlibat langsung selama Perang Dunia II, beberapa wilayah Indonesia pernah menjadi lokasi ......",
-      "id": "Meski rakyat Indonesia tidak terlibat langsung selama Perang Dunia II, beberapa wilayah Indonesia pernah menjadi lokasi ......"
+      "en": "Indonesian war of independence 1945-1949 2:49 Bersiap period 14:14 Battle of Surabaya 26:07 Dutch Military Interventions ......",
+      "id": "Indonesian war of independence 1945-1949 2:49 Bersiap period 14:14 Battle of Surabaya 26:07 Dutch Military Interventions ......"
     },
     "narration": {
-      "en": "Watch this video: Melawan Lupa - Pertempuran Jawa",
-      "id": "Tonton video ini: Melawan Lupa - Pertempuran Jawa"
+      "en": "Watch this video: Perang Kemerdekaan Indonesia 1945-1949",
+      "id": "Tonton video ini: Perang Kemerdekaan Indonesia 1945-1949"
     }
   },
   {
-    "id": "culture-CLZLsoy13Sg",
-    "youtubeId": "CLZLsoy13Sg",
+    "id": "war-jxxFYZZjra0",
+    "youtubeId": "jxxFYZZjra0",
+    "category": "war",
+    "era": {
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
+    },
+    "title": {
+      "en": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
+      "id": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......",
+      "id": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......"
+    },
+    "narration": {
+      "en": "Watch this video: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
+      "id": "Tonton video ini: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
+    }
+  },
+  {
+    "id": "culture-UoyBzXBjRRo",
+    "youtubeId": "UoyBzXBjRRo",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "Alasan UNESCO Menetapkan Borobudur sebagai Situs Warisan Dunia",
-      "id": "Alasan UNESCO Menetapkan Borobudur sebagai Situs Warisan Dunia"
+      "en": "10 SITUS WARISAN DUNIA UNESCO di INDONESIA  SALAH SATUNYA TERANCAM PUN",
+      "id": "10 SITUS WARISAN DUNIA UNESCO di INDONESIA  SALAH SATUNYA TERANCAM PUN"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "UNESCO menetapkan Candi Borobudur sebagai situs warisan dunia, pada 1991. Penetapan ini dilatarbelakangi beberapa ......",
-      "id": "UNESCO menetapkan Candi Borobudur sebagai situs warisan dunia, pada 1991. Penetapan ini dilatarbelakangi beberapa ......"
+      "en": "taugaksih #situswarisanunesco #warisanduniaunesco #warisanunesco 10 SITUS WARISAN DUNIA UNESCO di INDONESIA ......",
+      "id": "taugaksih #situswarisanunesco #warisanduniaunesco #warisanunesco 10 SITUS WARISAN DUNIA UNESCO di INDONESIA ......"
     },
     "narration": {
-      "en": "Watch this video: Alasan UNESCO Menetapkan Borobudur sebagai Situs Warisan Dunia",
-      "id": "Tonton video ini: Alasan UNESCO Menetapkan Borobudur sebagai Situs Warisan Dunia"
-    }
-  },
-  {
-    "id": "culture-0tQR2H04V-Y",
-    "youtubeId": "0tQR2H04V-Y",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "Sejarah Perkembangan Batik hingga Menjadi Warisan Budaya Dunia Tak Ben",
-      "id": "Sejarah Perkembangan Batik hingga Menjadi Warisan Budaya Dunia Tak Ben"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "TRIBUN-VIDEO.COM - Asti Suryo Astuti yang merupakan Asisten Manajer Museum Batik Danar Hadi Solo menjelaskan ......",
-      "id": "TRIBUN-VIDEO.COM - Asti Suryo Astuti yang merupakan Asisten Manajer Museum Batik Danar Hadi Solo menjelaskan ......"
-    },
-    "narration": {
-      "en": "Watch this video: Sejarah Perkembangan Batik hingga Menjadi Warisan Budaya Dunia Tak Ben",
-      "id": "Tonton video ini: Sejarah Perkembangan Batik hingga Menjadi Warisan Budaya Dunia Tak Ben"
+      "en": "Watch this video: 10 SITUS WARISAN DUNIA UNESCO di INDONESIA  SALAH SATUNYA TERANCAM PUN",
+      "id": "Tonton video ini: 10 SITUS WARISAN DUNIA UNESCO di INDONESIA  SALAH SATUNYA TERANCAM PUN"
     }
   },
   {
@@ -336,103 +311,78 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-6nYv_eMbO6Q",
-    "youtubeId": "6nYv_eMbO6Q",
+    "id": "culture-2q7EfCCaaig",
+    "youtubeId": "2q7EfCCaaig",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
-      "id": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
+      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
+      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......",
-      "id": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......"
+      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......",
+      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......"
     },
     "narration": {
-      "en": "Watch this video: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
-      "id": "Tonton video ini: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
+      "en": "Watch this video: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
+      "id": "Tonton video ini: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
     }
   },
   {
-    "id": "culture-oeR6KOoIZXE",
-    "youtubeId": "oeR6KOoIZXE",
+    "id": "culture-fI7Zt-bHBnc",
+    "youtubeId": "fI7Zt-bHBnc",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "5 WARISAN DUNIA UNESCO DI INDONESIA  No. 5 Jarang Diketahui!!!  INDONE",
-      "id": "5 WARISAN DUNIA UNESCO DI INDONESIA  No. 5 Jarang Diketahui!!!  INDONE"
+      "en": "6 Budaya Indonesia yang Diakui UNESCO",
+      "id": "6 Budaya Indonesia yang Diakui UNESCO"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Inilah daftar warisan dunia yang ada di indonesia yang diakui oleh UNESCO. Selamat menonton, semoga bisa menambah ......",
-      "id": "Inilah daftar warisan dunia yang ada di indonesia yang diakui oleh UNESCO. Selamat menonton, semoga bisa menambah ......"
+      "en": "Inilah beberapa warisan budaya Indonesia yang diakui oleh UNESCO. Baca selengkapnya di ......",
+      "id": "Inilah beberapa warisan budaya Indonesia yang diakui oleh UNESCO. Baca selengkapnya di ......"
     },
     "narration": {
-      "en": "Watch this video: 5 WARISAN DUNIA UNESCO DI INDONESIA  No. 5 Jarang Diketahui!!!  INDONE",
-      "id": "Tonton video ini: 5 WARISAN DUNIA UNESCO DI INDONESIA  No. 5 Jarang Diketahui!!!  INDONE"
+      "en": "Watch this video: 6 Budaya Indonesia yang Diakui UNESCO",
+      "id": "Tonton video ini: 6 Budaya Indonesia yang Diakui UNESCO"
     }
   },
   {
-    "id": "kingdoms-9_K6_gOnXj8",
-    "youtubeId": "9_K6_gOnXj8",
-    "category": "kingdoms",
+    "id": "culture-OxKMvelvG_I",
+    "youtubeId": "OxKMvelvG_I",
+    "category": "culture",
     "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
-      "id": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
+      "en": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia",
+      "id": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll....",
-      "id": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll...."
+      "en": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia Indonesia kaya akan keanekaragaman warisan ......",
+      "id": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia Indonesia kaya akan keanekaragaman warisan ......"
     },
     "narration": {
-      "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
-      "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
-    }
-  },
-  {
-    "id": "kingdoms-2Z9hqVqPY_s",
-    "youtubeId": "2Z9hqVqPY_s",
-    "category": "kingdoms",
-    "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
-    },
-    "title": {
-      "en": "Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj",
-      "id": "Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "TIMESTAMP 00:00 Intro 01:23 The Beginning 06:54 Early Years 09:27 Second Periode 14:01 Hayam Wuruk  Puncak Kejayaan ......",
-      "id": "TIMESTAMP 00:00 Intro 01:23 The Beginning 06:54 Early Years 09:27 Second Periode 14:01 Hayam Wuruk  Puncak Kejayaan ......"
-    },
-    "narration": {
-      "en": "Watch this video: Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj",
-      "id": "Tonton video ini: Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj"
+      "en": "Watch this video: 16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia",
+      "id": "Tonton video ini: 16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia"
     }
   },
   {
@@ -461,6 +411,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "kingdoms-2Z9hqVqPY_s",
+    "youtubeId": "2Z9hqVqPY_s",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj",
+      "id": "Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "TIMESTAMP 00:00 Intro 01:23 The Beginning 06:54 Early Years 09:27 Second Periode 14:01 Hayam Wuruk  Puncak Kejayaan ......",
+      "id": "TIMESTAMP 00:00 Intro 01:23 The Beginning 06:54 Early Years 09:27 Second Periode 14:01 Hayam Wuruk  Puncak Kejayaan ......"
+    },
+    "narration": {
+      "en": "Watch this video: Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj",
+      "id": "Tonton video ini: Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj"
+    }
+  },
+  {
     "id": "kingdoms-n4zGw2OewIk",
     "youtubeId": "n4zGw2OewIk",
     "category": "kingdoms",
@@ -483,6 +458,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
       "id": "Tonton video ini: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
+    }
+  },
+  {
+    "id": "kingdoms-9_K6_gOnXj8",
+    "youtubeId": "9_K6_gOnXj8",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
+      "id": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll....",
+      "id": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll...."
+    },
+    "narration": {
+      "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
+      "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
     }
   },
   {
