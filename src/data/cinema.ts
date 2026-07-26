@@ -61,31 +61,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-WemvzuNbCHc",
-    "youtubeId": "WemvzuNbCHc",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Rare 1930 Documentary – Original Dutch East Indies Archive from the Co",
-      "id": "Rare 1930 Documentary – Original Dutch East Indies Archive from the Co"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "🟫 ATTENTION TO VIEWERS:\n\nWelcome to an archival documentary about the Dutch East Indies. This film reveals the lives of tea ......",
-      "id": "🟫 ATTENTION TO VIEWERS:\n\nWelcome to an archival documentary about the Dutch East Indies. This film reveals the lives of tea ......"
-    },
-    "narration": {
-      "en": "Watch this video: Rare 1930 Documentary – Original Dutch East Indies Archive from the Co",
-      "id": "Tonton video ini: Rare 1930 Documentary – Original Dutch East Indies Archive from the Co"
-    }
-  },
-  {
     "id": "general-8ohCOzsVKXg",
     "youtubeId": "8ohCOzsVKXg",
     "category": "general",
@@ -111,28 +86,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-s5NmktySAVg",
-    "youtubeId": "s5NmktySAVg",
+    "id": "general-UuDvUhxWXwk",
+    "youtubeId": "UuDvUhxWXwk",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
-      "id": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+      "en": "UNDERSTANDING TAN MALAKA IN 56 MINUTES",
+      "id": "UNDERSTANDING TAN MALAKA IN 56 MINUTES"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......",
-      "id": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......"
+      "en": "If youd like to collaborate, please contact us via email at lasakadarmagmail.com\n\nKamar Film Backup Channel\nhttps://www ......",
+      "id": "If youd like to collaborate, please contact us via email at lasakadarmagmail.com\n\nKamar Film Backup Channel\nhttps://www ......"
     },
     "narration": {
-      "en": "Watch this video: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
-      "id": "Tonton video ini: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+      "en": "Watch this video: UNDERSTANDING TAN MALAKA IN 56 MINUTES",
+      "id": "Tonton video ini: UNDERSTANDING TAN MALAKA IN 56 MINUTES"
+    }
+  },
+  {
+    "id": "general-KdOfg4KbXyI",
+    "youtubeId": "KdOfg4KbXyI",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa",
+      "id": "Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Penjajahan Belanda di Indonesia bukanlah sekadar kisah 350 tahun kekuasaan asing, melainkan rangkaian panjang eksploitasi, ......",
+      "id": "Penjajahan Belanda di Indonesia bukanlah sekadar kisah 350 tahun kekuasaan asing, melainkan rangkaian panjang eksploitasi, ......"
+    },
+    "narration": {
+      "en": "Watch this video: Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa",
+      "id": "Tonton video ini: Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa"
     }
   },
   {
@@ -161,31 +161,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-zx46Vy3KTLs",
-    "youtubeId": "zx46Vy3KTLs",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
-      "id": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "...",
-      "id": "..."
-    },
-    "narration": {
-      "en": "Watch this video: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
-      "id": "Tonton video ini: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
-    }
-  },
-  {
     "id": "war-LBh3quIaTsI",
     "youtubeId": "LBh3quIaTsI",
     "category": "war",
@@ -211,6 +186,56 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "war-pTyMa-xanJE",
+    "youtubeId": "pTyMa-xanJE",
+    "category": "war",
+    "era": {
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
+    },
+    "title": {
+      "en": "Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan",
+      "id": "Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Indonesia tidak hanya dijajah. Ia dianiaya, diduduki, kelaparan, dan kemudian dipaksa membayar untuk kebebasannya sendiri. Ini ......",
+      "id": "Indonesia tidak hanya dijajah. Ia dianiaya, diduduki, kelaparan, dan kemudian dipaksa membayar untuk kebebasannya sendiri. Ini ......"
+    },
+    "narration": {
+      "en": "Watch this video: Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan",
+      "id": "Tonton video ini: Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan"
+    }
+  },
+  {
+    "id": "war-zx46Vy3KTLs",
+    "youtubeId": "zx46Vy3KTLs",
+    "category": "war",
+    "era": {
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
+    },
+    "title": {
+      "en": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
+      "id": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "...",
+      "id": "..."
+    },
+    "narration": {
+      "en": "Watch this video: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
+      "id": "Tonton video ini: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+    }
+  },
+  {
     "id": "war-8U2QImMSzwE",
     "youtubeId": "8U2QImMSzwE",
     "category": "war",
@@ -233,31 +258,6 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Perang Kemerdekaan Indonesia 1945-1949",
       "id": "Tonton video ini: Perang Kemerdekaan Indonesia 1945-1949"
-    }
-  },
-  {
-    "id": "war-jxxFYZZjra0",
-    "youtubeId": "jxxFYZZjra0",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
-      "id": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......",
-      "id": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......"
-    },
-    "narration": {
-      "en": "Watch this video: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
-      "id": "Tonton video ini: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
     }
   },
   {
@@ -311,6 +311,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "culture-QvqcsJeUgB0",
+    "youtubeId": "QvqcsJeUgB0",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "Mengenal Situs Warisan Dunia UNESCO dari Indonesia",
+      "id": "Mengenal Situs Warisan Dunia UNESCO dari Indonesia"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Hai teman kece, mungkin pernah denger yah tentang situs UNESCO? Biasanya situs ini menjadi kebanggaan setiap negara ......",
+      "id": "Hai teman kece, mungkin pernah denger yah tentang situs UNESCO? Biasanya situs ini menjadi kebanggaan setiap negara ......"
+    },
+    "narration": {
+      "en": "Watch this video: Mengenal Situs Warisan Dunia UNESCO dari Indonesia",
+      "id": "Tonton video ini: Mengenal Situs Warisan Dunia UNESCO dari Indonesia"
+    }
+  },
+  {
     "id": "culture-2q7EfCCaaig",
     "youtubeId": "2q7EfCCaaig",
     "category": "culture",
@@ -336,53 +361,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-fI7Zt-bHBnc",
-    "youtubeId": "fI7Zt-bHBnc",
+    "id": "culture-1KXcdLN9wPg",
+    "youtubeId": "1KXcdLN9wPg",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "6 Budaya Indonesia yang Diakui UNESCO",
-      "id": "6 Budaya Indonesia yang Diakui UNESCO"
+      "en": "THE HISTORY OF BOROBUDUR TEMPLE AS INDONESIAS CULTURAL HERITAGE",
+      "id": "THE HISTORY OF BOROBUDUR TEMPLE AS INDONESIAS CULTURAL HERITAGE"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Inilah beberapa warisan budaya Indonesia yang diakui oleh UNESCO. Baca selengkapnya di ......",
-      "id": "Inilah beberapa warisan budaya Indonesia yang diakui oleh UNESCO. Baca selengkapnya di ......"
+      "en": "#borobudurcandi #borobudurhistory #indonesianculture\n\nHeres a video about the history of Borobudur Temple as an Indonesian ......",
+      "id": "#borobudurcandi #borobudurhistory #indonesianculture\n\nHeres a video about the history of Borobudur Temple as an Indonesian ......"
     },
     "narration": {
-      "en": "Watch this video: 6 Budaya Indonesia yang Diakui UNESCO",
-      "id": "Tonton video ini: 6 Budaya Indonesia yang Diakui UNESCO"
-    }
-  },
-  {
-    "id": "culture-OxKMvelvG_I",
-    "youtubeId": "OxKMvelvG_I",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia",
-      "id": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia Indonesia kaya akan keanekaragaman warisan ......",
-      "id": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia Indonesia kaya akan keanekaragaman warisan ......"
-    },
-    "narration": {
-      "en": "Watch this video: 16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia",
-      "id": "Tonton video ini: 16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia"
+      "en": "Watch this video: THE HISTORY OF BOROBUDUR TEMPLE AS INDONESIAS CULTURAL HERITAGE",
+      "id": "Tonton video ini: THE HISTORY OF BOROBUDUR TEMPLE AS INDONESIAS CULTURAL HERITAGE"
     }
   },
   {
@@ -436,31 +436,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "kingdoms-n4zGw2OewIk",
-    "youtubeId": "n4zGw2OewIk",
-    "category": "kingdoms",
-    "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
-    },
-    "title": {
-      "en": "Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
-      "id": "Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Pada serial kali ini, kami akan mengarungi sejarah dari sebuah kerajaan yang umurnya singkat namun berhasil menyatukan ......",
-      "id": "Pada serial kali ini, kami akan mengarungi sejarah dari sebuah kerajaan yang umurnya singkat namun berhasil menyatukan ......"
-    },
-    "narration": {
-      "en": "Watch this video: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
-      "id": "Tonton video ini: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
-    }
-  },
-  {
     "id": "kingdoms-9_K6_gOnXj8",
     "youtubeId": "9_K6_gOnXj8",
     "category": "kingdoms",
@@ -483,6 +458,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
       "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
+    }
+  },
+  {
+    "id": "kingdoms-n4zGw2OewIk",
+    "youtubeId": "n4zGw2OewIk",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
+      "id": "Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Pada serial kali ini, kami akan mengarungi sejarah dari sebuah kerajaan yang umurnya singkat namun berhasil menyatukan ......",
+      "id": "Pada serial kali ini, kami akan mengarungi sejarah dari sebuah kerajaan yang umurnya singkat namun berhasil menyatukan ......"
+    },
+    "narration": {
+      "en": "Watch this video: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
+      "id": "Tonton video ini: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
     }
   },
   {
