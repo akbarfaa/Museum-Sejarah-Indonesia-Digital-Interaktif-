@@ -191,7 +191,7 @@ export const artifacts: Artifact[] = [
     },
     "description": {
       "en": "Java Man (Homo erectus erectus, formerly also Anthropopithecus erectus or Pithecanthropus erectus) is an early human fossil discovered in 1891 and 1892 on the island of Java (Indonesia). Estimated to be between 700,000 and 1,490,000 years old, it was, at the time of its discovery, the oldest hominid fossil ever found, and it remains the type specimen for Homo erectus. Led by Eugène Dubois, the excavation team uncovered a tooth, a skullcap, and a thighbone at Trinil on the banks of the Solo River in East Java. Arguing that the fossils represented the \"missing link\" between apes and humans, Dubois gave the species the scientific name Anthropopithecus erectus, then later renamed it Pithecanthropus erectus.",
-      "id": "Manusia Jawa (Homo erectus erectus) adalah jenis Homo erectus yang pertama kali ditemukan. Pada awal penemuan, makhluk mirip manusia ini diberi nama ilmiah Pithecanthropus erectus oleh Eugène Dubois, pemimpin tim yang berhasil menemukan fosil tengkoraknya di Trinil, Ngawi pada tahun 1891. Nama Pithecanthropus erectus sendiri berasal dari akar bahasa Yunani dan latin dan memiliki arti manusia-kera yang dapat berdiri."
+      "id": "Manusia Jawa (Homo erectus erectus) adalah jenis Homo erectus yang pertama kali ditemukan. Pada awal penemuan, makhluk mirip manusia ini diberi nama ilmiah Pithecanthropus erectus oleh Eugène Dubois, pemimpin tim yang berhasil menemukan fosil tengkoraknya di Trinil, Ngawi pada tahun 1891. Nama Pithecanthropus erectus sendiri berasal dari akar bahasa Yunani dan latin dan memiliki arti manusia-kera yang dapat berdiri. "
     }
   },
   {
@@ -242,7 +242,7 @@ export const artifacts: Artifact[] = [
       "id": "± 1500 SM"
     },
     "description": {
-      "en": "A menhir (; from Brittonic languages: maen or men, \"stone\" and hir or hîr, \"long\"), standing stone, orthostat, or lith is a large upright stone, emplaced in the ground by humans, typically dating from the European middle Bronze Age. They can be found individually as monoliths, or as part of a group of similar stones. Menhirs' sizes can vary considerably, but they often taper toward the top. Menhirs are found across Europe, Africa, and Asia, with a concentration in Western Europe, notably in Ireland, Great Britain, and Brittany.",
+      "en": "A menhir (; from Brittonic languages: maen or men, \"stone\" and hir or hîr, \"long\"), standing stone, orthostat, or lith is a large upright stone, placed by humans, typically dating from the European middle Bronze Age. They can be found individually as monoliths, or as part of a group of similar stones. Menhirs' sizes can vary considerably, but they often taper toward the top. Menhirs are found across Europe, Africa, and Asia, with a concentration in Western Europe, notably in Ireland, Great Britain, and Brittany.",
       "id": "Menhir adalah batu tunggal, biasanya berukuran besar, yang ditatah seperlunya sehingga berbentuk tugu dan biasanya diletakkan berdiri tegak di atas tanah. Istilah menhir diambil dari bahasa Keltik, dari kata men (batu) dan hir (panjang).Jadi,artinya adalah batu Panjang. Menhir biasanya didirikan secara tunggal atau berkelompok sejajar di atas tanah, tetapi pada beberapa tradisi juga ada yang diletakkan terlentang di tanah. Menhir, bersama-sama dengan dolmen dan sarkofagus, adalah megalit."
     }
   },
@@ -711,7 +711,7 @@ export const artifacts: Artifact[] = [
     },
     "description": {
       "en": "Sutomo (3 October 1920 – 7 October 1981), also known as Bung Tomo (meaning Comrade or Brother Tomo), was an Indonesian revolutionary and military leader best known for his role in the Indonesian National Revolution against Dutch colonial rule. He played a central role in the Battle of Surabaya, which was fought between British and Indonesian forces from October to November 1945.",
-      "id": "Sutomo (3 Oktober 1920 – 7 Oktober 1981), juga dikenal sebagai Bung Tomo, adalah seorang pemimpin revolusioner dan militer Indonesia yang terkenal karena perannya dalam Revolusi Nasional Indonesia melawan pemerintahan kolonial Belanda. Dia memainkan peran sentral dalam Pertempuran Surabaya, yang terjadi antara pasukan Britania Raya dan Indonesia dari bulan Oktober hingga November 1945."
+      "id": "Sutomo (3 Oktober 1920 – 7 Oktober 1981), juga dikenal sebagai Bung Tomo, adalah seorang pemimpin revolusioner dan militer Indonesia yang terkenal karena perannya dalam Revolusi Nasional Indonesia melawan pemerintahan kolonial Belanda. Dia memainkan peran sentral dalam Pertempuran Surabaya, yang terjadi antara pasukan Britania Raya dan Indonesia dari bulan Oktober hingga November 1945. "
     }
   },
   {
