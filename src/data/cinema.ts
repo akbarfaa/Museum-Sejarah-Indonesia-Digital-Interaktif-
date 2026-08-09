@@ -61,31 +61,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-UuDvUhxWXwk",
-    "youtubeId": "UuDvUhxWXwk",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "UNDERSTANDING TAN MALAKA IN 56 MINUTES",
-      "id": "UNDERSTANDING TAN MALAKA IN 56 MINUTES"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "If youd like to collaborate, please contact us via email at lasakadarmagmail.com\n\nKamar Film Backup Channel\nhttps://www ......",
-      "id": "If youd like to collaborate, please contact us via email at lasakadarmagmail.com\n\nKamar Film Backup Channel\nhttps://www ......"
-    },
-    "narration": {
-      "en": "Watch this video: UNDERSTANDING TAN MALAKA IN 56 MINUTES",
-      "id": "Tonton video ini: UNDERSTANDING TAN MALAKA IN 56 MINUTES"
-    }
-  },
-  {
     "id": "general-s5NmktySAVg",
     "youtubeId": "s5NmktySAVg",
     "category": "general",
@@ -111,28 +86,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-w62fNSJg_Xo",
-    "youtubeId": "w62fNSJg_Xo",
+    "id": "general-UuDvUhxWXwk",
+    "youtubeId": "UuDvUhxWXwk",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "BAGAIMANA FREEPORT BISA MASUK KE INDONESIA?",
-      "id": "BAGAIMANA FREEPORT BISA MASUK KE INDONESIA?"
+      "en": "UNDERSTANDING TAN MALAKA IN 56 MINUTES",
+      "id": "UNDERSTANDING TAN MALAKA IN 56 MINUTES"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Sumber dan Bacaan Lanjutan ada di Akhir Video ya....",
-      "id": "Sumber dan Bacaan Lanjutan ada di Akhir Video ya...."
+      "en": "If youd like to collaborate, please contact us via email at lasakadarmagmail.com\n\nKamar Film Backup Channel\nhttps://www ......",
+      "id": "If youd like to collaborate, please contact us via email at lasakadarmagmail.com\n\nKamar Film Backup Channel\nhttps://www ......"
     },
     "narration": {
-      "en": "Watch this video: BAGAIMANA FREEPORT BISA MASUK KE INDONESIA?",
-      "id": "Tonton video ini: BAGAIMANA FREEPORT BISA MASUK KE INDONESIA?"
+      "en": "Watch this video: UNDERSTANDING TAN MALAKA IN 56 MINUTES",
+      "id": "Tonton video ini: UNDERSTANDING TAN MALAKA IN 56 MINUTES"
+    }
+  },
+  {
+    "id": "general-f33q99zfu2I",
+    "youtubeId": "f33q99zfu2I",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Sejarah Indonesia: Prasejarah, Kerajaan, Kolonial, sampai Kemerdekaan",
+      "id": "Sejarah Indonesia: Prasejarah, Kerajaan, Kolonial, sampai Kemerdekaan"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Pelajari sejarah Indonesia dari prasejarah hingga kemerdekaan dengan video ini. Kami akan membahas kerajaan, masa kolonial ......",
+      "id": "Pelajari sejarah Indonesia dari prasejarah hingga kemerdekaan dengan video ini. Kami akan membahas kerajaan, masa kolonial ......"
+    },
+    "narration": {
+      "en": "Watch this video: Sejarah Indonesia: Prasejarah, Kerajaan, Kolonial, sampai Kemerdekaan",
+      "id": "Tonton video ini: Sejarah Indonesia: Prasejarah, Kerajaan, Kolonial, sampai Kemerdekaan"
     }
   },
   {
@@ -211,53 +211,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-vWQx1I2MTjE",
-    "youtubeId": "vWQx1I2MTjE",
+    "id": "war-glH8dvLi0ks",
+    "youtubeId": "glH8dvLi0ks",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "FILM PERJUANGAN KEMERDEKAAN INDONESIA YANG DILARANG TAYANG : Murudeka ",
-      "id": "FILM PERJUANGAN KEMERDEKAAN INDONESIA YANG DILARANG TAYANG : Murudeka "
+      "en": "Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949",
+      "id": "Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Merdeka 17805 atau Murudeka 17805 Bahasa Jepang:ムルデカ 17805 Merdeka 17805 atau Murudeka 17805 Bahasa Jepang ......",
-      "id": "Merdeka 17805 atau Murudeka 17805 Bahasa Jepang:ムルデカ 17805 Merdeka 17805 atau Murudeka 17805 Bahasa Jepang ......"
+      "en": "Setelah Proklamasi Kemerdekaan 17 Agustus 1945, bangsa Indonesia menghadapi upaya kembalinya kekuasaan kolonial....",
+      "id": "Setelah Proklamasi Kemerdekaan 17 Agustus 1945, bangsa Indonesia menghadapi upaya kembalinya kekuasaan kolonial...."
     },
     "narration": {
-      "en": "Watch this video: FILM PERJUANGAN KEMERDEKAAN INDONESIA YANG DILARANG TAYANG : Murudeka ",
-      "id": "Tonton video ini: FILM PERJUANGAN KEMERDEKAAN INDONESIA YANG DILARANG TAYANG : Murudeka "
+      "en": "Watch this video: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949",
+      "id": "Tonton video ini: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949"
     }
   },
   {
-    "id": "war-LrsVxmTFhHY",
-    "youtubeId": "LrsVxmTFhHY",
+    "id": "war-jxxFYZZjra0",
+    "youtubeId": "jxxFYZZjra0",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
-      "id": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
+      "en": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
+      "id": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......",
-      "id": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......"
+      "en": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......",
+      "id": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......"
     },
     "narration": {
-      "en": "Watch this video: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
-      "id": "Tonton video ini: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
+      "en": "Watch this video: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
+      "id": "Tonton video ini: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
     }
   },
   {
@@ -286,28 +286,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-dYGboqChEpU",
-    "youtubeId": "dYGboqChEpU",
+    "id": "culture-Q7F4Rkn9TUg",
+    "youtubeId": "Q7F4Rkn9TUg",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
-      "id": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
+      "en": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
+      "id": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......",
-      "id": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......"
+      "en": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......",
+      "id": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......"
     },
     "narration": {
-      "en": "Watch this video: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
-      "id": "Tonton video ini: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
+      "en": "Watch this video: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
+      "id": "Tonton video ini: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
     }
   },
   {
@@ -336,53 +336,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-Q7F4Rkn9TUg",
-    "youtubeId": "Q7F4Rkn9TUg",
+    "id": "culture-UoyBzXBjRRo",
+    "youtubeId": "UoyBzXBjRRo",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
-      "id": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
+      "en": "10 SITUS WARISAN DUNIA UNESCO di INDONESIA  SALAH SATUNYA TERANCAM PUN",
+      "id": "10 SITUS WARISAN DUNIA UNESCO di INDONESIA  SALAH SATUNYA TERANCAM PUN"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......",
-      "id": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......"
+      "en": "taugaksih #situswarisanunesco #warisanduniaunesco #warisanunesco 10 SITUS WARISAN DUNIA UNESCO di INDONESIA ......",
+      "id": "taugaksih #situswarisanunesco #warisanduniaunesco #warisanunesco 10 SITUS WARISAN DUNIA UNESCO di INDONESIA ......"
     },
     "narration": {
-      "en": "Watch this video: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
-      "id": "Tonton video ini: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
+      "en": "Watch this video: 10 SITUS WARISAN DUNIA UNESCO di INDONESIA  SALAH SATUNYA TERANCAM PUN",
+      "id": "Tonton video ini: 10 SITUS WARISAN DUNIA UNESCO di INDONESIA  SALAH SATUNYA TERANCAM PUN"
     }
   },
   {
-    "id": "culture-s94JDFvxSsQ",
-    "youtubeId": "s94JDFvxSsQ",
+    "id": "culture-_wISzUwrNAk",
+    "youtubeId": "_wISzUwrNAk",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "History of Batik as Indonesian Cultural Heritage",
-      "id": "History of Batik as Indonesian Cultural Heritage"
+      "en": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
+      "id": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "The following is a video about batik in the History of Batik as Indonesian Cultural Heritage section or The History Of ......",
-      "id": "The following is a video about batik in the History of Batik as Indonesian Cultural Heritage section or The History Of ......"
+      "en": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......",
+      "id": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......"
     },
     "narration": {
-      "en": "Watch this video: History of Batik as Indonesian Cultural Heritage",
-      "id": "Tonton video ini: History of Batik as Indonesian Cultural Heritage"
+      "en": "Watch this video: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
+      "id": "Tonton video ini: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
     }
   },
   {
@@ -436,6 +436,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "kingdoms-3fcPEGQyGmo",
+    "youtubeId": "3fcPEGQyGmo",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah ",
+      "id": "Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah "
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Dalam 38 menit ini, kita akan membahas: - Sejarah Kerajaan Majapahit dari awal hingga puncak kejayaan. - Strategi perang dan ......",
+      "id": "Dalam 38 menit ini, kita akan membahas: - Sejarah Kerajaan Majapahit dari awal hingga puncak kejayaan. - Strategi perang dan ......"
+    },
+    "narration": {
+      "en": "Watch this video: Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah ",
+      "id": "Tonton video ini: Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah "
+    }
+  },
+  {
     "id": "kingdoms-n4zGw2OewIk",
     "youtubeId": "n4zGw2OewIk",
     "category": "kingdoms",
@@ -483,31 +508,6 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
       "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
-    }
-  },
-  {
-    "id": "kingdoms-O5P-t_o9M3Y",
-    "youtubeId": "O5P-t_o9M3Y",
-    "category": "kingdoms",
-    "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
-    },
-    "title": {
-      "en": "Kerajaan Rempah Indonesia  Tanda Kekaisaran  Majapahit",
-      "id": "Kerajaan Rempah Indonesia  Tanda Kekaisaran  Majapahit"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "The Majapahit Empire was the largest empire in Southeast Asia  the centre of the world-famous Spice Trade that stretched from ......",
-      "id": "The Majapahit Empire was the largest empire in Southeast Asia  the centre of the world-famous Spice Trade that stretched from ......"
-    },
-    "narration": {
-      "en": "Watch this video: Kerajaan Rempah Indonesia  Tanda Kekaisaran  Majapahit",
-      "id": "Tonton video ini: Kerajaan Rempah Indonesia  Tanda Kekaisaran  Majapahit"
     }
   }
 ];
