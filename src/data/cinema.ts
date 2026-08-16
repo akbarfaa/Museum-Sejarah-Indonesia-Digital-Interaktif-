@@ -11,31 +11,6 @@ export type CinemaEra = {
 
 export const cinemaEras: CinemaEra[] = [
   {
-    "id": "general-nM4mitSBQKk",
-    "youtubeId": "nM4mitSBQKk",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
-      "id": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ....",
-      "id": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ...."
-    },
-    "narration": {
-      "en": "Watch this video: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
-      "id": "Tonton video ini: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
-    }
-  },
-  {
     "id": "general-B92NPsuSgig",
     "youtubeId": "B92NPsuSgig",
     "category": "general",
@@ -58,6 +33,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
       "id": "Tonton video ini: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
+    }
+  },
+  {
+    "id": "general-nM4mitSBQKk",
+    "youtubeId": "nM4mitSBQKk",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
+      "id": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ....",
+      "id": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ...."
+    },
+    "narration": {
+      "en": "Watch this video: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
+      "id": "Tonton video ini: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
     }
   },
   {
@@ -111,28 +111,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-f33q99zfu2I",
-    "youtubeId": "f33q99zfu2I",
+    "id": "general-JD16DuqQNMQ",
+    "youtubeId": "JD16DuqQNMQ",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "Sejarah Indonesia: Prasejarah, Kerajaan, Kolonial, sampai Kemerdekaan",
-      "id": "Sejarah Indonesia: Prasejarah, Kerajaan, Kolonial, sampai Kemerdekaan"
+      "en": "AI Documentary Film  Mongol Invasion of 1293  Early History of the Maj",
+      "id": "AI Documentary Film  Mongol Invasion of 1293  Early History of the Maj"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Pelajari sejarah Indonesia dari prasejarah hingga kemerdekaan dengan video ini. Kami akan membahas kerajaan, masa kolonial ......",
-      "id": "Pelajari sejarah Indonesia dari prasejarah hingga kemerdekaan dengan video ini. Kami akan membahas kerajaan, masa kolonial ......"
+      "en": "Revealing the Mongol invasion of Java in 1293 and the beginning of the Majapahit Empire based on ancient Yuan Dynasty ......",
+      "id": "Revealing the Mongol invasion of Java in 1293 and the beginning of the Majapahit Empire based on ancient Yuan Dynasty ......"
     },
     "narration": {
-      "en": "Watch this video: Sejarah Indonesia: Prasejarah, Kerajaan, Kolonial, sampai Kemerdekaan",
-      "id": "Tonton video ini: Sejarah Indonesia: Prasejarah, Kerajaan, Kolonial, sampai Kemerdekaan"
+      "en": "Watch this video: AI Documentary Film  Mongol Invasion of 1293  Early History of the Maj",
+      "id": "Tonton video ini: AI Documentary Film  Mongol Invasion of 1293  Early History of the Maj"
     }
   },
   {
@@ -211,6 +211,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "war-cXSYY1msmLs",
+    "youtubeId": "cXSYY1msmLs",
+    "category": "war",
+    "era": {
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
+    },
+    "title": {
+      "en": "🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang",
+      "id": "🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "JUDUL FILM SETELAH INTRO.!! - For business : Faizzura15gmail.com....",
+      "id": "JUDUL FILM SETELAH INTRO.!! - For business : Faizzura15gmail.com...."
+    },
+    "narration": {
+      "en": "Watch this video: 🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang",
+      "id": "Tonton video ini: 🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang"
+    }
+  },
+  {
     "id": "war-glH8dvLi0ks",
     "youtubeId": "glH8dvLi0ks",
     "category": "war",
@@ -233,31 +258,6 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949",
       "id": "Tonton video ini: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949"
-    }
-  },
-  {
-    "id": "war-jxxFYZZjra0",
-    "youtubeId": "jxxFYZZjra0",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
-      "id": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......",
-      "id": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......"
-    },
-    "narration": {
-      "en": "Watch this video: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
-      "id": "Tonton video ini: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
     }
   },
   {
@@ -286,56 +286,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-Q7F4Rkn9TUg",
-    "youtubeId": "Q7F4Rkn9TUg",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
-      "id": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......",
-      "id": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......"
-    },
-    "narration": {
-      "en": "Watch this video: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
-      "id": "Tonton video ini: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
-    }
-  },
-  {
-    "id": "culture-OxKMvelvG_I",
-    "youtubeId": "OxKMvelvG_I",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia",
-      "id": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia Indonesia kaya akan keanekaragaman warisan ......",
-      "id": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia Indonesia kaya akan keanekaragaman warisan ......"
-    },
-    "narration": {
-      "en": "Watch this video: 16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia",
-      "id": "Tonton video ini: 16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia"
-    }
-  },
-  {
     "id": "culture-UoyBzXBjRRo",
     "youtubeId": "UoyBzXBjRRo",
     "category": "culture",
@@ -361,28 +311,78 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-_wISzUwrNAk",
-    "youtubeId": "_wISzUwrNAk",
+    "id": "culture-dYGboqChEpU",
+    "youtubeId": "dYGboqChEpU",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
-      "id": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
+      "en": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
+      "id": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......",
-      "id": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......"
+      "en": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......",
+      "id": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......"
     },
     "narration": {
-      "en": "Watch this video: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
-      "id": "Tonton video ini: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
+      "en": "Watch this video: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
+      "id": "Tonton video ini: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
+    }
+  },
+  {
+    "id": "culture-DJ86fWl9mbM",
+    "youtubeId": "DJ86fWl9mbM",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized",
+      "id": "Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Indonesian batik is more than just patterned fabric — it is a visual language that conveys history, prayer, and identity ......",
+      "id": "Indonesian batik is more than just patterned fabric — it is a visual language that conveys history, prayer, and identity ......"
+    },
+    "narration": {
+      "en": "Watch this video: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized",
+      "id": "Tonton video ini: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized"
+    }
+  },
+  {
+    "id": "culture-Q7F4Rkn9TUg",
+    "youtubeId": "Q7F4Rkn9TUg",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
+      "id": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......",
+      "id": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......"
+    },
+    "narration": {
+      "en": "Watch this video: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
+      "id": "Tonton video ini: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
     }
   },
   {
