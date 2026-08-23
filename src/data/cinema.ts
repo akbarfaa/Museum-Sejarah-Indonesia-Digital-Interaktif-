@@ -11,31 +11,6 @@ export type CinemaEra = {
 
 export const cinemaEras: CinemaEra[] = [
   {
-    "id": "general-B92NPsuSgig",
-    "youtubeId": "B92NPsuSgig",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
-      "id": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......",
-      "id": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......"
-    },
-    "narration": {
-      "en": "Watch this video: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
-      "id": "Tonton video ini: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
-    }
-  },
-  {
     "id": "general-nM4mitSBQKk",
     "youtubeId": "nM4mitSBQKk",
     "category": "general",
@@ -61,28 +36,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-s5NmktySAVg",
-    "youtubeId": "s5NmktySAVg",
+    "id": "general-B92NPsuSgig",
+    "youtubeId": "B92NPsuSgig",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
-      "id": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+      "en": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
+      "id": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......",
-      "id": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......"
+      "en": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......",
+      "id": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......"
     },
     "narration": {
-      "en": "Watch this video: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
-      "id": "Tonton video ini: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+      "en": "Watch this video: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
+      "id": "Tonton video ini: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
     }
   },
   {
@@ -111,53 +86,103 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-JD16DuqQNMQ",
-    "youtubeId": "JD16DuqQNMQ",
+    "id": "general-8ohCOzsVKXg",
+    "youtubeId": "8ohCOzsVKXg",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "AI Documentary Film  Mongol Invasion of 1293  Early History of the Maj",
-      "id": "AI Documentary Film  Mongol Invasion of 1293  Early History of the Maj"
+      "en": "Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc",
+      "id": "Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Revealing the Mongol invasion of Java in 1293 and the beginning of the Majapahit Empire based on ancient Yuan Dynasty ......",
-      "id": "Revealing the Mongol invasion of Java in 1293 and the beginning of the Majapahit Empire based on ancient Yuan Dynasty ......"
+      "en": "Tragedi 1998 adalah salah satu peristiwa paling kelam dalam sejarah Indonesia modern. Pada bulan Mei 1998, gelombang ......",
+      "id": "Tragedi 1998 adalah salah satu peristiwa paling kelam dalam sejarah Indonesia modern. Pada bulan Mei 1998, gelombang ......"
     },
     "narration": {
-      "en": "Watch this video: AI Documentary Film  Mongol Invasion of 1293  Early History of the Maj",
-      "id": "Tonton video ini: AI Documentary Film  Mongol Invasion of 1293  Early History of the Maj"
+      "en": "Watch this video: Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc",
+      "id": "Tonton video ini: Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc"
     }
   },
   {
-    "id": "war-zx46Vy3KTLs",
-    "youtubeId": "zx46Vy3KTLs",
+    "id": "general-z4p8Oih8xZs",
+    "youtubeId": "z4p8Oih8xZs",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta",
+      "id": "Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Status daerah istimewa dalam sistem kenegaraan Republik Indonesia, yang disandang sejumlah kecil wilayah di Indonesia, tidak ......",
+      "id": "Status daerah istimewa dalam sistem kenegaraan Republik Indonesia, yang disandang sejumlah kecil wilayah di Indonesia, tidak ......"
+    },
+    "narration": {
+      "en": "Watch this video: Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta",
+      "id": "Tonton video ini: Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta"
+    }
+  },
+  {
+    "id": "war-LrsVxmTFhHY",
+    "youtubeId": "LrsVxmTFhHY",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
-      "id": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+      "en": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
+      "id": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "...",
-      "id": "..."
+      "en": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......",
+      "id": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......"
     },
     "narration": {
-      "en": "Watch this video: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
-      "id": "Tonton video ini: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+      "en": "Watch this video: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
+      "id": "Tonton video ini: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
+    }
+  },
+  {
+    "id": "war-glH8dvLi0ks",
+    "youtubeId": "glH8dvLi0ks",
+    "category": "war",
+    "era": {
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
+    },
+    "title": {
+      "en": "Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949",
+      "id": "Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Setelah Proklamasi Kemerdekaan 17 Agustus 1945, bangsa Indonesia menghadapi upaya kembalinya kekuasaan kolonial....",
+      "id": "Setelah Proklamasi Kemerdekaan 17 Agustus 1945, bangsa Indonesia menghadapi upaya kembalinya kekuasaan kolonial...."
+    },
+    "narration": {
+      "en": "Watch this video: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949",
+      "id": "Tonton video ini: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949"
     }
   },
   {
@@ -186,31 +211,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-pTyMa-xanJE",
-    "youtubeId": "pTyMa-xanJE",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan",
-      "id": "Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Indonesia tidak hanya dijajah. Ia dianiaya, diduduki, kelaparan, dan kemudian dipaksa membayar untuk kebebasannya sendiri. Ini ......",
-      "id": "Indonesia tidak hanya dijajah. Ia dianiaya, diduduki, kelaparan, dan kemudian dipaksa membayar untuk kebebasannya sendiri. Ini ......"
-    },
-    "narration": {
-      "en": "Watch this video: Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan",
-      "id": "Tonton video ini: Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan"
-    }
-  },
-  {
     "id": "war-cXSYY1msmLs",
     "youtubeId": "cXSYY1msmLs",
     "category": "war",
@@ -236,28 +236,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-glH8dvLi0ks",
-    "youtubeId": "glH8dvLi0ks",
+    "id": "war-wsZCAghk_0A",
+    "youtubeId": "wsZCAghk_0A",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949",
-      "id": "Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949"
+      "en": "Indonesia Perang Kemerdekaan 1945 1949 Full Documentary",
+      "id": "Indonesia Perang Kemerdekaan 1945 1949 Full Documentary"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Setelah Proklamasi Kemerdekaan 17 Agustus 1945, bangsa Indonesia menghadapi upaya kembalinya kekuasaan kolonial....",
-      "id": "Setelah Proklamasi Kemerdekaan 17 Agustus 1945, bangsa Indonesia menghadapi upaya kembalinya kekuasaan kolonial...."
+      "en": "...",
+      "id": "..."
     },
     "narration": {
-      "en": "Watch this video: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949",
-      "id": "Tonton video ini: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949"
+      "en": "Watch this video: Indonesia Perang Kemerdekaan 1945 1949 Full Documentary",
+      "id": "Tonton video ini: Indonesia Perang Kemerdekaan 1945 1949 Full Documentary"
     }
   },
   {
@@ -336,31 +336,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-DJ86fWl9mbM",
-    "youtubeId": "DJ86fWl9mbM",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized",
-      "id": "Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Indonesian batik is more than just patterned fabric — it is a visual language that conveys history, prayer, and identity ......",
-      "id": "Indonesian batik is more than just patterned fabric — it is a visual language that conveys history, prayer, and identity ......"
-    },
-    "narration": {
-      "en": "Watch this video: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized",
-      "id": "Tonton video ini: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized"
-    }
-  },
-  {
     "id": "culture-Q7F4Rkn9TUg",
     "youtubeId": "Q7F4Rkn9TUg",
     "category": "culture",
@@ -386,6 +361,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "culture-OyL_-NlIMjY",
+    "youtubeId": "OyL_-NlIMjY",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "HUT ke-81 RI, Apa Saja 5 Warisan Budaya Indonesia yang Diakui oleh UNE",
+      "id": "HUT ke-81 RI, Apa Saja 5 Warisan Budaya Indonesia yang Diakui oleh UNE"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru TRIBUN-VIDEO....",
+      "id": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru TRIBUN-VIDEO...."
+    },
+    "narration": {
+      "en": "Watch this video: HUT ke-81 RI, Apa Saja 5 Warisan Budaya Indonesia yang Diakui oleh UNE",
+      "id": "Tonton video ini: HUT ke-81 RI, Apa Saja 5 Warisan Budaya Indonesia yang Diakui oleh UNE"
+    }
+  },
+  {
     "id": "kingdoms-2Z9hqVqPY_s",
     "youtubeId": "2Z9hqVqPY_s",
     "category": "kingdoms",
@@ -408,6 +408,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj",
       "id": "Tonton video ini: Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj"
+    }
+  },
+  {
+    "id": "kingdoms-9_K6_gOnXj8",
+    "youtubeId": "9_K6_gOnXj8",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
+      "id": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll....",
+      "id": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll...."
+    },
+    "narration": {
+      "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
+      "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
     }
   },
   {
@@ -461,53 +486,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "kingdoms-n4zGw2OewIk",
-    "youtubeId": "n4zGw2OewIk",
+    "id": "kingdoms-SFiwETBVP1c",
+    "youtubeId": "SFiwETBVP1c",
     "category": "kingdoms",
     "era": {
       "en": "Ancient Kingdoms",
       "id": "Kerajaan Nusantara Kuno"
     },
     "title": {
-      "en": "Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
-      "id": "Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
+      "en": "Sejarah Kerajaan Majapahit  Sejarah SMA",
+      "id": "Sejarah Kerajaan Majapahit  Sejarah SMA"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Pada serial kali ini, kami akan mengarungi sejarah dari sebuah kerajaan yang umurnya singkat namun berhasil menyatukan ......",
-      "id": "Pada serial kali ini, kami akan mengarungi sejarah dari sebuah kerajaan yang umurnya singkat namun berhasil menyatukan ......"
+      "en": "Kerajaan Majapahit adalah kerajaan terbesar dan paling sukses yang pernah menyatukan hampir seluruh nusantara. Kejayaan ......",
+      "id": "Kerajaan Majapahit adalah kerajaan terbesar dan paling sukses yang pernah menyatukan hampir seluruh nusantara. Kejayaan ......"
     },
     "narration": {
-      "en": "Watch this video: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
-      "id": "Tonton video ini: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
-    }
-  },
-  {
-    "id": "kingdoms-9_K6_gOnXj8",
-    "youtubeId": "9_K6_gOnXj8",
-    "category": "kingdoms",
-    "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
-    },
-    "title": {
-      "en": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
-      "id": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll....",
-      "id": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll...."
-    },
-    "narration": {
-      "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
-      "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
+      "en": "Watch this video: Sejarah Kerajaan Majapahit  Sejarah SMA",
+      "id": "Tonton video ini: Sejarah Kerajaan Majapahit  Sejarah SMA"
     }
   }
 ];

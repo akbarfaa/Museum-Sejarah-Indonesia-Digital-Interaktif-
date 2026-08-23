@@ -632,7 +632,7 @@ export const artifacts: Artifact[] = [
       "id": "1945"
     },
     "description": {
-      "en": "The national flag of Indonesia is bicolor, with two horizontal bands, red (top) and white (bottom) with an overall ratio of 2:3. It was introduced and hoisted in public during the proclamation of independence on 17 August 1945 at 56 Jalan Proklamasi (formerly Jalan Pegangsaan Timur) in Jakarta, and again when the Dutch formally transferred sovereignty on 27 December 1949. The design of the flag has remained unchanged since. The flag of Indonesia is graphically similar to the flag of Monaco, with a slight difference in the shade of red, and ratio of its dimensions.",
+      "en": "The national flag of Indonesia is bicolor, with two horizontal bands, red (top) and white (bottom) with an overall ratio of 2:3. It was introduced and hoisted in public during the proclamation of independence on 17 August 1945 at 56 Jalan Proklamasi (formerly Jalan Pegangsaan Timur) in Jakarta, and again when the Dutch formally transferred sovereignty on 27 December 1949. The design of the flag has remained unchanged since. The flag is named Sang Saka Merah Putih, lit.",
       "id": "Bendera Indonesia (disingkat bendera negara) atau biasa juga disebut Sang Merah Putih, (Sang Saka Merah Putih, Merah Putih, atau kadang Sang Dwiwarna (dua warna)) adalah bendera negara Indonesia dengan dua warna, dengan dua garis horizontal, merah (atas) dan putih (bawah) dengan rasio keseluruhan 2:3. Bendera negara berbentuk empat persegi panjang dengan ukuran lebar 2/3 (dua-pertiga) dari panjang dengan bagian atas berwarna merah dan bagian bawah berwarna putih yang kedua bagiannya berukuran sama. Bendera ini diperkenalkan dan dikibarkan di depan umum pada saat proklamasi kemerdekaan pada 17 Agustus 1945 di Jalan Proklamasi 56 (sebelumnya Jalan Pegangsaan Timur) di Jakarta, dan sekali lagi ketika Belanda secara resmi menyerahkan kedaulatan pada 27 Desember 1949. Desain bendera tersebut tetap tidak berubah sejak saat itu."
     }
   },
@@ -711,7 +711,7 @@ export const artifacts: Artifact[] = [
     },
     "description": {
       "en": "Sutomo (3 October 1920 – 7 October 1981), also known as Bung Tomo (meaning Comrade or Brother Tomo), was an Indonesian revolutionary and military leader best known for his role in the Indonesian National Revolution against Dutch colonial rule. He played a central role in the Battle of Surabaya, which was fought between British and Indonesian forces from October to November 1945.",
-      "id": "Sutomo (3 Oktober 1920 – 7 Oktober 1981), juga dikenal sebagai Bung Tomo, adalah seorang pemimpin revolusioner dan militer Indonesia yang terkenal karena perannya dalam Revolusi Nasional Indonesia melawan pemerintahan kolonial Belanda. Dia memainkan peran sentral dalam Pertempuran Surabaya, yang terjadi antara pasukan Britania Raya dan Indonesia dari bulan Oktober hingga November 1945. "
+      "id": "Sutomo (3 Oktober 1920 – 7 Oktober 1981), juga dikenal sebagai Bung Tomo, adalah seorang pemimpin revolusioner dan militer Indonesia yang terkenal karena perannya dalam Revolusi Nasional Indonesia melawan pemerintahan kolonial Belanda. Dia memainkan peran sentral dalam Pertempuran Surabaya, yang terjadi antara pasukan Britania Raya dan Indonesia dari bulan Oktober hingga November 1945."
     }
   },
   {
@@ -788,7 +788,7 @@ export const artifacts: Artifact[] = [
       "id": "1976"
     },
     "description": {
-      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system. The estimated cost for the project was US$1 billion (equivalent to $4.28 billion in 2024). ",
+      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system. The estimated cost for the project was US$1 billion (equivalent to $4.28 billion in 2024).",
       "id": "Palapa ialah nama bagi sejumlah satelit telekomunikasi geostasioner Indonesia. Nama ini diambil dari \"Sumpah Palapa\", yang pernah dicetuskan oleh Patih Gajah Mada dari Majapahit pada tahun 1334. Satelit pertama diluncurkan pada tanggal 8 Juli 1976 oleh roket Amerika Serikat dan dilepas di atas Samudra Hindia pada 83° BT. Satelit pertama dari 2 satelit itu bertipe HS-333 dan bermassa 574 kg."
     }
   },
