@@ -11,6 +11,31 @@ export type CinemaEra = {
 
 export const cinemaEras: CinemaEra[] = [
   {
+    "id": "general-qy59hu4cwVs",
+    "youtubeId": "qy59hu4cwVs",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "La historia completa de Indonesia  Documental histórico",
+      "id": "La historia completa de Indonesia  Documental histórico"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Cómo 17.000 islas se convirtieron en una sola nación: la imposible unidad de Indonesia, desde las antiguas rutas comerciales ......",
+      "id": "Cómo 17.000 islas se convirtieron en una sola nación: la imposible unidad de Indonesia, desde las antiguas rutas comerciales ......"
+    },
+    "narration": {
+      "en": "Watch this video: La historia completa de Indonesia  Documental histórico",
+      "id": "Tonton video ini: La historia completa de Indonesia  Documental histórico"
+    }
+  },
+  {
     "id": "general-nM4mitSBQKk",
     "youtubeId": "nM4mitSBQKk",
     "category": "general",
@@ -33,6 +58,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
       "id": "Tonton video ini: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
+    }
+  },
+  {
+    "id": "general-NsUtZw95UK0",
+    "youtubeId": "NsUtZw95UK0",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "SEJARAH PERJUANGAN BANGSA INDONESIA  TAHUN 1942  1950",
+      "id": "SEJARAH PERJUANGAN BANGSA INDONESIA  TAHUN 1942  1950"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Republik Indonesia dimulai dengan masuknya Sekutu kempris diboncengi oleh Belanda dalam hal ini Nederlandsch Indië ......",
+      "id": "Republik Indonesia dimulai dengan masuknya Sekutu kempris diboncengi oleh Belanda dalam hal ini Nederlandsch Indië ......"
+    },
+    "narration": {
+      "en": "Watch this video: SEJARAH PERJUANGAN BANGSA INDONESIA  TAHUN 1942  1950",
+      "id": "Tonton video ini: SEJARAH PERJUANGAN BANGSA INDONESIA  TAHUN 1942  1950"
     }
   },
   {
@@ -61,103 +111,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-UuDvUhxWXwk",
-    "youtubeId": "UuDvUhxWXwk",
+    "id": "general-AGny3RMDuz4",
+    "youtubeId": "AGny3RMDuz4",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "UNDERSTANDING TAN MALAKA IN 56 MINUTES",
-      "id": "UNDERSTANDING TAN MALAKA IN 56 MINUTES"
+      "en": "La historia no contada de Indonesia: de la colonización a la independe",
+      "id": "La historia no contada de Indonesia: de la colonización a la independe"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "If youd like to collaborate, please contact us via email at lasakadarmagmail.com\n\nKamar Film Backup Channel\nhttps://www ......",
-      "id": "If youd like to collaborate, please contact us via email at lasakadarmagmail.com\n\nKamar Film Backup Channel\nhttps://www ......"
+      "en": "Descubre cómo las 13.000 islas de Indonesia se unieron para formar la mayor democracia de mayoría musulmana del mundo ......",
+      "id": "Descubre cómo las 13.000 islas de Indonesia se unieron para formar la mayor democracia de mayoría musulmana del mundo ......"
     },
     "narration": {
-      "en": "Watch this video: UNDERSTANDING TAN MALAKA IN 56 MINUTES",
-      "id": "Tonton video ini: UNDERSTANDING TAN MALAKA IN 56 MINUTES"
-    }
-  },
-  {
-    "id": "general-8ohCOzsVKXg",
-    "youtubeId": "8ohCOzsVKXg",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc",
-      "id": "Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Tragedi 1998 adalah salah satu peristiwa paling kelam dalam sejarah Indonesia modern. Pada bulan Mei 1998, gelombang ......",
-      "id": "Tragedi 1998 adalah salah satu peristiwa paling kelam dalam sejarah Indonesia modern. Pada bulan Mei 1998, gelombang ......"
-    },
-    "narration": {
-      "en": "Watch this video: Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc",
-      "id": "Tonton video ini: Tragedi Mei 1998: Jejak Kelam dan Tragis Indonesia  - Part 1⎮ Full Doc"
-    }
-  },
-  {
-    "id": "general-z4p8Oih8xZs",
-    "youtubeId": "z4p8Oih8xZs",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta",
-      "id": "Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Status daerah istimewa dalam sistem kenegaraan Republik Indonesia, yang disandang sejumlah kecil wilayah di Indonesia, tidak ......",
-      "id": "Status daerah istimewa dalam sistem kenegaraan Republik Indonesia, yang disandang sejumlah kecil wilayah di Indonesia, tidak ......"
-    },
-    "narration": {
-      "en": "Watch this video: Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta",
-      "id": "Tonton video ini: Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta"
-    }
-  },
-  {
-    "id": "war-LrsVxmTFhHY",
-    "youtubeId": "LrsVxmTFhHY",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
-      "id": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......",
-      "id": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......"
-    },
-    "narration": {
-      "en": "Watch this video: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
-      "id": "Tonton video ini: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
+      "en": "Watch this video: La historia no contada de Indonesia: de la colonización a la independe",
+      "id": "Tonton video ini: La historia no contada de Indonesia: de la colonización a la independe"
     }
   },
   {
@@ -186,6 +161,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "war-cXSYY1msmLs",
+    "youtubeId": "cXSYY1msmLs",
+    "category": "war",
+    "era": {
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
+    },
+    "title": {
+      "en": "🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang",
+      "id": "🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "JUDUL FILM SETELAH INTRO.!! - For business : Faizzura15gmail.com....",
+      "id": "JUDUL FILM SETELAH INTRO.!! - For business : Faizzura15gmail.com...."
+    },
+    "narration": {
+      "en": "Watch this video: 🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang",
+      "id": "Tonton video ini: 🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang"
+    }
+  },
+  {
     "id": "war-LBh3quIaTsI",
     "youtubeId": "LBh3quIaTsI",
     "category": "war",
@@ -211,28 +211,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-cXSYY1msmLs",
-    "youtubeId": "cXSYY1msmLs",
+    "id": "war-KdOfg4KbXyI",
+    "youtubeId": "KdOfg4KbXyI",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang",
-      "id": "🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang"
+      "en": "Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa",
+      "id": "Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "JUDUL FILM SETELAH INTRO.!! - For business : Faizzura15gmail.com....",
-      "id": "JUDUL FILM SETELAH INTRO.!! - For business : Faizzura15gmail.com...."
+      "en": "Penjajahan Belanda di Indonesia bukanlah sekadar kisah 350 tahun kekuasaan asing, melainkan rangkaian panjang eksploitasi, ......",
+      "id": "Penjajahan Belanda di Indonesia bukanlah sekadar kisah 350 tahun kekuasaan asing, melainkan rangkaian panjang eksploitasi, ......"
     },
     "narration": {
-      "en": "Watch this video: 🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang",
-      "id": "Tonton video ini: 🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang"
+      "en": "Watch this video: Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa",
+      "id": "Tonton video ini: Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa"
     }
   },
   {
@@ -411,31 +411,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "kingdoms-9_K6_gOnXj8",
-    "youtubeId": "9_K6_gOnXj8",
-    "category": "kingdoms",
-    "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
-    },
-    "title": {
-      "en": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
-      "id": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll....",
-      "id": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll...."
-    },
-    "narration": {
-      "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
-      "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
-    }
-  },
-  {
     "id": "kingdoms-2o7U9KlFRRQ",
     "youtubeId": "2o7U9KlFRRQ",
     "category": "kingdoms",
@@ -444,20 +419,20 @@ export const cinemaEras: CinemaEra[] = [
       "id": "Kerajaan Nusantara Kuno"
     },
     "title": {
-      "en": "Understanding the Srivijaya Empire in 47 Minutes: The Largest Maritime",
-      "id": "Understanding the Srivijaya Empire in 47 Minutes: The Largest Maritime"
+      "en": "Memahami Kerajaan Sriwijaya dalam 47 Menit: Kerajaan Maritim Terbesar ",
+      "id": "Memahami Kerajaan Sriwijaya dalam 47 Menit: Kerajaan Maritim Terbesar "
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Why do we rarely hear the great story of the Srivijaya Empire, even though it was once the largest maritime empire in the ......",
-      "id": "Why do we rarely hear the great story of the Srivijaya Empire, even though it was once the largest maritime empire in the ......"
+      "en": "Kenapa kita jarang mendengar kisah besar Kerajaan Sriwijaya, padahal ia pernah menjadi kerajaan maritim terbesar Nusantara ......",
+      "id": "Kenapa kita jarang mendengar kisah besar Kerajaan Sriwijaya, padahal ia pernah menjadi kerajaan maritim terbesar Nusantara ......"
     },
     "narration": {
-      "en": "Watch this video: Understanding the Srivijaya Empire in 47 Minutes: The Largest Maritime",
-      "id": "Tonton video ini: Understanding the Srivijaya Empire in 47 Minutes: The Largest Maritime"
+      "en": "Watch this video: Memahami Kerajaan Sriwijaya dalam 47 Menit: Kerajaan Maritim Terbesar ",
+      "id": "Tonton video ini: Memahami Kerajaan Sriwijaya dalam 47 Menit: Kerajaan Maritim Terbesar "
     }
   },
   {
@@ -486,28 +461,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "kingdoms-SFiwETBVP1c",
-    "youtubeId": "SFiwETBVP1c",
+    "id": "kingdoms-n4zGw2OewIk",
+    "youtubeId": "n4zGw2OewIk",
     "category": "kingdoms",
     "era": {
       "en": "Ancient Kingdoms",
       "id": "Kerajaan Nusantara Kuno"
     },
     "title": {
-      "en": "Sejarah Kerajaan Majapahit  Sejarah SMA",
-      "id": "Sejarah Kerajaan Majapahit  Sejarah SMA"
+      "en": "Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
+      "id": "Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Kerajaan Majapahit adalah kerajaan terbesar dan paling sukses yang pernah menyatukan hampir seluruh nusantara. Kejayaan ......",
-      "id": "Kerajaan Majapahit adalah kerajaan terbesar dan paling sukses yang pernah menyatukan hampir seluruh nusantara. Kejayaan ......"
+      "en": "Pada serial kali ini, kami akan mengarungi sejarah dari sebuah kerajaan yang umurnya singkat namun berhasil menyatukan ......",
+      "id": "Pada serial kali ini, kami akan mengarungi sejarah dari sebuah kerajaan yang umurnya singkat namun berhasil menyatukan ......"
     },
     "narration": {
-      "en": "Watch this video: Sejarah Kerajaan Majapahit  Sejarah SMA",
-      "id": "Tonton video ini: Sejarah Kerajaan Majapahit  Sejarah SMA"
+      "en": "Watch this video: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
+      "id": "Tonton video ini: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
+    }
+  },
+  {
+    "id": "kingdoms-9_K6_gOnXj8",
+    "youtubeId": "9_K6_gOnXj8",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
+      "id": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll....",
+      "id": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll...."
+    },
+    "narration": {
+      "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
+      "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
     }
   }
 ];
