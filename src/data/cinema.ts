@@ -111,28 +111,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-qsZGKbT4C_s",
-    "youtubeId": "qsZGKbT4C_s",
+    "id": "general-KdOfg4KbXyI",
+    "youtubeId": "KdOfg4KbXyI",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "MEMAHAMI 1998 DALAM SATU JAM",
-      "id": "MEMAHAMI 1998 DALAM SATU JAM"
+      "en": "Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa",
+      "id": "Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Jika ingin bekerjasama, silahkan hubungi kami via email lasakadarmagmail.com Chanel Backup Kamar Film ......",
-      "id": "Jika ingin bekerjasama, silahkan hubungi kami via email lasakadarmagmail.com Chanel Backup Kamar Film ......"
+      "en": "Penjajahan Belanda di Indonesia bukanlah sekadar kisah 350 tahun kekuasaan asing, melainkan rangkaian panjang eksploitasi, ......",
+      "id": "Penjajahan Belanda di Indonesia bukanlah sekadar kisah 350 tahun kekuasaan asing, melainkan rangkaian panjang eksploitasi, ......"
     },
     "narration": {
-      "en": "Watch this video: MEMAHAMI 1998 DALAM SATU JAM",
-      "id": "Tonton video ini: MEMAHAMI 1998 DALAM SATU JAM"
+      "en": "Watch this video: Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa",
+      "id": "Tonton video ini: Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa"
     }
   },
   {
@@ -161,28 +161,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-LrsVxmTFhHY",
-    "youtubeId": "LrsVxmTFhHY",
+    "id": "war-wsZCAghk_0A",
+    "youtubeId": "wsZCAghk_0A",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
-      "id": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
+      "en": "Indonesia Perang Kemerdekaan 1945 1949 Full Documentary",
+      "id": "Indonesia Perang Kemerdekaan 1945 1949 Full Documentary"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......",
-      "id": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......"
+      "en": "...",
+      "id": "..."
     },
     "narration": {
-      "en": "Watch this video: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
-      "id": "Tonton video ini: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
+      "en": "Watch this video: Indonesia Perang Kemerdekaan 1945 1949 Full Documentary",
+      "id": "Tonton video ini: Indonesia Perang Kemerdekaan 1945 1949 Full Documentary"
     }
   },
   {
@@ -236,28 +236,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-cXSYY1msmLs",
-    "youtubeId": "cXSYY1msmLs",
+    "id": "war-oeF6TpZFemY",
+    "youtubeId": "oeF6TpZFemY",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang",
-      "id": "🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang"
+      "en": "Perjuangan Kemerdekaan Indonesia",
+      "id": "Perjuangan Kemerdekaan Indonesia"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "JUDUL FILM SETELAH INTRO.!! - For business : Faizzura15gmail.com....",
-      "id": "JUDUL FILM SETELAH INTRO.!! - For business : Faizzura15gmail.com...."
+      "en": "Ilustrasi Perjuangan Kemerdekaan Indonesia dari zaman penjajahan Belanda akhir, zaman penjajahan Jepang, Proklamasi ......",
+      "id": "Ilustrasi Perjuangan Kemerdekaan Indonesia dari zaman penjajahan Belanda akhir, zaman penjajahan Jepang, Proklamasi ......"
     },
     "narration": {
-      "en": "Watch this video: 🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang",
-      "id": "Tonton video ini: 🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang"
+      "en": "Watch this video: Perjuangan Kemerdekaan Indonesia",
+      "id": "Tonton video ini: Perjuangan Kemerdekaan Indonesia"
     }
   },
   {
@@ -311,31 +311,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-dYGboqChEpU",
-    "youtubeId": "dYGboqChEpU",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
-      "id": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......",
-      "id": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......"
-    },
-    "narration": {
-      "en": "Watch this video: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
-      "id": "Tonton video ini: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
-    }
-  },
-  {
     "id": "culture-DJ86fWl9mbM",
     "youtubeId": "DJ86fWl9mbM",
     "category": "culture",
@@ -361,28 +336,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-AmdtYGUTvjw",
-    "youtubeId": "AmdtYGUTvjw",
+    "id": "culture-zH6U4BTq3v4",
+    "youtubeId": "zH6U4BTq3v4",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "LUAR BIASA!! INDONESIA PUNYA 12 WARISAN BUDAYA TAKBENDA YANG DIAKUI UN",
-      "id": "LUAR BIASA!! INDONESIA PUNYA 12 WARISAN BUDAYA TAKBENDA YANG DIAKUI UN"
+      "en": "8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia",
+      "id": "8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "...",
-      "id": "..."
+      "en": "BudayaIndonesia #UNESCO #WarisanBudaya #SejarahIndonesia #BudayaNusantara #Indonesia #TradisiIndonesia ......",
+      "id": "BudayaIndonesia #UNESCO #WarisanBudaya #SejarahIndonesia #BudayaNusantara #Indonesia #TradisiIndonesia ......"
     },
     "narration": {
-      "en": "Watch this video: LUAR BIASA!! INDONESIA PUNYA 12 WARISAN BUDAYA TAKBENDA YANG DIAKUI UN",
-      "id": "Tonton video ini: LUAR BIASA!! INDONESIA PUNYA 12 WARISAN BUDAYA TAKBENDA YANG DIAKUI UN"
+      "en": "Watch this video: 8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia",
+      "id": "Tonton video ini: 8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia"
+    }
+  },
+  {
+    "id": "culture-6nYv_eMbO6Q",
+    "youtubeId": "6nYv_eMbO6Q",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
+      "id": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......",
+      "id": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......"
+    },
+    "narration": {
+      "en": "Watch this video: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
+      "id": "Tonton video ini: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
     }
   },
   {
@@ -486,28 +486,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "kingdoms-SFiwETBVP1c",
-    "youtubeId": "SFiwETBVP1c",
+    "id": "kingdoms-3fcPEGQyGmo",
+    "youtubeId": "3fcPEGQyGmo",
     "category": "kingdoms",
     "era": {
       "en": "Ancient Kingdoms",
       "id": "Kerajaan Nusantara Kuno"
     },
     "title": {
-      "en": "Sejarah Kerajaan Majapahit  Sejarah SMA",
-      "id": "Sejarah Kerajaan Majapahit  Sejarah SMA"
+      "en": "Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah ",
+      "id": "Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah "
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Kerajaan Majapahit adalah kerajaan terbesar dan paling sukses yang pernah menyatukan hampir seluruh nusantara. Kejayaan ......",
-      "id": "Kerajaan Majapahit adalah kerajaan terbesar dan paling sukses yang pernah menyatukan hampir seluruh nusantara. Kejayaan ......"
+      "en": "Dalam 38 menit ini, kita akan membahas: - Sejarah Kerajaan Majapahit dari awal hingga puncak kejayaan. - Strategi perang dan ......",
+      "id": "Dalam 38 menit ini, kita akan membahas: - Sejarah Kerajaan Majapahit dari awal hingga puncak kejayaan. - Strategi perang dan ......"
     },
     "narration": {
-      "en": "Watch this video: Sejarah Kerajaan Majapahit  Sejarah SMA",
-      "id": "Tonton video ini: Sejarah Kerajaan Majapahit  Sejarah SMA"
+      "en": "Watch this video: Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah ",
+      "id": "Tonton video ini: Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah "
     }
   }
 ];
