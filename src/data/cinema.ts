@@ -36,31 +36,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-B92NPsuSgig",
-    "youtubeId": "B92NPsuSgig",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
-      "id": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......",
-      "id": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......"
-    },
-    "narration": {
-      "en": "Watch this video: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
-      "id": "Tonton video ini: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
-    }
-  },
-  {
     "id": "general-UuDvUhxWXwk",
     "youtubeId": "UuDvUhxWXwk",
     "category": "general",
@@ -83,6 +58,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: UNDERSTANDING TAN MALAKA IN 56 MINUTES",
       "id": "Tonton video ini: UNDERSTANDING TAN MALAKA IN 56 MINUTES"
+    }
+  },
+  {
+    "id": "general-B92NPsuSgig",
+    "youtubeId": "B92NPsuSgig",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
+      "id": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......",
+      "id": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......"
+    },
+    "narration": {
+      "en": "Watch this video: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
+      "id": "Tonton video ini: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
     }
   },
   {
@@ -111,28 +111,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-KdOfg4KbXyI",
-    "youtubeId": "KdOfg4KbXyI",
+    "id": "general-qsZGKbT4C_s",
+    "youtubeId": "qsZGKbT4C_s",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa",
-      "id": "Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa"
+      "en": "MEMAHAMI 1998 DALAM SATU JAM",
+      "id": "MEMAHAMI 1998 DALAM SATU JAM"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Penjajahan Belanda di Indonesia bukanlah sekadar kisah 350 tahun kekuasaan asing, melainkan rangkaian panjang eksploitasi, ......",
-      "id": "Penjajahan Belanda di Indonesia bukanlah sekadar kisah 350 tahun kekuasaan asing, melainkan rangkaian panjang eksploitasi, ......"
+      "en": "Jika ingin bekerjasama, silahkan hubungi kami via email lasakadarmagmail.com Chanel Backup Kamar Film ......",
+      "id": "Jika ingin bekerjasama, silahkan hubungi kami via email lasakadarmagmail.com Chanel Backup Kamar Film ......"
     },
     "narration": {
-      "en": "Watch this video: Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa",
-      "id": "Tonton video ini: Sejarah Lengkap Penjajahan Belanda di Indonesia  Dari VOC, Tanam Paksa"
+      "en": "Watch this video: MEMAHAMI 1998 DALAM SATU JAM",
+      "id": "Tonton video ini: MEMAHAMI 1998 DALAM SATU JAM"
     }
   },
   {
@@ -158,31 +158,6 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949",
       "id": "Tonton video ini: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949"
-    }
-  },
-  {
-    "id": "war-wsZCAghk_0A",
-    "youtubeId": "wsZCAghk_0A",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "Indonesia Perang Kemerdekaan 1945 1949 Full Documentary",
-      "id": "Indonesia Perang Kemerdekaan 1945 1949 Full Documentary"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "...",
-      "id": "..."
-    },
-    "narration": {
-      "en": "Watch this video: Indonesia Perang Kemerdekaan 1945 1949 Full Documentary",
-      "id": "Tonton video ini: Indonesia Perang Kemerdekaan 1945 1949 Full Documentary"
     }
   },
   {
@@ -236,53 +211,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-oeF6TpZFemY",
-    "youtubeId": "oeF6TpZFemY",
+    "id": "war-LrsVxmTFhHY",
+    "youtubeId": "LrsVxmTFhHY",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Perjuangan Kemerdekaan Indonesia",
-      "id": "Perjuangan Kemerdekaan Indonesia"
+      "en": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
+      "id": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Ilustrasi Perjuangan Kemerdekaan Indonesia dari zaman penjajahan Belanda akhir, zaman penjajahan Jepang, Proklamasi ......",
-      "id": "Ilustrasi Perjuangan Kemerdekaan Indonesia dari zaman penjajahan Belanda akhir, zaman penjajahan Jepang, Proklamasi ......"
+      "en": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......",
+      "id": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......"
     },
     "narration": {
-      "en": "Watch this video: Perjuangan Kemerdekaan Indonesia",
-      "id": "Tonton video ini: Perjuangan Kemerdekaan Indonesia"
+      "en": "Watch this video: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
+      "id": "Tonton video ini: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
     }
   },
   {
-    "id": "culture-2q7EfCCaaig",
-    "youtubeId": "2q7EfCCaaig",
-    "category": "culture",
+    "id": "war-4ftKN4Uh6Hc",
+    "youtubeId": "4ftKN4Uh6Hc",
+    "category": "war",
     "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
-      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
+      "en": "The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda",
+      "id": "The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......",
-      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......"
+      "en": "AgresiMiliterBelanda #Peristiwa #Matahatipemuda The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda Dalam catatan ......",
+      "id": "AgresiMiliterBelanda #Peristiwa #Matahatipemuda The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda Dalam catatan ......"
     },
     "narration": {
-      "en": "Watch this video: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
-      "id": "Tonton video ini: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
+      "en": "Watch this video: The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda",
+      "id": "Tonton video ini: The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda"
     }
   },
   {
@@ -311,53 +286,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-DJ86fWl9mbM",
-    "youtubeId": "DJ86fWl9mbM",
+    "id": "culture-2q7EfCCaaig",
+    "youtubeId": "2q7EfCCaaig",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized",
-      "id": "Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized"
+      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
+      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Indonesian batik is more than just patterned fabric — it is a visual language that conveys history, prayer, and identity ......",
-      "id": "Indonesian batik is more than just patterned fabric — it is a visual language that conveys history, prayer, and identity ......"
+      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......",
+      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......"
     },
     "narration": {
-      "en": "Watch this video: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized",
-      "id": "Tonton video ini: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized"
+      "en": "Watch this video: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
+      "id": "Tonton video ini: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
     }
   },
   {
-    "id": "culture-zH6U4BTq3v4",
-    "youtubeId": "zH6U4BTq3v4",
+    "id": "culture-Q7F4Rkn9TUg",
+    "youtubeId": "Q7F4Rkn9TUg",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia",
-      "id": "8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia"
+      "en": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
+      "id": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "BudayaIndonesia #UNESCO #WarisanBudaya #SejarahIndonesia #BudayaNusantara #Indonesia #TradisiIndonesia ......",
-      "id": "BudayaIndonesia #UNESCO #WarisanBudaya #SejarahIndonesia #BudayaNusantara #Indonesia #TradisiIndonesia ......"
+      "en": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......",
+      "id": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......"
     },
     "narration": {
-      "en": "Watch this video: 8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia",
-      "id": "Tonton video ini: 8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia"
+      "en": "Watch this video: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
+      "id": "Tonton video ini: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
     }
   },
   {
@@ -383,6 +358,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
       "id": "Tonton video ini: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
+    }
+  },
+  {
+    "id": "culture-_wISzUwrNAk",
+    "youtubeId": "_wISzUwrNAk",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
+      "id": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......",
+      "id": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......"
+    },
+    "narration": {
+      "en": "Watch this video: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
+      "id": "Tonton video ini: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
     }
   },
   {
@@ -486,28 +486,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "kingdoms-3fcPEGQyGmo",
-    "youtubeId": "3fcPEGQyGmo",
+    "id": "kingdoms-9Dn7axmipyM",
+    "youtubeId": "9Dn7axmipyM",
     "category": "kingdoms",
     "era": {
       "en": "Ancient Kingdoms",
       "id": "Kerajaan Nusantara Kuno"
     },
     "title": {
-      "en": "Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah ",
-      "id": "Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah "
+      "en": "SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwisireng",
+      "id": "SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwisireng"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Dalam 38 menit ini, kita akan membahas: - Sejarah Kerajaan Majapahit dari awal hingga puncak kejayaan. - Strategi perang dan ......",
-      "id": "Dalam 38 menit ini, kita akan membahas: - Sejarah Kerajaan Majapahit dari awal hingga puncak kejayaan. - Strategi perang dan ......"
+      "en": "SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwis ireng Penelusuran terhadap lahirnya kerajaan Majapahit tidak ......",
+      "id": "SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwis ireng Penelusuran terhadap lahirnya kerajaan Majapahit tidak ......"
     },
     "narration": {
-      "en": "Watch this video: Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah ",
-      "id": "Tonton video ini: Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah "
+      "en": "Watch this video: SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwisireng",
+      "id": "Tonton video ini: SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwisireng"
     }
   }
 ];
