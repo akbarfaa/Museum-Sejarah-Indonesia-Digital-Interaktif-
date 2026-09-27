@@ -61,6 +61,56 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "general-lY8yzMMuo3o",
+    "youtubeId": "lY8yzMMuo3o",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Kejatuhan Soekarno Menurut Amerika  Dokumenter Langka NET Journal 1966",
+      "id": "Kejatuhan Soekarno Menurut Amerika  Dokumenter Langka NET Journal 1966"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "... dokumenter sejarah berkualitas yang dapat kami hadirkan. #Soekarno #NETJournal #G30S #SejarahIndonesia #OrdeBaru ......",
+      "id": "... dokumenter sejarah berkualitas yang dapat kami hadirkan. #Soekarno #NETJournal #G30S #SejarahIndonesia #OrdeBaru ......"
+    },
+    "narration": {
+      "en": "Watch this video: Kejatuhan Soekarno Menurut Amerika  Dokumenter Langka NET Journal 1966",
+      "id": "Tonton video ini: Kejatuhan Soekarno Menurut Amerika  Dokumenter Langka NET Journal 1966"
+    }
+  },
+  {
+    "id": "general-s5NmktySAVg",
+    "youtubeId": "s5NmktySAVg",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
+      "id": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......",
+      "id": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......"
+    },
+    "narration": {
+      "en": "Watch this video: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
+      "id": "Tonton video ini: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+    }
+  },
+  {
     "id": "general-B92NPsuSgig",
     "youtubeId": "B92NPsuSgig",
     "category": "general",
@@ -86,56 +136,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-qy59hu4cwVs",
-    "youtubeId": "qy59hu4cwVs",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Sejarah Lengkap Indonesia  Film Dokumenter Sejarah",
-      "id": "Sejarah Lengkap Indonesia  Film Dokumenter Sejarah"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Bagaimana 17.000 pulau menjadi satu bangsa — persatuan Indonesia yang mustahil dari jalur perdagangan kuno hingga demokrasi ......",
-      "id": "Bagaimana 17.000 pulau menjadi satu bangsa — persatuan Indonesia yang mustahil dari jalur perdagangan kuno hingga demokrasi ......"
-    },
-    "narration": {
-      "en": "Watch this video: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah",
-      "id": "Tonton video ini: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah"
-    }
-  },
-  {
-    "id": "general-qsZGKbT4C_s",
-    "youtubeId": "qsZGKbT4C_s",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "MEMAHAMI 1998 DALAM SATU JAM",
-      "id": "MEMAHAMI 1998 DALAM SATU JAM"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Jika ingin bekerjasama, silahkan hubungi kami via email lasakadarmagmail.com Chanel Backup Kamar Film ......",
-      "id": "Jika ingin bekerjasama, silahkan hubungi kami via email lasakadarmagmail.com Chanel Backup Kamar Film ......"
-    },
-    "narration": {
-      "en": "Watch this video: MEMAHAMI 1998 DALAM SATU JAM",
-      "id": "Tonton video ini: MEMAHAMI 1998 DALAM SATU JAM"
-    }
-  },
-  {
     "id": "war-glH8dvLi0ks",
     "youtubeId": "glH8dvLi0ks",
     "category": "war",
@@ -158,6 +158,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949",
       "id": "Tonton video ini: Film Dokumenter Perang Kemerdekaan Indonesia 1945–1949"
+    }
+  },
+  {
+    "id": "war-LrsVxmTFhHY",
+    "youtubeId": "LrsVxmTFhHY",
+    "category": "war",
+    "era": {
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
+    },
+    "title": {
+      "en": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
+      "id": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......",
+      "id": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......"
+    },
+    "narration": {
+      "en": "Watch this video: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
+      "id": "Tonton video ini: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
     }
   },
   {
@@ -211,78 +236,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-LrsVxmTFhHY",
-    "youtubeId": "LrsVxmTFhHY",
+    "id": "war-zx46Vy3KTLs",
+    "youtubeId": "zx46Vy3KTLs",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
-      "id": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
+      "en": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
+      "id": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......",
-      "id": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......"
+      "en": "...",
+      "id": "..."
     },
     "narration": {
-      "en": "Watch this video: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
-      "id": "Tonton video ini: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
-    }
-  },
-  {
-    "id": "war-4ftKN4Uh6Hc",
-    "youtubeId": "4ftKN4Uh6Hc",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda",
-      "id": "The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "AgresiMiliterBelanda #Peristiwa #Matahatipemuda The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda Dalam catatan ......",
-      "id": "AgresiMiliterBelanda #Peristiwa #Matahatipemuda The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda Dalam catatan ......"
-    },
-    "narration": {
-      "en": "Watch this video: The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda",
-      "id": "Tonton video ini: The Battle Of Yogyakarta  Kisah Dibalik Agresi Militer Belanda"
-    }
-  },
-  {
-    "id": "culture-UoyBzXBjRRo",
-    "youtubeId": "UoyBzXBjRRo",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED",
-      "id": "10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "#taugaksih #situsherisanunesco #herisanduniaunesco #herisanunesco\n10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM ......",
-      "id": "#taugaksih #situsherisanunesco #herisanduniaunesco #herisanunesco\n10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM ......"
-    },
-    "narration": {
-      "en": "Watch this video: 10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED",
-      "id": "Tonton video ini: 10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED"
+      "en": "Watch this video: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
+      "id": "Tonton video ini: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
     }
   },
   {
@@ -311,78 +286,103 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-Q7F4Rkn9TUg",
-    "youtubeId": "Q7F4Rkn9TUg",
+    "id": "culture-UoyBzXBjRRo",
+    "youtubeId": "UoyBzXBjRRo",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
-      "id": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
+      "en": "10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED",
+      "id": "10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......",
-      "id": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......"
+      "en": "#taugaksih #situsherisanunesco #herisanduniaunesco #herisanunesco\n10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM ......",
+      "id": "#taugaksih #situsherisanunesco #herisanduniaunesco #herisanunesco\n10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM ......"
     },
     "narration": {
-      "en": "Watch this video: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
-      "id": "Tonton video ini: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
+      "en": "Watch this video: 10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED",
+      "id": "Tonton video ini: 10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED"
     }
   },
   {
-    "id": "culture-6nYv_eMbO6Q",
-    "youtubeId": "6nYv_eMbO6Q",
+    "id": "culture-DJ86fWl9mbM",
+    "youtubeId": "DJ86fWl9mbM",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
-      "id": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
+      "en": "Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized",
+      "id": "Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......",
-      "id": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......"
+      "en": "Indonesian batik is more than just patterned fabric — it is a visual language that conveys history, prayer, and identity ......",
+      "id": "Indonesian batik is more than just patterned fabric — it is a visual language that conveys history, prayer, and identity ......"
     },
     "narration": {
-      "en": "Watch this video: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
-      "id": "Tonton video ini: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
+      "en": "Watch this video: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized",
+      "id": "Tonton video ini: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized"
     }
   },
   {
-    "id": "culture-_wISzUwrNAk",
-    "youtubeId": "_wISzUwrNAk",
+    "id": "culture-zH6U4BTq3v4",
+    "youtubeId": "zH6U4BTq3v4",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
-      "id": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
+      "en": "8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia",
+      "id": "8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......",
-      "id": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......"
+      "en": "BudayaIndonesia #UNESCO #WarisanBudaya #SejarahIndonesia #BudayaNusantara #Indonesia #TradisiIndonesia ......",
+      "id": "BudayaIndonesia #UNESCO #WarisanBudaya #SejarahIndonesia #BudayaNusantara #Indonesia #TradisiIndonesia ......"
     },
     "narration": {
-      "en": "Watch this video: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
-      "id": "Tonton video ini: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
+      "en": "Watch this video: 8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia",
+      "id": "Tonton video ini: 8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia"
+    }
+  },
+  {
+    "id": "culture-dYGboqChEpU",
+    "youtubeId": "dYGboqChEpU",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
+      "id": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......",
+      "id": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......"
+    },
+    "narration": {
+      "en": "Watch this video: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
+      "id": "Tonton video ini: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
     }
   },
   {
@@ -461,6 +461,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "kingdoms-3fcPEGQyGmo",
+    "youtubeId": "3fcPEGQyGmo",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah ",
+      "id": "Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah "
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Dalam 38 menit ini, kita akan membahas: - Sejarah Kerajaan Majapahit dari awal hingga puncak kejayaan. - Strategi perang dan ......",
+      "id": "Dalam 38 menit ini, kita akan membahas: - Sejarah Kerajaan Majapahit dari awal hingga puncak kejayaan. - Strategi perang dan ......"
+    },
+    "narration": {
+      "en": "Watch this video: Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah ",
+      "id": "Tonton video ini: Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah "
+    }
+  },
+  {
     "id": "kingdoms-n4zGw2OewIk",
     "youtubeId": "n4zGw2OewIk",
     "category": "kingdoms",
@@ -483,31 +508,6 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
       "id": "Tonton video ini: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
-    }
-  },
-  {
-    "id": "kingdoms-9Dn7axmipyM",
-    "youtubeId": "9Dn7axmipyM",
-    "category": "kingdoms",
-    "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
-    },
-    "title": {
-      "en": "SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwisireng",
-      "id": "SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwisireng"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwis ireng Penelusuran terhadap lahirnya kerajaan Majapahit tidak ......",
-      "id": "SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwis ireng Penelusuran terhadap lahirnya kerajaan Majapahit tidak ......"
-    },
-    "narration": {
-      "en": "Watch this video: SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwisireng",
-      "id": "Tonton video ini: SEJARAH BERDIRINYA KERAJAAN MAJAPAHIT mliwisireng"
     }
   }
 ];

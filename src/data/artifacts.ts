@@ -528,7 +528,7 @@ export const artifacts: Artifact[] = [
       "id": "± 1890"
     },
     "description": {
-      "en": "Batavia was an imperial Dutch port city that eventually, after two centuries of Dutch occupation, became the capital of the Dutch East Indies. The area corresponds to present-day Jakarta, Indonesia. Batavia can refer to the city proper or its suburbs and hinterland, the Ommelanden, which included the much larger area of the Residency of Batavia in the present-day Indonesian provinces of Jakarta Banten and West Java. The founding of Batavia by the Dutch in 1619, on the site of the ruins of Jayakarta, led to the establishment of a Dutch colony; Batavia became the center of the Dutch East India Company's trading network in Asia.",
+      "en": "Batavia was an imperial Dutch port city that eventually, after two centuries of Dutch occupation, became the capital of the Dutch East Indies. The area corresponds to modern Jakarta, Indonesia. Batavia can refer to the city proper or its suburbs and hinterland, the Ommelanden, which included the much larger area of the Residency of Batavia in the modern Indonesian provinces of Jakarta Banten and West Java. The founding of Batavia by the Dutch in 1619, on the site of the ruins of Jayakarta, led to the establishment of a Dutch colony; Batavia became the center of the Dutch East India Company's trading network in Asia.",
       "id": "Batavia adalah ibu kota Hindia Belanda. Wilayahnya setara dengan Jakarta saat ini, Indonesia. Batavia dapat merujuk pada kota itu sendiri atau pinggiran kota dan daerah pedalamannya, Ommelanden, yang mencakup wilayah yang jauh lebih luas dari Keresidenan Batavia di provinsi-provinsi Indonesia saat ini, yaitu Jakarta, Banten, dan Jawa Barat. Pendirian Batavia oleh Belanda pada tahun 1619, di lokasi reruntuhan Jayakarta, menyebabkan berdirinya koloni Belanda; Batavia menjadi pusat jaringan perdagangan Perusahaan Hindia Timur Belanda di Asia."
     }
   },
@@ -710,7 +710,7 @@ export const artifacts: Artifact[] = [
       "id": "Perjuangan 1945"
     },
     "description": {
-      "en": "Sutomo (3 October 1920 – 7 October 1981), also known as Bung Tomo (meaning Comrade or Brother Tomo), was an Indonesian revolutionary and military leader best known for his role in the Indonesian National Revolution against Dutch colonial rule. He played a central role in the Battle of Surabaya, which was fought between British and Indonesian forces from October to November 1945.",
+      "en": "Sutomo (3 October 1920 – 7 October 1981), also known as Bung Tomo (meaning Comrade or Brother Tomo), was an Indonesian revolutionary and military leader best known for his role in the Indonesian National Revolution against Dutch colonial rule. He played a central role in the Battle of Surabaya, which was fought between British and Indonesian forces from October to November 1945. ",
       "id": "Sutomo (3 Oktober 1920 – 7 Oktober 1981), juga dikenal sebagai Bung Tomo, adalah seorang pemimpin revolusioner dan militer Indonesia yang terkenal karena perannya dalam Revolusi Nasional Indonesia melawan pemerintahan kolonial Belanda. Dia memainkan peran sentral dalam Pertempuran Surabaya, yang terjadi antara pasukan Britania Raya dan Indonesia dari bulan Oktober hingga November 1945."
     }
   },
@@ -788,7 +788,7 @@ export const artifacts: Artifact[] = [
       "id": "1976"
     },
     "description": {
-      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system. The estimated cost for the project was US$1 billion (equivalent to $4.28 billion in 2024).",
+      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system and the third after the United States and Canada. The estimated cost for the project was US$1 billion (equivalent to $4.28 billion in 2024). ",
       "id": "Palapa ialah nama bagi sejumlah satelit telekomunikasi geostasioner Indonesia. Nama ini diambil dari \"Sumpah Palapa\", yang pernah dicetuskan oleh Patih Gajah Mada dari Majapahit pada tahun 1334. Satelit pertama diluncurkan pada tanggal 8 Juli 1976 oleh roket Amerika Serikat dan dilepas di atas Samudra Hindia pada 83° BT. Satelit pertama dari 2 satelit itu bertipe HS-333 dan bermassa 574 kg."
     }
   },
