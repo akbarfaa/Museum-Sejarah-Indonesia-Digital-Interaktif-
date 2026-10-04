@@ -11,28 +11,28 @@ export type CinemaEra = {
 
 export const cinemaEras: CinemaEra[] = [
   {
-    "id": "general-nM4mitSBQKk",
-    "youtubeId": "nM4mitSBQKk",
+    "id": "general-qy59hu4cwVs",
+    "youtubeId": "qy59hu4cwVs",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
-      "id": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
+      "en": "Sejarah Lengkap Indonesia  Film Dokumenter Sejarah",
+      "id": "Sejarah Lengkap Indonesia  Film Dokumenter Sejarah"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ....",
-      "id": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ...."
+      "en": "Bagaimana 17.000 pulau menjadi satu bangsa — persatuan Indonesia yang mustahil dari jalur perdagangan kuno hingga demokrasi ......",
+      "id": "Bagaimana 17.000 pulau menjadi satu bangsa — persatuan Indonesia yang mustahil dari jalur perdagangan kuno hingga demokrasi ......"
     },
     "narration": {
-      "en": "Watch this video: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
-      "id": "Tonton video ini: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
+      "en": "Watch this video: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah",
+      "id": "Tonton video ini: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah"
     }
   },
   {
@@ -61,31 +61,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-lY8yzMMuo3o",
-    "youtubeId": "lY8yzMMuo3o",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Kejatuhan Soekarno Menurut Amerika  Dokumenter Langka NET Journal 1966",
-      "id": "Kejatuhan Soekarno Menurut Amerika  Dokumenter Langka NET Journal 1966"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "... dokumenter sejarah berkualitas yang dapat kami hadirkan. #Soekarno #NETJournal #G30S #SejarahIndonesia #OrdeBaru ......",
-      "id": "... dokumenter sejarah berkualitas yang dapat kami hadirkan. #Soekarno #NETJournal #G30S #SejarahIndonesia #OrdeBaru ......"
-    },
-    "narration": {
-      "en": "Watch this video: Kejatuhan Soekarno Menurut Amerika  Dokumenter Langka NET Journal 1966",
-      "id": "Tonton video ini: Kejatuhan Soekarno Menurut Amerika  Dokumenter Langka NET Journal 1966"
-    }
-  },
-  {
     "id": "general-s5NmktySAVg",
     "youtubeId": "s5NmktySAVg",
     "category": "general",
@@ -108,6 +83,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
       "id": "Tonton video ini: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+    }
+  },
+  {
+    "id": "general-nM4mitSBQKk",
+    "youtubeId": "nM4mitSBQKk",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
+      "id": "MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ....",
+      "id": "Sumber dan Bacaan lanjutan ada di akhir video. ------------------------------------------------------------------------------------------ Jika ingin ...."
+    },
+    "narration": {
+      "en": "Watch this video: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
+      "id": "Tonton video ini: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
     }
   },
   {
@@ -236,103 +236,103 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-zx46Vy3KTLs",
-    "youtubeId": "zx46Vy3KTLs",
+    "id": "war-NsUtZw95UK0",
+    "youtubeId": "NsUtZw95UK0",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
-      "id": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+      "en": "HISTORY OF THE INDONESIAN NATIONS STRUGGLE 1942-1950",
+      "id": "HISTORY OF THE INDONESIAN NATIONS STRUGGLE 1942-1950"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "...",
-      "id": "..."
+      "en": "The Republic of Indonesia began with the entry of the Allies, accompanied by the Netherlands, in this case the Nederlandsch ......",
+      "id": "The Republic of Indonesia began with the entry of the Allies, accompanied by the Netherlands, in this case the Nederlandsch ......"
     },
     "narration": {
-      "en": "Watch this video: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
-      "id": "Tonton video ini: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+      "en": "Watch this video: HISTORY OF THE INDONESIAN NATIONS STRUGGLE 1942-1950",
+      "id": "Tonton video ini: HISTORY OF THE INDONESIAN NATIONS STRUGGLE 1942-1950"
     }
   },
   {
-    "id": "culture-2q7EfCCaaig",
-    "youtubeId": "2q7EfCCaaig",
+    "id": "culture-_wISzUwrNAk",
+    "youtubeId": "_wISzUwrNAk",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
-      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
+      "en": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
+      "id": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......",
-      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......"
+      "en": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......",
+      "id": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......"
     },
     "narration": {
-      "en": "Watch this video: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
-      "id": "Tonton video ini: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
+      "en": "Watch this video: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
+      "id": "Tonton video ini: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
     }
   },
   {
-    "id": "culture-UoyBzXBjRRo",
-    "youtubeId": "UoyBzXBjRRo",
+    "id": "culture-Q7F4Rkn9TUg",
+    "youtubeId": "Q7F4Rkn9TUg",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED",
-      "id": "10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED"
+      "en": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
+      "id": "7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "#taugaksih #situsherisanunesco #herisanduniaunesco #herisanunesco\n10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM ......",
-      "id": "#taugaksih #situsherisanunesco #herisanduniaunesco #herisanunesco\n10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM ......"
+      "en": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......",
+      "id": "KONTAN - https://www.kontan.co.id/ Terdapat ragam warisan budaya tak benda Indonesia telah berhasil diakui oleh UNESCO ......"
     },
     "narration": {
-      "en": "Watch this video: 10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED",
-      "id": "Tonton video ini: 10 UNESCO WORLD HERITAGE SITES IN INDONESIA  ONE OF THEM IS ENDANGERED"
+      "en": "Watch this video: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN",
+      "id": "Tonton video ini: 7 Warisan Budaya Tak Benda Indonesia yang Telah Diakui UNESCO   KONTAN"
     }
   },
   {
-    "id": "culture-DJ86fWl9mbM",
-    "youtubeId": "DJ86fWl9mbM",
+    "id": "culture-6nYv_eMbO6Q",
+    "youtubeId": "6nYv_eMbO6Q",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized",
-      "id": "Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized"
+      "en": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
+      "id": "WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Indonesian batik is more than just patterned fabric — it is a visual language that conveys history, prayer, and identity ......",
-      "id": "Indonesian batik is more than just patterned fabric — it is a visual language that conveys history, prayer, and identity ......"
+      "en": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......",
+      "id": "Di videoku yang ke-enam ini berisi tentang warisan budaya Indonesia yang diakui UNESCO. Sebagai warga negara Indonesia, ......"
     },
     "narration": {
-      "en": "Watch this video: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized",
-      "id": "Tonton video ini: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized"
+      "en": "Watch this video: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA",
+      "id": "Tonton video ini: WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO  BUDAYA"
     }
   },
   {
@@ -361,78 +361,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-dYGboqChEpU",
-    "youtubeId": "dYGboqChEpU",
+    "id": "culture-2q7EfCCaaig",
+    "youtubeId": "2q7EfCCaaig",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
-      "id": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
+      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
+      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......",
-      "id": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......"
+      "en": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......",
+      "id": "10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama Ada Kebanggaan Indonesia Channel ini ......"
     },
     "narration": {
-      "en": "Watch this video: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
-      "id": "Tonton video ini: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
+      "en": "Watch this video: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama ",
+      "id": "Tonton video ini: 10 Situs Warisan Dunia UNESCO Paling Menakjubkan  Diperingkat Pertama "
     }
   },
   {
-    "id": "kingdoms-2Z9hqVqPY_s",
-    "youtubeId": "2Z9hqVqPY_s",
+    "id": "kingdoms-UJQkkTKtW4U",
+    "youtubeId": "UJQkkTKtW4U",
     "category": "kingdoms",
     "era": {
       "en": "Ancient Kingdoms",
       "id": "Kerajaan Nusantara Kuno"
     },
     "title": {
-      "en": "Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj",
-      "id": "Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj"
+      "en": "The Majapahit Empire According to Ancient Manuscripts",
+      "id": "The Majapahit Empire According to Ancient Manuscripts"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "TIMESTAMP 00:00 Intro 01:23 The Beginning 06:54 Early Years 09:27 Second Periode 14:01 Hayam Wuruk  Puncak Kejayaan ......",
-      "id": "TIMESTAMP 00:00 Intro 01:23 The Beginning 06:54 Early Years 09:27 Second Periode 14:01 Hayam Wuruk  Puncak Kejayaan ......"
+      "en": "#tosnusantara #majapahit #jejakmajapahit \nDisclaimer:\nAll videos and content on this channel are not entirely real, as they ......",
+      "id": "#tosnusantara #majapahit #jejakmajapahit \nDisclaimer:\nAll videos and content on this channel are not entirely real, as they ......"
     },
     "narration": {
-      "en": "Watch this video: Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj",
-      "id": "Tonton video ini: Sejarah Bangkit Dan Jatuhnya Kerajaan TERBESAR Nusantara  Kerajaan Maj"
-    }
-  },
-  {
-    "id": "kingdoms-9_K6_gOnXj8",
-    "youtubeId": "9_K6_gOnXj8",
-    "category": "kingdoms",
-    "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
-    },
-    "title": {
-      "en": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
-      "id": "Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll....",
-      "id": "Buat nonton video aku yg lain check Playlist yaa, udah aku kategoriin mulai dari Mitologi per negara, Sejarah, Legenda, dll...."
-    },
-    "narration": {
-      "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
-      "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
+      "en": "Watch this video: The Majapahit Empire According to Ancient Manuscripts",
+      "id": "Tonton video ini: The Majapahit Empire According to Ancient Manuscripts"
     }
   },
   {
@@ -461,6 +436,56 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "kingdoms-hSmE8LlLaOY",
+    "youtubeId": "hSmE8LlLaOY",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "The Origins of Raden Wijaya, King of Majapahit",
+      "id": "The Origins of Raden Wijaya, King of Majapahit"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "#tosnusantara #radenwijaya #supernatural #magic #mystery \nDisclaimer:\nAll videos and content on this channel are not real, as ......",
+      "id": "#tosnusantara #radenwijaya #supernatural #magic #mystery \nDisclaimer:\nAll videos and content on this channel are not real, as ......"
+    },
+    "narration": {
+      "en": "Watch this video: The Origins of Raden Wijaya, King of Majapahit",
+      "id": "Tonton video ini: The Origins of Raden Wijaya, King of Majapahit"
+    }
+  },
+  {
+    "id": "kingdoms-RrzowCjp81c",
+    "youtubeId": "RrzowCjp81c",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "Sejarah Berdirinya Kerajaan Majapahit Versi Lontar Kuno - Singkat Leng",
+      "id": "Sejarah Berdirinya Kerajaan Majapahit Versi Lontar Kuno - Singkat Leng"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Sejarah Berdirinya Kerajaan Majapahit Versi Lontar Kuno Yang Jarang Diketahui  Awal Mula Asal Usul adalah sajian kami kali ......",
+      "id": "Sejarah Berdirinya Kerajaan Majapahit Versi Lontar Kuno Yang Jarang Diketahui  Awal Mula Asal Usul adalah sajian kami kali ......"
+    },
+    "narration": {
+      "en": "Watch this video: Sejarah Berdirinya Kerajaan Majapahit Versi Lontar Kuno - Singkat Leng",
+      "id": "Tonton video ini: Sejarah Berdirinya Kerajaan Majapahit Versi Lontar Kuno - Singkat Leng"
+    }
+  },
+  {
     "id": "kingdoms-3fcPEGQyGmo",
     "youtubeId": "3fcPEGQyGmo",
     "category": "kingdoms",
@@ -483,31 +508,6 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah ",
       "id": "Tonton video ini: Memahami Kerajaan Majapahit dalam 38 Menit: Politik, Visi, dan Sumpah "
-    }
-  },
-  {
-    "id": "kingdoms-n4zGw2OewIk",
-    "youtubeId": "n4zGw2OewIk",
-    "category": "kingdoms",
-    "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
-    },
-    "title": {
-      "en": "Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
-      "id": "Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Pada serial kali ini, kami akan mengarungi sejarah dari sebuah kerajaan yang umurnya singkat namun berhasil menyatukan ......",
-      "id": "Pada serial kali ini, kami akan mengarungi sejarah dari sebuah kerajaan yang umurnya singkat namun berhasil menyatukan ......"
-    },
-    "narration": {
-      "en": "Watch this video: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
-      "id": "Tonton video ini: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
     }
   }
 ];

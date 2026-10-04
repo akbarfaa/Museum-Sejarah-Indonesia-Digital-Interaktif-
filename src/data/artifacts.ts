@@ -710,7 +710,7 @@ export const artifacts: Artifact[] = [
       "id": "Perjuangan 1945"
     },
     "description": {
-      "en": "Sutomo (3 October 1920 – 7 October 1981), also known as Bung Tomo (meaning Comrade or Brother Tomo), was an Indonesian revolutionary and military leader best known for his role in the Indonesian National Revolution against Dutch colonial rule. He played a central role in the Battle of Surabaya, which was fought between British and Indonesian forces from October to November 1945. ",
+      "en": "Sutomo (3 October 1920 – 7 October 1981), also known as Bung Tomo (meaning Comrade or Brother Tomo), was an Indonesian revolutionary and military leader best known for his role in the Indonesian National Revolution against Dutch colonial rule. He played a central role in the Battle of Surabaya, which was fought between British and Indonesian forces from October to November 1945.",
       "id": "Sutomo (3 Oktober 1920 – 7 Oktober 1981), juga dikenal sebagai Bung Tomo, adalah seorang pemimpin revolusioner dan militer Indonesia yang terkenal karena perannya dalam Revolusi Nasional Indonesia melawan pemerintahan kolonial Belanda. Dia memainkan peran sentral dalam Pertempuran Surabaya, yang terjadi antara pasukan Britania Raya dan Indonesia dari bulan Oktober hingga November 1945."
     }
   },
@@ -763,7 +763,7 @@ export const artifacts: Artifact[] = [
     },
     "description": {
       "en": "Batik is a dyeing technique using wax resist. The term is also used to describe patterned textiles created with that technique. Batik is made by drawing or stamping wax on a cloth to prevent colour absorption during the dyeing process. This creates a patterned negative when the wax is removed from the dyed cloth.",
-      "id": "Batik (bahasa Jawa: ꦧꦛꦶꦏ꧀, translit. Bathik) adalah kain bergambar yang pembuatannya secara khusus dengan menuliskan atau menerakan malam pada kain itu, kemudian pengolahannya diproses dengan cara tertentu yang memiliki kekhasan. sebagai keseluruhan teknik, teknologi, serta pengembangan motif dan budaya yang terkait, oleh UNESCO telah ditetapkan sebagai Warisan Kemanusiaan untuk Budaya Lisan dan Nonbendawi (Masterpieces of the Oral and Intangible Heritage of Humanity) sejak 2 Oktober 2009. Sejak saat itu, 2 Oktober ditetapkan sebagai Hari Batik Nasional."
+      "id": "Batik (bahasa Jawa: ꦧꦛꦶꦏ꧀, translit. Bathik) adalah kain bergambar yang pembuatannya dilakukan secara khusus dengan menuliskan atau menerakan malam pada kain, kemudian mengolahnya melalui cara tertentu sehingga memiliki kekhasan. sebagai keseluruhan teknik, teknologi, serta pengembangan motif dan budaya yang terkait, oleh UNESCO telah ditetapkan sebagai Warisan Kemanusiaan untuk Budaya Lisan dan Nonbendawi (Masterpieces of the Oral and Intangible Heritage of Humanity) sejak 2 Oktober 2009. Sejak saat itu, 2 Oktober ditetapkan sebagai Hari Batik Nasional."
     }
   },
   {
@@ -788,7 +788,7 @@ export const artifacts: Artifact[] = [
       "id": "1976"
     },
     "description": {
-      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system and the third after the United States and Canada. The estimated cost for the project was US$1 billion (equivalent to $4.28 billion in 2024). ",
+      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system and the third after the United States and Canada. The estimated cost for the project was US$1 billion (equivalent to $4.28 billion in 2024).",
       "id": "Palapa ialah nama bagi sejumlah satelit telekomunikasi geostasioner Indonesia. Nama ini diambil dari \"Sumpah Palapa\", yang pernah dicetuskan oleh Patih Gajah Mada dari Majapahit pada tahun 1334. Satelit pertama diluncurkan pada tanggal 8 Juli 1976 oleh roket Amerika Serikat dan dilepas di atas Samudra Hindia pada 83° BT. Satelit pertama dari 2 satelit itu bertipe HS-333 dan bermassa 574 kg."
     }
   },
@@ -841,7 +841,7 @@ export const artifacts: Artifact[] = [
     },
     "description": {
       "en": "Wayang (from Javanese  ꦮꦪꦁ, wayang (in the ngoko register), ꦫꦶꦁꦒꦶꦠ꧀ (in the krama register), Balinese: ᬯᬬᬂ, Sundanese: ᮝᮚᮀ, ultimately from Old Javanese wayaṅ) is a traditional Java-origin dramatic performance in which a story is represented (by puppets, by dancers) invented by the indigenous Javans (the Javanese and Sundanese) — the Native Indonesian ethnic groups. The term wayang refers both to the show as a whole and the puppet in particular. Performances of wayang puppet theatre are accompanied by a gamelan orchestra in Java, and by gender wayang in Bali. The dramatic stories depict mythologies, such as episodes from the Hindu epics the Ramayana and the Mahabharata, as well as local adaptations of cultural legends.",
-      "id": "Wayang (berasal dari bahasa Jawa: ꦮꦪꦁ, translit. wayang, har. 'bayangan') adalah seni pertunjukan tradisional asli Indonesia yang berasal dari  Suku Jawa dan berkembang pesat di Pulau Jawa hingga menyebar luas ke berbagai wilayah di Nusantara. UNESCO, lembaga yang membawahi kebudayaan dari PBB, pada 7 November 2003 menetapkan wayang sebagai pertunjukan boneka bayangan tersohor dari Indonesia, sebuah Warisan Maha-karya Dunia yang Tak Ternilai dalam Seni Bertutur (bahasa Inggris: Masterpiece of Oral and Intangible Heritage of Humanity)."
+      "id": "Wayang (berasal dari bahasa Jawa: ꦮꦪꦁ, translit. wayang, har. 'bayangan') adalah seni pertunjukan tradisional asli Indonesia yang berasal dari Suku Jawa dan berkembang pesat di Pulau Jawa hingga menyebar luas ke berbagai wilayah di Nusantara. UNESCO, lembaga yang membawahi kebudayaan dari PBB, pada 7 November 2003 menetapkan wayang sebagai pertunjukan boneka bayangan tersohor dari Indonesia, sebuah Warisan Maha-karya Dunia yang Tak Ternilai dalam Seni Bertutur (bahasa Inggris: Masterpiece of Oral and Intangible Heritage of Humanity)."
     }
   },
   {
