@@ -788,7 +788,7 @@ export const artifacts: Artifact[] = [
       "id": "1976"
     },
     "description": {
-      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system and the third after the United States and Canada. The estimated cost for the project was US$1 billion (equivalent to $4.28 billion in 2024).",
+      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system and the third after the United States and Canada. The estimated cost for the project was US$1 billion (equivalent to $4.28 billion in 2024). ",
       "id": "Palapa ialah nama bagi sejumlah satelit telekomunikasi geostasioner Indonesia. Nama ini diambil dari \"Sumpah Palapa\", yang pernah dicetuskan oleh Patih Gajah Mada dari Majapahit pada tahun 1334. Satelit pertama diluncurkan pada tanggal 8 Juli 1976 oleh roket Amerika Serikat dan dilepas di atas Samudra Hindia pada 83° BT. Satelit pertama dari 2 satelit itu bertipe HS-333 dan bermassa 574 kg."
     }
   },
