@@ -11,28 +11,53 @@ export type CinemaEra = {
 
 export const cinemaEras: CinemaEra[] = [
   {
-    "id": "general-qy59hu4cwVs",
-    "youtubeId": "qy59hu4cwVs",
+    "id": "general-B92NPsuSgig",
+    "youtubeId": "B92NPsuSgig",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "Sejarah Lengkap Indonesia  Film Dokumenter Sejarah",
-      "id": "Sejarah Lengkap Indonesia  Film Dokumenter Sejarah"
+      "en": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
+      "id": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Bagaimana 17.000 pulau menjadi satu bangsa — persatuan Indonesia yang mustahil dari jalur perdagangan kuno hingga demokrasi ......",
-      "id": "Bagaimana 17.000 pulau menjadi satu bangsa — persatuan Indonesia yang mustahil dari jalur perdagangan kuno hingga demokrasi ......"
+      "en": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......",
+      "id": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......"
     },
     "narration": {
-      "en": "Watch this video: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah",
-      "id": "Tonton video ini: Sejarah Lengkap Indonesia  Film Dokumenter Sejarah"
+      "en": "Watch this video: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
+      "id": "Tonton video ini: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
+    }
+  },
+  {
+    "id": "general-s5NmktySAVg",
+    "youtubeId": "s5NmktySAVg",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
+      "id": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......",
+      "id": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......"
+    },
+    "narration": {
+      "en": "Watch this video: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
+      "id": "Tonton video ini: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
     }
   },
   {
@@ -61,31 +86,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-B92NPsuSgig",
-    "youtubeId": "B92NPsuSgig",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
-      "id": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......",
-      "id": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......"
-    },
-    "narration": {
-      "en": "Watch this video: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
-      "id": "Tonton video ini: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
-    }
-  },
-  {
     "id": "general-nM4mitSBQKk",
     "youtubeId": "nM4mitSBQKk",
     "category": "general",
@@ -111,28 +111,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-s5NmktySAVg",
-    "youtubeId": "s5NmktySAVg",
+    "id": "general-z4p8Oih8xZs",
+    "youtubeId": "z4p8Oih8xZs",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
-      "id": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+      "en": "Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta",
+      "id": "Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......",
-      "id": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......"
+      "en": "Status daerah istimewa dalam sistem kenegaraan Republik Indonesia, yang disandang sejumlah kecil wilayah di Indonesia, tidak ......",
+      "id": "Status daerah istimewa dalam sistem kenegaraan Republik Indonesia, yang disandang sejumlah kecil wilayah di Indonesia, tidak ......"
     },
     "narration": {
-      "en": "Watch this video: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
-      "id": "Tonton video ini: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+      "en": "Watch this video: Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta",
+      "id": "Tonton video ini: Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta"
     }
   },
   {
@@ -236,28 +236,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-zx46Vy3KTLs",
-    "youtubeId": "zx46Vy3KTLs",
+    "id": "war-jxxFYZZjra0",
+    "youtubeId": "jxxFYZZjra0",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
-      "id": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+      "en": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
+      "id": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "...",
-      "id": "..."
+      "en": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......",
+      "id": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......"
     },
     "narration": {
-      "en": "Watch this video: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
-      "id": "Tonton video ini: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+      "en": "Watch this video: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
+      "id": "Tonton video ini: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
     }
   },
   {
@@ -283,56 +283,6 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized",
       "id": "Tonton video ini: Batik: A Historical Speak-Out: Indonesias Cultural Heritage Recognized"
-    }
-  },
-  {
-    "id": "culture-s94JDFvxSsQ",
-    "youtubeId": "s94JDFvxSsQ",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "History of Batik as Indonesian Cultural Heritage",
-      "id": "History of Batik as Indonesian Cultural Heritage"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "The following is a video about batik in the History of Batik as Indonesian Cultural Heritage section or The History Of ......",
-      "id": "The following is a video about batik in the History of Batik as Indonesian Cultural Heritage section or The History Of ......"
-    },
-    "narration": {
-      "en": "Watch this video: History of Batik as Indonesian Cultural Heritage",
-      "id": "Tonton video ini: History of Batik as Indonesian Cultural Heritage"
-    }
-  },
-  {
-    "id": "culture-kj4KyXZyUd8",
-    "youtubeId": "kj4KyXZyUd8",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "Unique Facts about Batik as Indonesian Cultural Heritage",
-      "id": "Unique Facts about Batik as Indonesian Cultural Heritage"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "The following is a video about Unique Facts about Batik as an Indonesian Cultural Heritage.\n\n-Copyright Disclaimer-\nTitle 17 ......",
-      "id": "The following is a video about Unique Facts about Batik as an Indonesian Cultural Heritage.\n\n-Copyright Disclaimer-\nTitle 17 ......"
-    },
-    "narration": {
-      "en": "Watch this video: Unique Facts about Batik as Indonesian Cultural Heritage",
-      "id": "Tonton video ini: Unique Facts about Batik as Indonesian Cultural Heritage"
     }
   },
   {
@@ -383,6 +333,56 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
       "id": "Tonton video ini: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
+    }
+  },
+  {
+    "id": "culture-zH6U4BTq3v4",
+    "youtubeId": "zH6U4BTq3v4",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia",
+      "id": "8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "BudayaIndonesia #UNESCO #WarisanBudaya #SejarahIndonesia #BudayaNusantara #Indonesia #TradisiIndonesia ......",
+      "id": "BudayaIndonesia #UNESCO #WarisanBudaya #SejarahIndonesia #BudayaNusantara #Indonesia #TradisiIndonesia ......"
+    },
+    "narration": {
+      "en": "Watch this video: 8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia",
+      "id": "Tonton video ini: 8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia"
+    }
+  },
+  {
+    "id": "culture-s94JDFvxSsQ",
+    "youtubeId": "s94JDFvxSsQ",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "History of Batik as Indonesian Cultural Heritage",
+      "id": "History of Batik as Indonesian Cultural Heritage"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "The following is a video about batik in the History of Batik as Indonesian Cultural Heritage section or The History Of ......",
+      "id": "The following is a video about batik in the History of Batik as Indonesian Cultural Heritage section or The History Of ......"
+    },
+    "narration": {
+      "en": "Watch this video: History of Batik as Indonesian Cultural Heritage",
+      "id": "Tonton video ini: History of Batik as Indonesian Cultural Heritage"
     }
   },
   {
@@ -461,31 +461,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "kingdoms-VKVyuTa00ss",
-    "youtubeId": "VKVyuTa00ss",
-    "category": "kingdoms",
-    "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
-    },
-    "title": {
-      "en": "Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann",
-      "id": "Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Begitulah jadi kenapa gak menguasai : follow Koi on IG : https://www.instagram.com/koiyocabe/ Thanks for watching!...",
-      "id": "Begitulah jadi kenapa gak menguasai : follow Koi on IG : https://www.instagram.com/koiyocabe/ Thanks for watching!..."
-    },
-    "narration": {
-      "en": "Watch this video: Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann",
-      "id": "Tonton video ini: Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann"
-    }
-  },
-  {
     "id": "kingdoms-9_K6_gOnXj8",
     "youtubeId": "9_K6_gOnXj8",
     "category": "kingdoms",
@@ -508,6 +483,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar",
       "id": "Tonton video ini: Kerajaan ini berkuasa hampir 1000 tahun di Indonesia? Sejarah Nusantar"
+    }
+  },
+  {
+    "id": "kingdoms-kqWx_aBrUR8",
+    "youtubeId": "kqWx_aBrUR8",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "Hubungan Majapahit  Sriwijaya: Musuh atau Sekutu?",
+      "id": "Hubungan Majapahit  Sriwijaya: Musuh atau Sekutu?"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Misteri Kerajaan Sriwijaya: Imperium Maritim yang Hilang! - https://youtu.be/cDu4Y17dlio 2. Sejarah Kerajaan Majapahit: Dari ......",
+      "id": "Misteri Kerajaan Sriwijaya: Imperium Maritim yang Hilang! - https://youtu.be/cDu4Y17dlio 2. Sejarah Kerajaan Majapahit: Dari ......"
+    },
+    "narration": {
+      "en": "Watch this video: Hubungan Majapahit  Sriwijaya: Musuh atau Sekutu?",
+      "id": "Tonton video ini: Hubungan Majapahit  Sriwijaya: Musuh atau Sekutu?"
     }
   }
 ];
