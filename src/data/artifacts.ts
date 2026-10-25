@@ -373,7 +373,7 @@ export const artifacts: Artifact[] = [
     },
     "description": {
       "en": "The Kedukan Bukit inscription (Indonesian: Prasasti Kedukan Bukit) is an inscription discovered by the Dutchman C.J. Batenburg on 29 November 1920 at Kedukan Bukit, South Sumatra, Dutch East Indies (now Indonesia), on the banks of Tatang River, a tributary of Musi River. It is the oldest surviving specimen of the Malay language, in a form known as Old Malay. It is a small stone of 45 cm × 80 cm (18 in × 31 in).",
-      "id": "Prasasti Kedukan Bukit ditemukan oleh C.J. Batenburg pada tanggal 29 November 1920 di Kampung Kedukan Bukit, Kelurahan 35 Ilir, Kecamatan Ilir Barat II, Palembang, Sumatera Selatan, di tepi Sungai Tatang yang mengalir ke Sungai Musi. Prasasti ini berbentuk batu kecil berukuran 45 × 80 cm, ditulis dalam aksara Pallawa, menggunakan Bahasa Melayu Kuno Prasasti ini sekarang disimpan di Museum Nasional Indonesia dengan nomor D.146. "
+      "id": "Prasasti Kedukan Bukit ditemukan oleh C.J. Batenburg pada tanggal 29 November 1920 di Kampung Kedukan Bukit, Kelurahan 35 Ilir, Kecamatan Ilir Barat II, Palembang, Sumatera Selatan, di tepi Sungai Tatang yang mengalir ke Sungai Musi. Prasasti ini berbentuk batu kecil berukuran 45 × 80 cm, ditulis dalam aksara Pallawa, menggunakan bahasa Sansekerta/Sanskrit, Prasasti ini sekarang disimpan di Museum Nasional Indonesia dengan nomor D.146. "
     }
   },
   {
@@ -399,7 +399,7 @@ export const artifacts: Artifact[] = [
     },
     "description": {
       "en": "The Sultanate of Mataram () was an early modern state based on the island of Java that lasted from the late 16th century to the 18th century. At its peak, Mataram was one of the most powerful kingdoms in the Indonesian archipelago and Southeast Asia. Along with Aceh and Makassar, it has been referred to as one of Southeast Asia's major \"gunpowder empires.\" At its greatest extent, Mataram's territory spanned most of mainland Java and Madura, with vassals in Palembang, Sukadana, and Jambi. Mataram reached its peak of power during the reign of Sultan Agung Anyokrokusumo (r.",
-      "id": "Kasunanan Mataram atau Kesunanan Mataram (bahasa Jawa: ꧋ꦏꦱꦸꦤꦤꦤ꧀ꦩꦠꦫꦩ꧀, Pegon: كسونانن ماتارام, translit. Kasunanan Mataram) adalah kerajaan Islam di Pulau Jawa dari akhir abad ke-16, ketika Panembahan Senapati dinobatkan menjadi raja, hingga 1755, ketika Mataram dibagi menjadi negara-negara lebih kecil dalam Perjanjian Giyanti. Kerajaan ini dipimpin oleh penguasa yang bergelar Susuhunan dari Wangsa Mataram. Sepanjang abad ke-17, tepatnya di bawah pemerintahan Sultan Agung, Mataram adalah negara terkuat yang menyatukan Pulau Jawa meliputi Jawa Barat (kecuali Banten), Jawa Tengah (termasuk Yogyakarta), Jawa Timur (termasuk Madura), Kalimantan Barat (meliputi Sukadana), Sulawesi Selatan (meliputi Makassar) hingga Sumatra (meliputi Palembang dan Jambi)."
+      "id": "Kesunanan Mataram (bahasa Jawa: ꧋ꦏꦱꦸꦤꦤꦤ꧀ꦩꦠꦫꦩ꧀, Pegon: كسونانن ماتارام, translit. Kasunanan Mataram) adalah kerajaan Islam di Pulau Jawa dari akhir abad ke-16, ketika Panembahan Senapati dinobatkan menjadi raja, hingga 1755, ketika Mataram dibagi menjadi negara-negara lebih kecil dalam Perjanjian Giyanti. Kerajaan ini dipimpin oleh penguasa yang bergelar Susuhunan dari Wangsa Mataram. Sepanjang abad ke-17, tepatnya di bawah pemerintahan Sultan Agung, Mataram adalah negara terkuat yang menyatukan Pulau Jawa meliputi Jawa Barat (kecuali Banten), Jawa Tengah (termasuk Yogyakarta), Jawa Timur (termasuk Madura), Kalimantan Barat (meliputi Sukadana), Sulawesi Selatan (meliputi Makassar) hingga Sumatra (meliputi Palembang dan Jambi)."
     }
   },
   {
@@ -711,7 +711,7 @@ export const artifacts: Artifact[] = [
     },
     "description": {
       "en": "Sutomo (3 October 1920 – 7 October 1981), also known as Bung Tomo (meaning Comrade or Brother Tomo), was an Indonesian revolutionary and military leader best known for his role in the Indonesian National Revolution against Dutch colonial rule. He played a central role in the Battle of Surabaya, which was fought between British and Indonesian forces from October to November 1945.",
-      "id": "Sutomo (3 Oktober 1920 – 7 Oktober 1981), juga dikenal sebagai Bung Tomo, adalah seorang pemimpin revolusioner dan militer Indonesia yang terkenal karena perannya dalam Revolusi Nasional Indonesia melawan pemerintahan kolonial Belanda. Dia memainkan peran sentral dalam Pertempuran Surabaya, yang terjadi antara pasukan Britania Raya dan Indonesia dari bulan Oktober hingga November 1945. "
+      "id": "Sutomo (3 Oktober 1920 – 7 Oktober 1981), juga dikenal sebagai Bung Tomo, adalah seorang pemimpin revolusioner dan militer Indonesia yang terkenal karena perannya dalam Revolusi Nasional Indonesia melawan pemerintahan kolonial Belanda. Dia memainkan peran sentral dalam Pertempuran Surabaya, yang terjadi antara pasukan Britania Raya dan Indonesia dari bulan Oktober hingga November 1945."
     }
   },
   {
@@ -788,7 +788,7 @@ export const artifacts: Artifact[] = [
       "id": "1976"
     },
     "description": {
-      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system and the third after the United States and Canada. The estimated cost for the project was US$1 billion (equivalent to $4.28 billion in 2024). ",
+      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system and the third after the United States and Canada. The estimated cost for the project was US$1 billion (equivalent to $4.28 billion in 2024).",
       "id": "Palapa ialah nama bagi sejumlah satelit telekomunikasi geostasioner Indonesia. Nama ini diambil dari \"Sumpah Palapa\", yang pernah dicetuskan oleh Patih Gajah Mada dari Majapahit pada tahun 1334. Satelit pertama diluncurkan pada tanggal 8 Juli 1976 oleh roket Amerika Serikat dan dilepas di atas Samudra Hindia pada 83° BT. Satelit pertama dari 2 satelit itu bertipe HS-333 dan bermassa 574 kg."
     }
   },

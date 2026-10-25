@@ -11,56 +11,6 @@ export type CinemaEra = {
 
 export const cinemaEras: CinemaEra[] = [
   {
-    "id": "general-B92NPsuSgig",
-    "youtubeId": "B92NPsuSgig",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
-      "id": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......",
-      "id": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......"
-    },
-    "narration": {
-      "en": "Watch this video: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
-      "id": "Tonton video ini: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
-    }
-  },
-  {
-    "id": "general-s5NmktySAVg",
-    "youtubeId": "s5NmktySAVg",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
-      "id": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......",
-      "id": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......"
-    },
-    "narration": {
-      "en": "Watch this video: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
-      "id": "Tonton video ini: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
-    }
-  },
-  {
     "id": "general-UuDvUhxWXwk",
     "youtubeId": "UuDvUhxWXwk",
     "category": "general",
@@ -83,6 +33,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: UNDERSTANDING TAN MALAKA IN 56 MINUTES",
       "id": "Tonton video ini: UNDERSTANDING TAN MALAKA IN 56 MINUTES"
+    }
+  },
+  {
+    "id": "general-B92NPsuSgig",
+    "youtubeId": "B92NPsuSgig",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
+      "id": "Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......",
+      "id": "Di balik Teori Evolusi, tersembunyi dialog panjang—bukan hanya antara Darwin dan Wallace, tapi juga antara ilmu pengetahuan ......"
+    },
+    "narration": {
+      "en": "Watch this video: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary",
+      "id": "Tonton video ini: Tulis Ulang Sejarah Pengetahuan Indonesia  Chronicles Documentary"
     }
   },
   {
@@ -111,28 +86,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-z4p8Oih8xZs",
-    "youtubeId": "z4p8Oih8xZs",
+    "id": "general-LBlb1zwGNSo",
+    "youtubeId": "LBlb1zwGNSo",
     "category": "general",
     "era": {
       "en": "General Documentaries",
       "id": "Dokumenter Sejarah"
     },
     "title": {
-      "en": "Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta",
-      "id": "Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta"
+      "en": "Video Dokumenter, Sejarah Revolusi Indonesia setelah Kemerdekaan",
+      "id": "Video Dokumenter, Sejarah Revolusi Indonesia setelah Kemerdekaan"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Status daerah istimewa dalam sistem kenegaraan Republik Indonesia, yang disandang sejumlah kecil wilayah di Indonesia, tidak ......",
-      "id": "Status daerah istimewa dalam sistem kenegaraan Republik Indonesia, yang disandang sejumlah kecil wilayah di Indonesia, tidak ......"
+      "en": "Video Dokumenter, Sejarah Revolusi Indonesia setelah kemerdekaan Soekarno adalah sosok pemimpin Besar Revolusi ......",
+      "id": "Video Dokumenter, Sejarah Revolusi Indonesia setelah kemerdekaan Soekarno adalah sosok pemimpin Besar Revolusi ......"
     },
     "narration": {
-      "en": "Watch this video: Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta",
-      "id": "Tonton video ini: Melawan Lupa - Riwayat Daerah Istimewa Yogyakarta"
+      "en": "Watch this video: Video Dokumenter, Sejarah Revolusi Indonesia setelah Kemerdekaan",
+      "id": "Tonton video ini: Video Dokumenter, Sejarah Revolusi Indonesia setelah Kemerdekaan"
+    }
+  },
+  {
+    "id": "general-s5NmktySAVg",
+    "youtubeId": "s5NmktySAVg",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
+      "id": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......",
+      "id": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......"
+    },
+    "narration": {
+      "en": "Watch this video: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
+      "id": "Tonton video ini: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
     }
   },
   {
@@ -161,28 +161,53 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-LrsVxmTFhHY",
-    "youtubeId": "LrsVxmTFhHY",
+    "id": "war-zx46Vy3KTLs",
+    "youtubeId": "zx46Vy3KTLs",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
-      "id": "Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
+      "en": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
+      "id": "Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......",
-      "id": "Sejarah Indonesia selama 1945—1949 dimulai dengan masuknya Sekutu diboncengi oleh Belanda ke berbagai wilayah ......"
+      "en": "...",
+      "id": "..."
     },
     "narration": {
-      "en": "Watch this video: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap",
-      "id": "Tonton video ini: Video Asli Perang Kemerdekaan Indonesia 1945 1949 Versi Lengkap"
+      "en": "Watch this video: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945",
+      "id": "Tonton video ini: Film Asli Kemerdekaan Indonesia Dokumenter Perang 1945"
+    }
+  },
+  {
+    "id": "war-oeF6TpZFemY",
+    "youtubeId": "oeF6TpZFemY",
+    "category": "war",
+    "era": {
+      "en": "Independence War",
+      "id": "Perjuangan Kemerdekaan"
+    },
+    "title": {
+      "en": "Perjuangan Kemerdekaan Indonesia",
+      "id": "Perjuangan Kemerdekaan Indonesia"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Ilustrasi Perjuangan Kemerdekaan Indonesia dari zaman penjajahan Belanda akhir, zaman penjajahan Jepang, Proklamasi ......",
+      "id": "Ilustrasi Perjuangan Kemerdekaan Indonesia dari zaman penjajahan Belanda akhir, zaman penjajahan Jepang, Proklamasi ......"
+    },
+    "narration": {
+      "en": "Watch this video: Perjuangan Kemerdekaan Indonesia",
+      "id": "Tonton video ini: Perjuangan Kemerdekaan Indonesia"
     }
   },
   {
@@ -211,53 +236,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-pTyMa-xanJE",
-    "youtubeId": "pTyMa-xanJE",
+    "id": "war-cXSYY1msmLs",
+    "youtubeId": "cXSYY1msmLs",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan",
-      "id": "Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan"
+      "en": "🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang",
+      "id": "🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Indonesia tidak hanya dijajah. Ia dianiaya, diduduki, kelaparan, dan kemudian dipaksa membayar untuk kebebasannya sendiri. Ini ......",
-      "id": "Indonesia tidak hanya dijajah. Ia dianiaya, diduduki, kelaparan, dan kemudian dipaksa membayar untuk kebebasannya sendiri. Ini ......"
+      "en": "JUDUL FILM SETELAH INTRO.!! - For business : Faizzura15gmail.com....",
+      "id": "JUDUL FILM SETELAH INTRO.!! - For business : Faizzura15gmail.com...."
     },
     "narration": {
-      "en": "Watch this video: Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan",
-      "id": "Tonton video ini: Kisah kemerdekaan Indonesia lebih brutal dari yang Anda bayangkan"
-    }
-  },
-  {
-    "id": "war-jxxFYZZjra0",
-    "youtubeId": "jxxFYZZjra0",
-    "category": "war",
-    "era": {
-      "en": "Independence War",
-      "id": "Perjuangan Kemerdekaan"
-    },
-    "title": {
-      "en": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
-      "id": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......",
-      "id": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......"
-    },
-    "narration": {
-      "en": "Watch this video: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
-      "id": "Tonton video ini: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
+      "en": "Watch this video: 🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang",
+      "id": "Tonton video ini: 🎦 Kisah nyata Full movie Special kemerdekaan indonesia perjuangan ang"
     }
   },
   {
@@ -286,6 +286,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "culture-OyL_-NlIMjY",
+    "youtubeId": "OyL_-NlIMjY",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "HUT ke-81 RI, Apa Saja 5 Warisan Budaya Indonesia yang Diakui oleh UNE",
+      "id": "HUT ke-81 RI, Apa Saja 5 Warisan Budaya Indonesia yang Diakui oleh UNE"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru TRIBUN-VIDEO....",
+      "id": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru TRIBUN-VIDEO...."
+    },
+    "narration": {
+      "en": "Watch this video: HUT ke-81 RI, Apa Saja 5 Warisan Budaya Indonesia yang Diakui oleh UNE",
+      "id": "Tonton video ini: HUT ke-81 RI, Apa Saja 5 Warisan Budaya Indonesia yang Diakui oleh UNE"
+    }
+  },
+  {
     "id": "culture-2q7EfCCaaig",
     "youtubeId": "2q7EfCCaaig",
     "category": "culture",
@@ -311,6 +336,31 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "culture-_wISzUwrNAk",
+    "youtubeId": "_wISzUwrNAk",
+    "category": "culture",
+    "era": {
+      "en": "Cultural Heritage",
+      "id": "Warisan Budaya & Seni"
+    },
+    "title": {
+      "en": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
+      "id": "🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......",
+      "id": "indonesia adalah negara yang kaya akan budaya yang luar biasa. indonesia memiliki banyak budaya dari setiap suku bangsa ......"
+    },
+    "narration": {
+      "en": "Watch this video: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO",
+      "id": "Tonton video ini: 🌍 DAFTAR WARISAN BUDAYA INDONESIA YANG DIAKUI UNESCO"
+    }
+  },
+  {
     "id": "culture-dYGboqChEpU",
     "youtubeId": "dYGboqChEpU",
     "category": "culture",
@@ -333,56 +383,6 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
       "id": "Tonton video ini: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
-    }
-  },
-  {
-    "id": "culture-zH6U4BTq3v4",
-    "youtubeId": "zH6U4BTq3v4",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia",
-      "id": "8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "BudayaIndonesia #UNESCO #WarisanBudaya #SejarahIndonesia #BudayaNusantara #Indonesia #TradisiIndonesia ......",
-      "id": "BudayaIndonesia #UNESCO #WarisanBudaya #SejarahIndonesia #BudayaNusantara #Indonesia #TradisiIndonesia ......"
-    },
-    "narration": {
-      "en": "Watch this video: 8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia",
-      "id": "Tonton video ini: 8 Warisan Budaya Indonesia yang Diakui UNESCO  Part 1 #BudayaIndonesia"
-    }
-  },
-  {
-    "id": "culture-s94JDFvxSsQ",
-    "youtubeId": "s94JDFvxSsQ",
-    "category": "culture",
-    "era": {
-      "en": "Cultural Heritage",
-      "id": "Warisan Budaya & Seni"
-    },
-    "title": {
-      "en": "History of Batik as Indonesian Cultural Heritage",
-      "id": "History of Batik as Indonesian Cultural Heritage"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "The following is a video about batik in the History of Batik as Indonesian Cultural Heritage section or The History Of ......",
-      "id": "The following is a video about batik in the History of Batik as Indonesian Cultural Heritage section or The History Of ......"
-    },
-    "narration": {
-      "en": "Watch this video: History of Batik as Indonesian Cultural Heritage",
-      "id": "Tonton video ini: History of Batik as Indonesian Cultural Heritage"
     }
   },
   {
@@ -486,28 +486,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "kingdoms-kqWx_aBrUR8",
-    "youtubeId": "kqWx_aBrUR8",
+    "id": "kingdoms-hSmE8LlLaOY",
+    "youtubeId": "hSmE8LlLaOY",
     "category": "kingdoms",
     "era": {
       "en": "Ancient Kingdoms",
       "id": "Kerajaan Nusantara Kuno"
     },
     "title": {
-      "en": "Hubungan Majapahit  Sriwijaya: Musuh atau Sekutu?",
-      "id": "Hubungan Majapahit  Sriwijaya: Musuh atau Sekutu?"
+      "en": "The Origins of Raden Wijaya, King of Majapahit",
+      "id": "The Origins of Raden Wijaya, King of Majapahit"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "Misteri Kerajaan Sriwijaya: Imperium Maritim yang Hilang! - https://youtu.be/cDu4Y17dlio 2. Sejarah Kerajaan Majapahit: Dari ......",
-      "id": "Misteri Kerajaan Sriwijaya: Imperium Maritim yang Hilang! - https://youtu.be/cDu4Y17dlio 2. Sejarah Kerajaan Majapahit: Dari ......"
+      "en": "#tosnusantara #radenwijaya #supernatural #magic #mystery \nDisclaimer:\nAll videos and content on this channel are not real, as ......",
+      "id": "#tosnusantara #radenwijaya #supernatural #magic #mystery \nDisclaimer:\nAll videos and content on this channel are not real, as ......"
     },
     "narration": {
-      "en": "Watch this video: Hubungan Majapahit  Sriwijaya: Musuh atau Sekutu?",
-      "id": "Tonton video ini: Hubungan Majapahit  Sriwijaya: Musuh atau Sekutu?"
+      "en": "Watch this video: The Origins of Raden Wijaya, King of Majapahit",
+      "id": "Tonton video ini: The Origins of Raden Wijaya, King of Majapahit"
     }
   }
 ];
