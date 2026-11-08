@@ -373,7 +373,7 @@ export const artifacts: Artifact[] = [
     },
     "description": {
       "en": "The Kedukan Bukit inscription (Indonesian: Prasasti Kedukan Bukit) is an inscription discovered by the Dutchman C.J. Batenburg on 29 November 1920 at Kedukan Bukit, South Sumatra, Dutch East Indies (now Indonesia), on the banks of Tatang River, a tributary of Musi River. It is the oldest surviving specimen of the Malay language, in a form known as Old Malay. It is a small stone of 45 cm × 80 cm (18 in × 31 in).",
-      "id": "Prasasti Kedukan Bukit ditemukan oleh C.J. Batenburg pada tanggal 29 November 1920 di Kampung Kedukan Bukit, Kelurahan 35 Ilir, Kecamatan Ilir Barat II, Palembang, Sumatera Selatan, di tepi Sungai Tatang yang mengalir ke Sungai Musi. Prasasti ini berbentuk batu kecil berukuran 45 × 80 cm, ditulis dalam aksara Pallawa, menggunakan bahasa Sansekerta/Sanskrit, Prasasti ini sekarang disimpan di Museum Nasional Indonesia dengan nomor D.146. "
+      "id": "Prasasti Kedukan Bukit ditemukan oleh C.J. Batenburg pada tanggal 29 November 1920 di Kampung Kedukan Bukit, Kelurahan 35 Ilir, Kecamatan Ilir Barat II, Palembang, Sumatera Selatan, di tepi Sungai Tatang yang mengalir ke Sungai Musi. Prasasti ini berbentuk batu kecil berukuran 45 × 80 cm, ditulis dalam aksara Pallawa, menggunakan bahasa Sansekerta/Sanskrit, Prasasti ini sekarang disimpan di Museum Nasional Indonesia dengan nomor D.146."
     }
   },
   {
@@ -788,7 +788,7 @@ export const artifacts: Artifact[] = [
       "id": "1976"
     },
     "description": {
-      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system and the third after the United States and Canada. The estimated cost for the project was US$1 billion (equivalent to $4.4 billion in 2025). ",
+      "en": "Palapa is a series of communications satellites owned by Indosat, an Indonesian telecommunications company (formerly by Perumtel and then by PT Satelit Palapa Indonesia/Satelindo). The first satellite was launched in July 1976, at which time Indonesia became the first developing country to operate its own domestic satellite system and the third after the United States and Canada. The estimated cost for the project was US$1 billion (equivalent to $4.4 billion in 2025).",
       "id": "Palapa ialah nama bagi sejumlah satelit telekomunikasi geostasioner Indonesia. Nama ini diambil dari \"Sumpah Palapa\", yang pernah dicetuskan oleh Patih Gajah Mada dari Majapahit pada tahun 1334. Satelit pertama diluncurkan pada tanggal 8 Juli 1976 oleh roket Amerika Serikat dan dilepas di atas Samudra Hindia pada 83° BT. Satelit pertama dari 2 satelit itu bertipe HS-333 dan bermassa 574 kg."
     }
   },

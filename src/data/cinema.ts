@@ -36,6 +36,56 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
+    "id": "general-LzTHGu1_uWg",
+    "youtubeId": "LzTHGu1_uWg",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "WHAT IS ACTUALLY HAPPENING TO INDONESIA?",
+      "id": "WHAT IS ACTUALLY HAPPENING TO INDONESIA?"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Music Credit:\nKarl Casey  White Bat Audio\n\nSources and further reading are at the end of the video.\n\nIf youd like to ......",
+      "id": "Music Credit:\nKarl Casey  White Bat Audio\n\nSources and further reading are at the end of the video.\n\nIf youd like to ......"
+    },
+    "narration": {
+      "en": "Watch this video: WHAT IS ACTUALLY HAPPENING TO INDONESIA?",
+      "id": "Tonton video ini: WHAT IS ACTUALLY HAPPENING TO INDONESIA?"
+    }
+  },
+  {
+    "id": "general-qsZGKbT4C_s",
+    "youtubeId": "qsZGKbT4C_s",
+    "category": "general",
+    "era": {
+      "en": "General Documentaries",
+      "id": "Dokumenter Sejarah"
+    },
+    "title": {
+      "en": "MEMAHAMI 1998 DALAM SATU JAM",
+      "id": "MEMAHAMI 1998 DALAM SATU JAM"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Jika ingin bekerjasama, silahkan hubungi kami via email lasakadarmagmail.com Chanel Backup Kamar Film ......",
+      "id": "Jika ingin bekerjasama, silahkan hubungi kami via email lasakadarmagmail.com Chanel Backup Kamar Film ......"
+    },
+    "narration": {
+      "en": "Watch this video: MEMAHAMI 1998 DALAM SATU JAM",
+      "id": "Tonton video ini: MEMAHAMI 1998 DALAM SATU JAM"
+    }
+  },
+  {
     "id": "general-UuDvUhxWXwk",
     "youtubeId": "UuDvUhxWXwk",
     "category": "general",
@@ -61,31 +111,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "general-MeroVUzq7k8",
-    "youtubeId": "MeroVUzq7k8",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "WHAT REALLY HAPPENED IN INDONESIA IN 1948?",
-      "id": "WHAT REALLY HAPPENED IN INDONESIA IN 1948?"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Music Credit to:\nKarl Casey  White Bat Audio ......",
-      "id": "Music Credit to:\nKarl Casey  White Bat Audio ......"
-    },
-    "narration": {
-      "en": "Watch this video: WHAT REALLY HAPPENED IN INDONESIA IN 1948?",
-      "id": "Tonton video ini: WHAT REALLY HAPPENED IN INDONESIA IN 1948?"
-    }
-  },
-  {
     "id": "general-nM4mitSBQKk",
     "youtubeId": "nM4mitSBQKk",
     "category": "general",
@@ -108,31 +133,6 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 ",
       "id": "Tonton video ini: MEMAHAMI TIGA SERANGKAI - SOSOK PELOPOR KEBANGKITAN NASIONAL DALAM 40 "
-    }
-  },
-  {
-    "id": "general-s5NmktySAVg",
-    "youtubeId": "s5NmktySAVg",
-    "category": "general",
-    "era": {
-      "en": "General Documentaries",
-      "id": "Dokumenter Sejarah"
-    },
-    "title": {
-      "en": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
-      "id": "Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......",
-      "id": "Bumi memengaruhi seluruh kehidupan di planet kita. Begitu pula hewan, tumbuhan, dan materi tak bernyawa juga memengaruhi ......"
-    },
-    "narration": {
-      "en": "Watch this video: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane",
-      "id": "Tonton video ini: Sejarah evolusi Bumi: Mengisahkan kembali asal usul terbentuknya plane"
     }
   },
   {
@@ -236,28 +236,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "war-7lSPTt3wl5M",
-    "youtubeId": "7lSPTt3wl5M",
+    "id": "war-jxxFYZZjra0",
+    "youtubeId": "jxxFYZZjra0",
     "category": "war",
     "era": {
       "en": "Independence War",
       "id": "Perjuangan Kemerdekaan"
     },
     "title": {
-      "en": "Video Dokumenter Tentang perang kemerdekaan Indonesia 1945",
-      "id": "Video Dokumenter Tentang perang kemerdekaan Indonesia 1945"
+      "en": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
+      "id": "Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "sejarahshortindonesia #sejarahindonesia #belandavsindonesia #indonesiamerdeka #kemerdekaanri #kerusuhanmei1998 ......",
-      "id": "sejarahshortindonesia #sejarahindonesia #belandavsindonesia #indonesiamerdeka #kemerdekaanri #kerusuhanmei1998 ......"
+      "en": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......",
+      "id": "TONTON BAGIAN 2 DI SINI: https://youtu.be/yHaqnRL5MLM\n\nBab:\n0:00 Pendahuluan\n5:25 Marius Marsman, direktur Perkebunan Kali ......"
     },
     "narration": {
-      "en": "Watch this video: Video Dokumenter Tentang perang kemerdekaan Indonesia 1945",
-      "id": "Tonton video ini: Video Dokumenter Tentang perang kemerdekaan Indonesia 1945"
+      "en": "Watch this video: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan ",
+      "id": "Tonton video ini: Pahlawan Nasional berbicara bahasa Belanda tentang Hindia Belanda dan "
     }
   },
   {
@@ -361,28 +361,28 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "culture-OxKMvelvG_I",
-    "youtubeId": "OxKMvelvG_I",
+    "id": "culture-dYGboqChEpU",
+    "youtubeId": "dYGboqChEpU",
     "category": "culture",
     "era": {
       "en": "Cultural Heritage",
       "id": "Warisan Budaya & Seni"
     },
     "title": {
-      "en": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia",
-      "id": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia"
+      "en": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
+      "id": "13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
     },
     "year": {
       "en": "Documentary",
       "id": "Dokumenter"
     },
     "synopsis": {
-      "en": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia Indonesia kaya akan keanekaragaman warisan ......",
-      "id": "16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia Indonesia kaya akan keanekaragaman warisan ......"
+      "en": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......",
+      "id": "13 warisan budaya Indonesia yang sudah diakui UNESCO sebagai Warisan Budaya Dunia! video ini membahas secara lengkap ......"
     },
     "narration": {
-      "en": "Watch this video: 16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia",
-      "id": "Tonton video ini: 16 Warisan Budaya Indonesia yang Diakui Dunia  Pesona Budaya Indonesia"
+      "en": "Watch this video: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO",
+      "id": "Tonton video ini: 13 Warisan Budaya INDONESIA dijelaskan 7 menit Diakui UNESCO"
     }
   },
   {
@@ -461,31 +461,6 @@ export const cinemaEras: CinemaEra[] = [
     }
   },
   {
-    "id": "kingdoms-VKVyuTa00ss",
-    "youtubeId": "VKVyuTa00ss",
-    "category": "kingdoms",
-    "era": {
-      "en": "Ancient Kingdoms",
-      "id": "Kerajaan Nusantara Kuno"
-    },
-    "title": {
-      "en": "Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann",
-      "id": "Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann"
-    },
-    "year": {
-      "en": "Documentary",
-      "id": "Dokumenter"
-    },
-    "synopsis": {
-      "en": "Begitulah jadi kenapa gak menguasai : follow Koi on IG : https://www.instagram.com/koiyocabe/ Thanks for watching!...",
-      "id": "Begitulah jadi kenapa gak menguasai : follow Koi on IG : https://www.instagram.com/koiyocabe/ Thanks for watching!..."
-    },
-    "narration": {
-      "en": "Watch this video: Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann",
-      "id": "Tonton video ini: Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann"
-    }
-  },
-  {
     "id": "kingdoms-n4zGw2OewIk",
     "youtubeId": "n4zGw2OewIk",
     "category": "kingdoms",
@@ -508,6 +483,31 @@ export const cinemaEras: CinemaEra[] = [
     "narration": {
       "en": "Watch this video: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1",
       "id": "Tonton video ini: Kerajaan Majapahit - Sebuah Kemaharajaan Air - Extra History - #1"
+    }
+  },
+  {
+    "id": "kingdoms-VKVyuTa00ss",
+    "youtubeId": "VKVyuTa00ss",
+    "category": "kingdoms",
+    "era": {
+      "en": "Ancient Kingdoms",
+      "id": "Kerajaan Nusantara Kuno"
+    },
+    "title": {
+      "en": "Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann",
+      "id": "Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann"
+    },
+    "year": {
+      "en": "Documentary",
+      "id": "Dokumenter"
+    },
+    "synopsis": {
+      "en": "Begitulah jadi kenapa gak menguasai : follow Koi on IG : https://www.instagram.com/koiyocabe/ Thanks for watching!...",
+      "id": "Begitulah jadi kenapa gak menguasai : follow Koi on IG : https://www.instagram.com/koiyocabe/ Thanks for watching!..."
+    },
+    "narration": {
+      "en": "Watch this video: Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann",
+      "id": "Tonton video ini: Sriwijaya  Majapahit GAK PERNAH Menguasai Thailand? Begini Penjelasann"
     }
   }
 ];
